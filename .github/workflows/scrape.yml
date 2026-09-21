@@ -31,4 +31,5 @@ jobs:
           git config user.email "menu-bot@users.noreply.github.com"
           git add docs/data
           git diff --cached --quiet || git commit -m "Menus for $(date -u +%F)"
+          git pull --rebase origin main
           git push
