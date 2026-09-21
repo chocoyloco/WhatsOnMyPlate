@@ -1,7 +1,8 @@
 # Welcome to WhatsOnMyPlate! 
 
 ## What is WhatsOnMyPlate? 
-It's a tool built with the college student in mind that will help students build a meal plan that closely aligns with their goals!
+It's a tool built with the college student in mind that will help students build a meal plan that closely aligns with their goals! 
+Due to the tool being in testing phase, it is limited only to USC students.
 ## How it works
 1. **Scrape.** A Python script (`scrape.py`) pulls each dining hall's menu from their respective college's public menu data.
 2. **Clean.** It removes section headers and restricted stations, and keeps allergen and dietary tags. This helps eliminate food choices out of students reach!
