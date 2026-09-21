@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MyMeal — today's USC dining hall menus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="meal">
+<header id="site-header" class="wrap"></header>
+
+<main class="wrap">
+  <h1 class="chunky">MyMeal</h1>
+  <p class="date" id="date">Loading today's menus…</p>
+  <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
+  <div class="row" id="meals" role="group" aria-label="Meal"></div>
+  <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
+  <p class="key"><span></span>Protein pick — build your plate around these</p>
+  <div id="menu"></div>
+</main>
+
+<footer class="site-footer">
+  Unofficial student project. Menu data comes from USC Hospitality and updates every morning.
+</footer>
+
+<script src="site.js"></script>
+<script>
+// Same logic as before: a rough keyword match decides what counts as a protein pick.
+const PROTEIN = /chicken|salmon|fish|tuna|shrimp|mahi|catfish|egg|turkey|tofu|greek yogurt|cottage cheese|beef|steak|pork|lentil|bean|dal|chickpea|edamame|souvlaki|tandoori/i;
+const NOT_PROTEIN = /noodle soup|fried|nugget|pizza|sandwich|pancake|salad dressing|mayo|egg salad/i;
+let data, hall, meal;
+
+const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.createElement(tag), props); n.append(...kids); return n; };
+
+function pick(group, value, onChoose) {
+  [...group.children].forEach(b => b.setAttribute("aria-pressed", b.dataset.v === value));
+  onChoose(value);
+}
+
+function renderMeals() {
+  const h = data.halls.find(x => x.code === hall);
+  const box = document.getElementById("meals");
+  box.replaceChildren();
+  if (!h.meals.length) { meal = null; renderMenu(); return; }
+  if (!h.meals.some(m => m.meal === meal)) meal = h.meals[0].meal;
+  h.meals.forEach(m => {
+    const b = el("button", { textContent: m.meal });
+    b.dataset.v = m.meal;
+    b.onclick = () => pick(box, m.meal, v => { meal = v; renderMenu(); });
+    box.append(b);
+  });
+  pick(box, meal, renderMenu);
+}
+
+function renderMenu() {
+  const out = document.getElementById("menu");
+  out.replaceChildren();
+  const h = data.halls.find(x => x.code === hall);
+  const m = h.meals.find(x => x.meal === meal);
+  if (!m) { out.append(el("p", { className: "empty", textContent: h.error ? "This hall's menu didn't load today. Check back after the next update." : "No menu posted for this hall today." })); return; }
+  const only = document.getElementById("onlyProtein").checked;
+  m.stations.forEach(st => {
+    const items = st.items.map(i => ({ ...i, protein: PROTEIN.test(i.name) && !NOT_PROTEIN.test(i.name) }))
+                          .filter(i => !only || i.protein);
+    if (!items.length) return;
+    out.append(el("h2", { className: "chunky", textContent: st.station }),
+      el("ul", { className: "items" }, ...items.map(i => el("li", { className: i.protein ? "protein" : "" },
+        el("div", { textContent: i.name }),
+        el("div", { className: "tags" }, ...[...i.tags, ...i.allergens.map(a => "contains " + a)]
+          .map(t => el("span", { className: "tag", textContent: t.replace(/-/g, " ") })))))));
+  });
+  if (!out.children.length) out.append(el("p", { className: "empty", textContent: "No protein picks at this meal. Try another hall." }));
+}
+
+fetch("data/latest.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+  .then(json => {
+    data = json;
+    const d = new Date(json.date + "T12:00:00");
+    document.getElementById("date").textContent = d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+    const box = document.getElementById("halls");
+    json.halls.forEach(h => {
+      const b = el("button", { textContent: h.name });
+      b.dataset.v = h.code;
+      b.onclick = () => pick(box, h.code, v => { hall = v; renderMeals(); });
+      box.append(b);
+    });
+    pick(box, json.halls[0].code, v => { hall = v; renderMeals(); });
+    document.getElementById("onlyProtein").onchange = renderMenu;
+  })
+  .catch(() => { document.getElementById("date").textContent = "No menu data yet. Run the scraper once from the Actions tab."; });
+</script>
+</body>
+</html>
