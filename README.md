@@ -14,6 +14,8 @@ Due to the tool being in testing phase, it is limited only to USC students.
 
 Python (requests), GitHub Actions, GitHub Pages, HTML/CSS/JavaScript
 
+**Live site:** https://chocoyloco.github.io/WhatsOnMyPlate/
+
 ## Roadmap
 
 - Estimated calories and protein for each dish
