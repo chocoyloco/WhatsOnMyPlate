@@ -3,107 +3,48 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>What's On My Plate — today's dining hall menus</title>
+<title>What's On My Plate — high-protein picks from USC dining halls</title>
+<meta name="description" content="Pick high-protein, goal-friendly meals from each day's USC dining hall menus.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root{--ink:#1d1f24;--muted:#5d626c;--line:#e3e4e8;--bg:#ffffff;--cardinal:#990000;--gold:#ffc72c;--chip:#f3f4f6}
-@media (prefers-color-scheme:dark){:root{--ink:#eceef2;--muted:#a3a8b3;--line:#2c2f36;--bg:#14161a;--cardinal:#e05252;--chip:#22252b}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Barlow,system-ui,sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
-main{max-width:720px;margin:0 auto;padding:28px 20px 60px}
-h1{font:600 44px/1 "Barlow Condensed",sans-serif;margin:0;color:var(--cardinal);letter-spacing:.5px}
-.date{color:var(--muted);margin:6px 0 24px}
-.row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-button{font:500 15px Barlow,sans-serif;padding:8px 14px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
-button[aria-pressed=true]{background:var(--cardinal);border-color:var(--cardinal);color:#fff}
-button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-label.toggle{display:flex;align-items:center;gap:8px;color:var(--muted);margin:4px 0 24px}
-h2{font:600 22px/1.2 "Barlow Condensed",sans-serif;margin:28px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
-ul{list-style:none;margin:0;padding:0}
-li{padding:10px 0 10px 14px;border-bottom:1px solid var(--line);border-left:4px solid transparent}
-li.protein{border-left-color:var(--gold)}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
-.tag{font-size:12px;color:var(--muted);background:var(--chip);padding:2px 8px;border-radius:4px}
-.empty{color:var(--muted);padding:24px 0}
-.key{font-size:14px;color:var(--muted)}
-.key span{display:inline-block;width:10px;height:10px;background:var(--gold);margin-right:6px;vertical-align:0}
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-<main>
-  <h1>What's On My Plate</h1>
-  <p class="date" id="date">Loading today's menus…</p>
-  <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
-  <div class="row" id="meals" role="group" aria-label="Meal"></div>
-  <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
-  <p class="key"><span></span>Protein pick — build your plate around these</p>
-  <div id="menu"></div>
+<body data-page="home">
+<header id="site-header" class="wrap"></header>
+
+<main class="wrap">
+  <h1 class="sr-only">What's On My Plate</h1>
+
+  <div class="hero">
+    <img src="banner.jpg" width="1920" height="1080" alt="What's on my plate! in chunky white letters on mustard crumpled paper">
+  </div>
+
+  <section class="intro">
+    <p>Find high-protein meals from today's USC dining hall menus, then build a plate that fits your goals.</p>
+    <a class="btn" href="meal.html">See today's menu</a>
+  </section>
+
+  <section class="steps" aria-label="How it works">
+    <div class="card">
+      <h3>1. Pick a hall</h3>
+      <p>Everybody's Kitchen, Parkside, or USC Village. Then choose breakfast, lunch, or dinner.</p>
+    </div>
+    <div class="card">
+      <h3>2. Spot the protein</h3>
+      <p>Protein picks are highlighted so you can build your plate around them.</p>
+    </div>
+    <div class="card">
+      <h3>3. Set your goals</h3>
+      <p>Save your calorie and protein targets on MyGoals. Coming soon.</p>
+    </div>
+  </section>
 </main>
-<script>
-const PROTEIN = /chicken|salmon|fish|tuna|shrimp|mahi|catfish|egg|turkey|tofu|greek yogurt|cottage cheese|beef|steak|pork|lentil|bean|dal|chickpea|edamame|souvlaki|tandoori/i;
-const NOT_PROTEIN = /noodle soup|fried|nugget|pizza|sandwich|pancake|salad dressing|mayo|egg salad/i;
-let data, hall, meal;
 
-const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.createElement(tag), props); n.append(...kids); return n; };
+<footer class="site-footer">
+  Unofficial student project. Menu data comes from USC Hospitality and updates every morning.
+</footer>
 
-function pick(group, value, onChoose) {
-  [...group.children].forEach(b => b.setAttribute("aria-pressed", b.dataset.v === value));
-  onChoose(value);
-}
-
-function renderMeals() {
-  const h = data.halls.find(x => x.code === hall);
-  const box = document.getElementById("meals");
-  box.replaceChildren();
-  if (!h.meals.length) { meal = null; renderMenu(); return; }
-  if (!h.meals.some(m => m.meal === meal)) meal = h.meals[0].meal;
-  h.meals.forEach(m => {
-    const b = el("button", { textContent: m.meal });
-    b.dataset.v = m.meal;
-    b.onclick = () => pick(box, m.meal, v => { meal = v; renderMenu(); });
-    box.append(b);
-  });
-  pick(box, meal, renderMenu);
-}
-
-function renderMenu() {
-  const out = document.getElementById("menu");
-  out.replaceChildren();
-  const h = data.halls.find(x => x.code === hall);
-  const m = h.meals.find(x => x.meal === meal);
-  if (!m) { out.append(el("p", { className: "empty", textContent: h.error ? "This hall's menu didn't load today. Check back after the next update." : "No menu posted for this hall today." })); return; }
-  const only = document.getElementById("onlyProtein").checked;
-  m.stations.forEach(st => {
-    const items = st.items.map(i => ({ ...i, protein: PROTEIN.test(i.name) && !NOT_PROTEIN.test(i.name) }))
-                          .filter(i => !only || i.protein);
-    if (!items.length) return;
-    out.append(el("h2", { textContent: st.station }),
-      el("ul", {}, ...items.map(i => el("li", { className: i.protein ? "protein" : "" },
-        el("div", { textContent: i.name }),
-        el("div", { className: "tags" }, ...[...i.tags, ...i.allergens.map(a => "contains " + a)]
-          .map(t => el("span", { className: "tag", textContent: t.replace(/-/g, " ") })))))));
-  });
-  if (!out.children.length) out.append(el("p", { className: "empty", textContent: "No protein picks at this meal. Try another hall." }));
-}
-
-fetch("data/latest.json", { cache: "no-store" })
-  .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-  .then(json => {
-    data = json;
-    const d = new Date(json.date + "T12:00:00");
-    document.getElementById("date").textContent = d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
-    const box = document.getElementById("halls");
-    json.halls.forEach(h => {
-      const b = el("button", { textContent: h.name });
-      b.dataset.v = h.code;
-      b.onclick = () => pick(box, h.code, v => { hall = v; renderMeals(); });
-      box.append(b);
-    });
-    pick(box, json.halls[0].code, v => { hall = v; renderMeals(); });
-    document.getElementById("onlyProtein").onchange = renderMenu;
-  })
-  .catch(() => { document.getElementById("date").textContent = "No menu data yet. Run the scraper once from the Actions tab."; });
-</script>
+<script src="site.js"></script>
 </body>
 </html>
