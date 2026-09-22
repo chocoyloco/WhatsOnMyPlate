@@ -1,189 +1,205 @@
-"""Look up nutrition for each dish on today's menu and save it to docs/data/nutrition.json.
+"""Estimate nutrition for each dish on today's menu and save it to docs/data/nutrition.json.
 
-Each dish is looked up ONCE, by its exact USC name ("Chicken Mole" and "Adobo Chicken"
-are separate entries). After that it's read from the file, never requested again.
+Estimates come from Claude (Anthropic API), based on the dish name and its station.
+Each dish is estimated ONCE. After that it's read from the file, never requested again,
+so the cost doesn't grow with the number of people using the site.
 
-Data source: USDA FoodData Central. Needs the FDC_API_KEY secret in GitHub.
+Needs the ANTHROPIC_API_KEY secret in GitHub.
 
 Each saved dish looks like:
   "Chicken Mole": {
-    "match": "Chicken with mole sauce",     # the USDA entry that fit best
-    "grams": 120,                            # assumed Regular serving
-    "low":  {"cal": 190, "protein": 20, "carbs": 6,  "fat": 9},   # per Regular serving
-    "high": {"cal": 260, "protein": 26, "carbs": 11, "fat": 14},
-    "needs_review": false,                   # true = weak match, check it by hand
-    "checked": "2026-09-22"
+    "grams": 150,                                               # a Regular serving
+    "low":  {"cal": 230, "protein": 22, "carbs": 8,  "fat": 11},
+    "high": {"cal": 320, "protein": 30, "carbs": 14, "fat": 18},
+    "kind": "dish",                  # dish | topping | not_a_dish
+    "needs_review": false,           # true = numbers didn't add up, check by hand
+    "checked": "2026-09-22",
+    "v": 3
   }
 
-To fix a bad match by hand: edit that dish's numbers and add  "override": true
+To fix a dish by hand: edit its numbers and add  "override": true
 The script will never touch an entry marked override.
 """
 import json
 import os
 import re
 import sys
-import time
+import unicodedata
 from datetime import date
 from pathlib import Path
 
 import requests
 
+VERSION = 3          # bump when the estimating method changes; older entries get redone
+MODEL = "claude-haiku-4-5-20251001"
+PRICE_IN, PRICE_OUT = 1.00, 5.00     # dollars per million tokens, for the cost printout
+BATCH_SIZE = 40                      # dishes per request
+MAX_DISHES_PER_RUN = 400
+
 DATA_DIR = Path(__file__).parent / "docs" / "data"
 MENU_FILE = DATA_DIR / "latest.json"
 NUTRITION_FILE = DATA_DIR / "nutrition.json"
-SEARCH_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
+API_URL = "https://api.anthropic.com/v1/messages"
+MACROS = ("cal", "protein", "carbs", "fat")
 
-# Prepared/generic foods only (skip branded grocery products).
-DATA_TYPES = ["Survey (FNDDS)", "SR Legacy"]
-TOP_MATCHES = 3            # how many USDA results feed the low/high range
-MAX_LOOKUPS_PER_RUN = 400  # USDA allows 1,000 requests/hour; stay well under it
+INSTRUCTIONS = """You estimate nutrition for items on a university dining hall menu (USC, Los Angeles).
+Recipes and portions are not published, so give realistic estimates for how a large campus
+dining hall typically makes and serves each item.
 
-# USDA nutrient numbers (values are per 100 g)
-NUTRIENTS = {"208": "cal", "203": "protein", "205": "carbs", "204": "fat"}
+For each item, estimate ONE regular serving as a student would get it at that station:
+- A main dish or side: one standard scoop/portion (e.g. a chicken entree ~120-170 g, rice ~150 g).
+- A topping, sauce, dressing, spread, or salad-bar add-on: one typical portion (e.g. dressing ~30 g,
+  shredded cheese ~28 g, oil ~10 g, bacon bits ~15 g).
+- Things like "Make Your Own Waffle Bar", "Daily Grill Specials", or "available upon request"
+  notes are not a single food: mark kind "not_a_dish" and set low and high to null.
 
-# Assumed Regular serving in grams, by keyword. First match wins, so order matters.
-SERVING_GRAMS = [
-    (r"soup|stew|chili|pozole|menudo|broth|ramen|pho", 240),
-    (r"smoothie|juice|milk|latte|drink", 240),
-    (r"salad", 150),
-    (r"rice|pasta|noodle|spaghetti|penne|mac|quinoa|couscous|grits|oatmeal|potato|fries", 150),
-    (r"cookie|brownie|cake|pie|muffin|donut|dessert|pudding", 70),
-    (r"bread|roll|biscuit|tortilla|toast|bagel|croissant", 60),
-    (r"sauce|salsa|dressing|gravy|hummus|dip", 30),
-    (r"chicken|beef|steak|pork|turkey|fish|salmon|tuna|shrimp|tofu|lamb|carnitas|asada|meatball", 120),
-    (r"egg", 100),
-    (r"broccoli|carrot|green bean|spinach|vegetable|veggie|squash|zucchini|corn|pea|cauliflower", 100),
-    (r"bean|lentil|chickpea|dal", 130),
-    (r"fruit|apple|banana|melon|berr|orange|pineapple", 120),
-]
-DEFAULT_GRAMS = 130
+Give a LOW and HIGH estimate for calories, protein (g), carbs (g), and fat (g). The range should
+reflect real uncertainty in recipe and portion, not be artificially narrow or wide. Low and high
+should each be internally consistent (calories roughly = 4*protein + 4*carbs + 9*fat).
 
-STOPWORDS = {"with", "and", "the", "a", "of", "in", "on", "style", "house", "fresh", "our"}
+Reply with ONLY a JSON array, no other text, one object per item, using the item name exactly as given:
+[{"name": "...", "kind": "dish" | "topping" | "not_a_dish", "grams": 150,
+  "low": {"cal": 0, "protein": 0, "carbs": 0, "fat": 0},
+  "high": {"cal": 0, "protein": 0, "carbs": 0, "fat": 0}}]"""
 
 
-def serving_grams(name):
-    for pattern, grams in SERVING_GRAMS:
-        if re.search(pattern, name, re.I):
-            return grams
-    return DEFAULT_GRAMS
+def normalize(name):
+    """So 'Scrambled Egg' and 'Scrambled Eggs ' count as the same dish."""
+    text = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    text = re.sub(r"\(.*?\)", " ", text)
+    words = []
+    for w in re.findall(r"[a-z]+", text):
+        if w.endswith("ies") and len(w) > 4:
+            w = w[:-3] + "y"
+        elif w.endswith("oes"):
+            w = w[:-2]
+        elif w.endswith("s") and not w.endswith("ss") and len(w) > 3:
+            w = w[:-1]
+        words.append(w)
+    return " ".join(words)
 
 
-def clean_query(name):
-    """Turn a menu name into a better search: 'Chicken Mole w/ Rice (GF)' -> 'chicken mole with rice'."""
-    q = re.sub(r"\(.*?\)", " ", name)          # drop (GF), (Vegan), etc.
-    q = re.sub(r"\bw/\s*", "with ", q, flags=re.I)
-    q = re.sub(r"'s\b", "", q)                  # Chef's -> Chef
-    q = re.sub(r"[^A-Za-z\s]", " ", q)
-    return re.sub(r"\s+", " ", q).strip().lower()
+def needs_lookup(entry):
+    return entry is None or (not entry.get("override") and entry.get("v", 1) < VERSION)
 
 
-def words(text):
-    return {w for w in re.findall(r"[a-z]+", text.lower()) if w not in STOPWORDS and len(w) > 2}
-
-
-def overlap(dish, usda_description):
-    """Share of the dish's words that appear in the USDA description (0 to 1)."""
-    d = words(dish)
-    if not d:
-        return 0
-    u = words(usda_description)
-    hits = sum(1 for w in d if any(w in x or x in w for x in u))
-    return hits / len(d)
-
-
-def search(query, key):
+def ask_claude(items, key):
+    """items = [(name, station), ...]. Returns (list of estimates, cost in dollars)."""
+    listing = "\n".join(f"- {name}  (station: {station})" for name, station in items)
     resp = requests.post(
-        SEARCH_URL,
-        params={"api_key": key},
-        json={"query": query, "dataType": DATA_TYPES, "pageSize": 10},
-        timeout=30,
+        API_URL,
+        headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+        json={
+            "model": MODEL,
+            "max_tokens": 8000,
+            "temperature": 0,
+            "system": INSTRUCTIONS,
+            "messages": [{"role": "user", "content": f"Items:\n{listing}"}],
+        },
+        timeout=120,
     )
-    resp.raise_for_status()
-    return resp.json().get("foods", [])
+    if resp.status_code != 200:
+        raise RuntimeError(f"API error {resp.status_code}: {resp.text[:300]}")
+    data = resp.json()
+    text = "".join(block.get("text", "") for block in data.get("content", []))
+    text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
+    usage = data.get("usage", {})
+    cost = usage.get("input_tokens", 0) / 1e6 * PRICE_IN + usage.get("output_tokens", 0) / 1e6 * PRICE_OUT
+    return json.loads(text), cost
 
 
-def per_100g(food):
-    out = {}
-    for n in food.get("foodNutrients", []):
-        field = NUTRIENTS.get(str(n.get("nutrientNumber")))
-        if field and n.get("value") is not None:
-            if field == "cal" and str(n.get("unitName", "")).upper() != "KCAL":
-                continue
-            out[field] = n["value"]
-    return out if len(out) == 4 else None
-
-
-def look_up(name, key):
-    query = clean_query(name)
-    foods = search(query, key)
-    if not foods and len(query.split()) > 2:          # try a shorter search
-        foods = search(" ".join(query.split()[:2]), key)
-
-    scored = []
-    for f in foods:
-        nutrients = per_100g(f)
-        if nutrients:
-            scored.append((overlap(name, f["description"]), f["description"], nutrients))
-    if not scored:
+def clean(estimate):
+    """Check one estimate. Returns a saved entry, or None if it's unusable."""
+    kind = estimate.get("kind", "dish")
+    entry = {"kind": kind, "grams": None, "low": None, "high": None,
+             "needs_review": False, "checked": date.today().isoformat(), "v": VERSION}
+    if kind == "not_a_dish":
+        return entry
+    try:
+        grams = round(float(estimate["grams"]))
+        low = {k: round(float(estimate["low"][k])) for k in MACROS}
+        high = {k: round(float(estimate["high"][k])) for k in MACROS}
+    except (KeyError, TypeError, ValueError):
         return None
+    for k in MACROS:                              # make sure low really is the lower one
+        if low[k] > high[k]:
+            low[k], high[k] = high[k], low[k]
+    entry.update(grams=grams, low=low, high=high)
 
-    scored.sort(key=lambda s: s[0], reverse=True)
-    # Only let close matches into the range, so "Beef with mole" can't skew "Chicken Mole".
-    top = scored[0][0]
-    best = [s for s in scored if s[0] >= top - 0.2][:TOP_MATCHES]
-    grams = serving_grams(name)
-    scale = grams / 100
-
-    def pick(fn):
-        return {k: round(fn(b[2][k] for b in best) * scale) for k in ("cal", "protein", "carbs", "fat")}
-
-    return {
-        "match": best[0][1],
-        "grams": grams,
-        "low": pick(min),
-        "high": pick(max),
-        "needs_review": best[0][0] < 0.5,
-        "checked": date.today().isoformat(),
-    }
+    # Sanity checks: flag for review instead of trusting numbers that don't add up.
+    for side in (low, high):
+        from_macros = 4 * side["protein"] + 4 * side["carbs"] + 9 * side["fat"]
+        if side["cal"] > 20 and abs(from_macros - side["cal"]) > 0.3 * side["cal"]:
+            entry["needs_review"] = True
+    if grams <= 0 or grams > 700 or high["cal"] > 1500 or any(v < 0 for v in low.values()):
+        entry["needs_review"] = True
+    return entry
 
 
 def main():
-    key = os.environ.get("FDC_API_KEY", "").strip()
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
-        sys.exit("FDC_API_KEY is missing. Add it under Settings > Secrets and variables > Actions.")
+        sys.exit("ANTHROPIC_API_KEY is missing. Add it under Settings > Secrets and variables > Actions.")
     if not MENU_FILE.exists():
         sys.exit("No latest.json yet. Run the menu scrape first.")
 
     menu = json.loads(MENU_FILE.read_text())
     table = json.loads(NUTRITION_FILE.read_text()) if NUTRITION_FILE.exists() else {}
 
-    dishes = sorted({i["name"].strip() for h in menu["halls"] for m in h["meals"]
-                     for s in m["stations"] for i in s["items"]})
-    new = [d for d in dishes if d not in table]
-    print(f"{len(dishes)} dishes today, {len(new)} not looked up yet.")
+    # Every dish on today's menu, with the station it's served at (helps the estimate).
+    station_of = {}
+    for h in menu["halls"]:
+        for m in h["meals"]:
+            for s in m["stations"]:
+                for i in s["items"]:
+                    station_of.setdefault(i["name"].strip(), s["station"])
 
-    added = missed = 0
-    for name in new[:MAX_LOOKUPS_PER_RUN]:
+    # Old entries from the USDA version (or any older version) get redone,
+    # except ones you fixed by hand.
+    for name in [n for n, e in table.items() if needs_lookup(e)]:
+        del table[name]
+
+    # Reuse saved estimates for tiny name differences ("Scrambled Egg" vs "Scrambled Eggs").
+    by_normal = {normalize(n): n for n in table}
+    reused = 0
+    for name in station_of:
+        if name not in table and normalize(name) in by_normal:
+            table[name] = dict(table[by_normal[normalize(name)]], same_as=by_normal[normalize(name)])
+            reused += 1
+
+    todo = [n for n in sorted(station_of) if n not in table][:MAX_DISHES_PER_RUN]
+    print(f"{len(station_of)} dishes today: {len(station_of) - len(todo) - reused} already saved, "
+          f"{reused} matched a saved name, {len(todo)} to estimate.")
+
+    total_cost = added = review = 0
+    for start in range(0, len(todo), BATCH_SIZE):
+        batch = todo[start:start + BATCH_SIZE]
         try:
-            entry = look_up(name, key)
+            estimates, cost = ask_claude([(n, station_of[n]) for n in batch], key)
         except Exception as err:
-            print(f"  Error on {name!r}: {err} (will retry next run)")
+            print(f"  Batch of {len(batch)} failed: {err} (will retry next run)")
             continue
-        if entry:
+        total_cost += cost
+        by_name = {e.get("name", "").strip(): e for e in estimates if isinstance(e, dict)}
+        for name in batch:
+            est = by_name.get(name) or next((e for n, e in by_name.items() if normalize(n) == normalize(name)), None)
+            entry = clean(est) if est else None
+            if not entry:
+                print(f"  {name} -> no usable estimate (will retry next run)")
+                continue
             table[name] = entry
             added += 1
-            flag = "  <- needs review" if entry["needs_review"] else ""
-            print(f"  {name} -> {entry['match']}{flag}")
-        else:
-            # Save an empty entry so we don't search for it every day; fill it in by hand.
-            table[name] = {"match": None, "grams": serving_grams(name), "low": None, "high": None,
-                           "needs_review": True, "checked": date.today().isoformat()}
-            missed += 1
-            print(f"  {name} -> no match found")
-        time.sleep(0.3)
+            review += entry["needs_review"]
+            if entry["kind"] == "not_a_dish":
+                print(f"  {name} -> not a single dish, skipped")
+            else:
+                flag = "  <- needs review" if entry["needs_review"] else ""
+                print(f"  {name} -> {entry['grams']} g, {entry['low']['cal']}-{entry['high']['cal']} cal, "
+                      f"{entry['low']['protein']}-{entry['high']['protein']} g protein{flag}")
 
     NUTRITION_FILE.write_text(json.dumps(dict(sorted(table.items())), indent=2))
-    print(f"Added {added}, no match {missed}. Table now has {len(table)} dishes.")
+    print(f"Added {added} ({review} need review). Table has {len(table)} dishes. "
+          f"This run cost about ${total_cost:.4f}.")
 
 
 if __name__ == "__main__":
