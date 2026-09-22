@@ -1,7 +1,8 @@
 {
   "Assorted Bagels": {
     "kind": "dish",
-    "grams": 85,
+    "portion": "1 bagel",
+    "grams": 95,
     "low": {
       "cal": 210,
       "protein": 8,
@@ -9,37 +10,39 @@
       "fat": 1
     },
     "high": {
-      "cal": 260,
-      "protein": 10,
-      "carbs": 51,
-      "fat": 2
+      "cal": 280,
+      "protein": 11,
+      "carbs": 54,
+      "fat": 3
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted Berries": {
-    "kind": "dish",
-    "grams": 100,
+    "kind": "topping",
+    "portion": "1/2 cup",
+    "grams": 75,
     "low": {
+      "cal": 35,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 0
+    },
+    "high": {
       "cal": 50,
       "protein": 1,
       "carbs": 12,
       "fat": 0
     },
-    "high": {
-      "cal": 70,
-      "protein": 1,
-      "carbs": 17,
-      "fat": 0
-    },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted Breakfast Flaky Pastries": {
     "kind": "dish",
-    "grams": 80,
+    "portion": "1 pastry",
+    "grams": 85,
     "low": {
       "cal": 280,
       "protein": 4,
@@ -47,131 +50,118 @@
       "fat": 15
     },
     "high": {
-      "cal": 340,
-      "protein": 5,
+      "cal": 350,
+      "protein": 6,
       "carbs": 38,
-      "fat": 18
+      "fat": 19
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted Desserts": {
-    "kind": "dish",
-    "grams": 100,
-    "low": {
-      "cal": 300,
-      "protein": 2,
-      "carbs": 40,
-      "fat": 14
-    },
-    "high": {
-      "cal": 400,
-      "protein": 3,
-      "carbs": 50,
-      "fat": 20
-    },
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted French Fries": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 140,
     "low": {
       "cal": 320,
-      "protein": 4,
+      "protein": 3,
       "carbs": 42,
       "fat": 15
     },
     "high": {
       "cal": 400,
-      "protein": 5,
+      "protein": 4,
       "carbs": 48,
       "fat": 20
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted Fruits": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 70,
-      "protein": 1,
-      "carbs": 18,
-      "fat": 0
-    },
-    "high": {
-      "cal": 100,
-      "protein": 1,
-      "carbs": 25,
-      "fat": 0
-    },
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted Muffins": {
     "kind": "dish",
+    "portion": "1 muffin",
     "grams": 110,
     "low": {
-      "cal": 340,
-      "protein": 5,
+      "cal": 320,
+      "protein": 4,
       "carbs": 45,
-      "fat": 15
+      "fat": 14
     },
     "high": {
       "cal": 420,
       "protein": 6,
-      "carbs": 52,
-      "fat": 20
+      "carbs": 54,
+      "fat": 19
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Assorted Sliced Cheese": {
     "kind": "topping",
-    "grams": 28,
+    "portion": "1 slice",
+    "grams": 20,
     "low": {
-      "cal": 100,
-      "protein": 7,
-      "carbs": 1,
-      "fat": 8
+      "cal": 60,
+      "protein": 4,
+      "carbs": 0,
+      "fat": 5
     },
     "high": {
-      "cal": 120,
-      "protein": 8,
+      "cal": 80,
+      "protein": 5,
       "carbs": 1,
-      "fat": 10
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "BBQ Pork Baby Back Ribs": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "3 ribs",
+    "grams": 120,
     "low": {
-      "cal": 380,
-      "protein": 32,
-      "carbs": 12,
-      "fat": 24
+      "cal": 280,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 14
     },
     "high": {
-      "cal": 450,
-      "protein": 36,
-      "carbs": 16,
-      "fat": 28
+      "cal": 360,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 19
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "BBQ Sauce": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 40,
@@ -180,74 +170,78 @@
       "fat": 0
     },
     "high": {
-      "cal": 70,
+      "cal": 60,
       "protein": 0,
-      "carbs": 16,
-      "fat": 1
+      "carbs": 14,
+      "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Baby Spinach": {
     "kind": "topping",
+    "portion": "1 cup",
     "grams": 30,
     "low": {
-      "cal": 8,
+      "cal": 7,
       "protein": 1,
       "carbs": 1,
       "fat": 0
     },
     "high": {
-      "cal": 12,
-      "protein": 1,
+      "cal": 10,
+      "protein": 2,
       "carbs": 2,
       "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Bacon": {
-    "kind": "topping",
-    "grams": 20,
+    "kind": "dish",
+    "portion": "2 slices",
+    "grams": 16,
     "low": {
-      "cal": 110,
-      "protein": 8,
+      "cal": 80,
+      "protein": 6,
       "carbs": 0,
-      "fat": 9
+      "fat": 6
     },
     "high": {
-      "cal": 140,
-      "protein": 9,
-      "carbs": 1,
-      "fat": 11
+      "cal": 100,
+      "protein": 7,
+      "carbs": 0,
+      "fat": 8
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Baked Swai with Lemon Garlic Butter": {
     "kind": "dish",
+    "portion": "1 fillet",
     "grams": 150,
     "low": {
-      "cal": 240,
+      "cal": 220,
       "protein": 28,
       "carbs": 2,
-      "fat": 13
+      "fat": 11
     },
     "high": {
-      "cal": 300,
+      "cal": 280,
       "protein": 32,
       "carbs": 3,
-      "fat": 17
+      "fat": 15
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Baked Sweet Potatoes": {
     "kind": "dish",
+    "portion": "1 medium",
     "grams": 150,
     "low": {
       "cal": 100,
@@ -263,200 +257,211 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Balsamic Vinegar": {
     "kind": "topping",
+    "portion": "1 tbsp",
     "grams": 15,
     "low": {
+      "cal": 10,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "high": {
       "cal": 15,
       "protein": 0,
       "carbs": 3,
       "fat": 0
     },
-    "high": {
-      "cal": 25,
-      "protein": 0,
-      "carbs": 4,
-      "fat": 0
-    },
-    "needs_review": true,
+    "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Battered Fried Jalapeno Strips": {
-    "kind": "topping",
-    "grams": 40,
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
-      "cal": 120,
-      "protein": 2,
-      "carbs": 12,
-      "fat": 7
+      "cal": 240,
+      "protein": 3,
+      "carbs": 24,
+      "fat": 14
     },
     "high": {
-      "cal": 160,
-      "protein": 2,
-      "carbs": 14,
-      "fat": 9
+      "cal": 310,
+      "protein": 4,
+      "carbs": 30,
+      "fat": 18
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Beef Albondigas Soup": {
     "kind": "dish",
-    "grams": 280,
+    "portion": "1 cup",
+    "grams": 240,
     "low": {
-      "cal": 220,
-      "protein": 18,
-      "carbs": 16,
-      "fat": 10
+      "cal": 180,
+      "protein": 16,
+      "carbs": 12,
+      "fat": 8
     },
     "high": {
-      "cal": 280,
-      "protein": 22,
-      "carbs": 20,
-      "fat": 13
+      "cal": 240,
+      "protein": 20,
+      "carbs": 16,
+      "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Beef Birria Taco on Corn Tortilla": {
     "kind": "dish",
-    "grams": 140,
-    "low": {
-      "cal": 280,
-      "protein": 18,
-      "carbs": 24,
-      "fat": 13
-    },
-    "high": {
-      "cal": 340,
-      "protein": 22,
-      "carbs": 28,
-      "fat": 16
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Beef Burger Patty": {
-    "kind": "dish",
+    "portion": "1 taco",
     "grams": 120,
     "low": {
-      "cal": 280,
-      "protein": 28,
-      "carbs": 0,
-      "fat": 18
+      "cal": 240,
+      "protein": 18,
+      "carbs": 18,
+      "fat": 11
     },
     "high": {
-      "cal": 340,
-      "protein": 32,
-      "carbs": 1,
-      "fat": 22
+      "cal": 310,
+      "protein": 22,
+      "carbs": 24,
+      "fat": 15
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Beef Burger on Martin's Potato Bun": {
+    "kind": "dish",
+    "portion": "1 burger",
+    "grams": 200,
+    "low": {
+      "cal": 480,
+      "protein": 28,
+      "carbs": 38,
+      "fat": 22
+    },
+    "high": {
+      "cal": 580,
+      "protein": 32,
+      "carbs": 42,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Beef Taquitos": {
     "kind": "dish",
-    "grams": 120,
+    "portion": "1 taquito",
+    "grams": 40,
     "low": {
-      "cal": 320,
-      "protein": 16,
-      "carbs": 24,
-      "fat": 18
+      "cal": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 5
     },
     "high": {
-      "cal": 380,
-      "protein": 18,
-      "carbs": 28,
-      "fat": 22
+      "cal": 130,
+      "protein": 6,
+      "carbs": 12,
+      "fat": 7
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Beer Battered Onion Rings": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 120,
     "low": {
-      "cal": 320,
-      "protein": 4,
-      "carbs": 36,
-      "fat": 17
+      "cal": 280,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 15
     },
     "high": {
-      "cal": 380,
-      "protein": 5,
-      "carbs": 42,
-      "fat": 21
+      "cal": 360,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 20
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Blueberry Muffin French Toast": {
     "kind": "dish",
+    "portion": "2 slices",
     "grams": 160,
     "low": {
       "cal": 380,
       "protein": 10,
       "carbs": 48,
-      "fat": 17
+      "fat": 16
     },
     "high": {
-      "cal": 460,
-      "protein": 12,
+      "cal": 480,
+      "protein": 13,
       "carbs": 56,
-      "fat": 21
+      "fat": 22
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Boca Burger Veggie Patty": {
+  "Boca Burger on Martin's Potato Bun": {
     "kind": "dish",
-    "grams": 100,
+    "portion": "1 burger",
+    "grams": 180,
     "low": {
-      "cal": 140,
-      "protein": 12,
-      "carbs": 6,
-      "fat": 7
+      "cal": 320,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 12
     },
     "high": {
-      "cal": 180,
-      "protein": 14,
-      "carbs": 8,
-      "fat": 9
+      "cal": 400,
+      "protein": 22,
+      "carbs": 44,
+      "fat": 16
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Boiled Eggs": {
     "kind": "dish",
-    "grams": 100,
+    "portion": "1 egg",
+    "grams": 50,
     "low": {
-      "cal": 140,
-      "protein": 13,
-      "carbs": 1,
-      "fat": 10
+      "cal": 70,
+      "protein": 6,
+      "carbs": 0,
+      "fat": 5
     },
     "high": {
-      "cal": 160,
-      "protein": 14,
+      "cal": 80,
+      "protein": 7,
       "carbs": 1,
-      "fat": 12
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Boursin Cheese Mashed Potatoes": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
       "cal": 240,
@@ -465,283 +470,278 @@
       "fat": 13
     },
     "high": {
-      "cal": 300,
+      "cal": 310,
       "protein": 8,
-      "carbs": 28,
+      "carbs": 30,
       "fat": 17
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Braised Creole Chicken": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 scoop",
+    "grams": 140,
     "low": {
-      "cal": 240,
-      "protein": 32,
+      "cal": 220,
+      "protein": 28,
       "carbs": 4,
-      "fat": 11
-    },
-    "high": {
-      "cal": 300,
-      "protein": 36,
-      "carbs": 6,
-      "fat": 15
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Braised Pinto Beans": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 140,
-      "protein": 8,
-      "carbs": 20,
-      "fat": 3
-    },
-    "high": {
-      "cal": 180,
-      "protein": 10,
-      "carbs": 24,
-      "fat": 5
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Breakfast Grilled Cheese Sandwich with Ham": {
-    "kind": "dish",
-    "grams": 160,
-    "low": {
-      "cal": 420,
-      "protein": 18,
-      "carbs": 32,
-      "fat": 26
-    },
-    "high": {
-      "cal": 500,
-      "protein": 22,
-      "carbs": 38,
-      "fat": 31
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Butter Balls": {
-    "kind": "topping",
-    "grams": 15,
-    "low": {
-      "cal": 100,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 11
-    },
-    "high": {
-      "cal": 120,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 13
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Buttery Braised Cabbage and Leeks with Lemon Zest": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 100,
-      "protein": 2,
-      "carbs": 8,
-      "fat": 7
-    },
-    "high": {
-      "cal": 140,
-      "protein": 3,
-      "carbs": 10,
       "fat": 10
     },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Cajun Spiced Black Eyed Peas": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 130,
-      "protein": 8,
-      "carbs": 18,
-      "fat": 3
-    },
     "high": {
-      "cal": 170,
-      "protein": 10,
-      "carbs": 22,
-      "fat": 5
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Cajun Spiced Tofu with Sauteed Kale": {
-    "kind": "dish",
-    "grams": 180,
-    "low": {
-      "cal": 160,
-      "protein": 16,
-      "carbs": 8,
-      "fat": 8
-    },
-    "high": {
-      "cal": 220,
-      "protein": 20,
-      "carbs": 12,
-      "fat": 11
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Cheddar Cheese Sauce": {
-    "kind": "topping",
-    "grams": 40,
-    "low": {
-      "cal": 140,
-      "protein": 4,
-      "carbs": 4,
-      "fat": 11
-    },
-    "high": {
-      "cal": 180,
-      "protein": 6,
+      "cal": 280,
+      "protein": 32,
       "carbs": 6,
       "fat": 14
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Chicken Asada": {
+  "Braised Pinto Beans": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
-      "cal": 240,
-      "protein": 34,
-      "carbs": 2,
+      "cal": 140,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 2
+    },
+    "high": {
+      "cal": 190,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Breakfast Grilled Cheese Sandwich with Ham": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 160,
+    "low": {
+      "cal": 380,
+      "protein": 16,
+      "carbs": 32,
+      "fat": 20
+    },
+    "high": {
+      "cal": 480,
+      "protein": 20,
+      "carbs": 38,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Butter Balls": {
+    "kind": "topping",
+    "portion": "1 tbsp",
+    "grams": 14,
+    "low": {
+      "cal": 100,
+      "protein": 0,
+      "carbs": 0,
       "fat": 11
     },
     "high": {
-      "cal": 300,
-      "protein": 38,
-      "carbs": 3,
-      "fat": 15
+      "cal": 110,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 12
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Chicken Kale Caesar Salad": {
+  "Buttery Braised Cabbage and Leeks with Lemon Zest": {
     "kind": "dish",
-    "grams": 280,
+    "portion": "1 scoop",
+    "grams": 120,
     "low": {
-      "cal": 320,
-      "protein": 32,
-      "carbs": 12,
-      "fat": 16
-    },
-    "high": {
-      "cal": 420,
-      "protein": 36,
-      "carbs": 16,
-      "fat": 22
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Chicken Sausage Link": {
-    "kind": "dish",
-    "grams": 80,
-    "low": {
-      "cal": 120,
-      "protein": 16,
-      "carbs": 2,
+      "cal": 80,
+      "protein": 2,
+      "carbs": 8,
       "fat": 5
     },
     "high": {
-      "cal": 160,
-      "protein": 18,
-      "carbs": 3,
+      "cal": 130,
+      "protein": 3,
+      "carbs": 12,
       "fat": 8
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Chicken Taquitos": {
+  "Cajun Spiced Black Eyed Peas": {
     "kind": "dish",
-    "grams": 120,
-    "low": {
-      "cal": 300,
-      "protein": 18,
-      "carbs": 24,
-      "fat": 15
-    },
-    "high": {
-      "cal": 360,
-      "protein": 20,
-      "carbs": 28,
-      "fat": 19
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Chicken Tortilla Soup": {
-    "kind": "dish",
-    "grams": 280,
-    "low": {
-      "cal": 200,
-      "protein": 18,
-      "carbs": 18,
-      "fat": 8
-    },
-    "high": {
-      "cal": 260,
-      "protein": 22,
-      "carbs": 22,
-      "fat": 11
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Chipotle Sweet Potato Mash": {
-    "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
-      "cal": 120,
-      "protein": 2,
+      "cal": 150,
+      "protein": 9,
       "carbs": 24,
       "fat": 2
     },
     "high": {
-      "cal": 160,
-      "protein": 3,
+      "cal": 200,
+      "protein": 11,
       "carbs": 30,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Cajun Spiced Tofu with Sauteed Kale": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 140,
+      "protein": 14,
+      "carbs": 8,
+      "fat": 6
+    },
+    "high": {
+      "cal": 200,
+      "protein": 18,
+      "carbs": 12,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Cheese Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 120,
+    "low": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 36,
+      "fat": 10
+    },
+    "high": {
+      "cal": 360,
+      "protein": 15,
+      "carbs": 42,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chicken Asada": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 220,
+      "protein": 32,
+      "carbs": 2,
+      "fat": 9
+    },
+    "high": {
+      "cal": 280,
+      "protein": 36,
+      "carbs": 4,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chicken Sausage Link": {
+    "kind": "dish",
+    "portion": "1 link",
+    "grams": 55,
+    "low": {
+      "cal": 90,
+      "protein": 12,
+      "carbs": 1,
+      "fat": 4
+    },
+    "high": {
+      "cal": 130,
+      "protein": 15,
+      "carbs": 2,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chicken Taquitos": {
+    "kind": "dish",
+    "portion": "1 taquito",
+    "grams": 40,
+    "low": {
+      "cal": 90,
+      "protein": 6,
+      "carbs": 9,
+      "fat": 4
+    },
+    "high": {
+      "cal": 120,
+      "protein": 8,
+      "carbs": 11,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chicken Tortilla Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 14,
+      "carbs": 14,
+      "fat": 6
+    },
+    "high": {
+      "cal": 220,
+      "protein": 18,
+      "carbs": 18,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chipotle Sweet Potato Mash": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 120,
+      "protein": 2,
+      "carbs": 26,
+      "fat": 2
+    },
+    "high": {
+      "cal": 170,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Chocolate Chips": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 20,
     "low": {
       "cal": 100,
@@ -757,48 +757,71 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Chocolate Ice Cream": {
+    "kind": "topping",
+    "portion": "1/2 cup",
+    "grams": 65,
+    "low": {
+      "cal": 130,
+      "protein": 2,
+      "carbs": 16,
+      "fat": 6
+    },
+    "high": {
+      "cal": 170,
+      "protein": 3,
+      "carbs": 20,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Chocolate Sauce": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 80,
       "protein": 0,
-      "carbs": 20,
-      "fat": 0
+      "carbs": 18,
+      "fat": 1
     },
     "high": {
       "cal": 110,
       "protein": 1,
       "carbs": 24,
-      "fat": 1
+      "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Chopped Bacon": {
     "kind": "topping",
-    "grams": 15,
+    "portion": "2 tbsp",
+    "grams": 12,
     "low": {
-      "cal": 80,
+      "cal": 60,
+      "protein": 4,
+      "carbs": 0,
+      "fat": 5
+    },
+    "high": {
+      "cal": 75,
       "protein": 6,
       "carbs": 0,
       "fat": 6
     },
-    "high": {
-      "cal": 110,
-      "protein": 7,
-      "carbs": 1,
-      "fat": 9
-    },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Chopped Bell Peppers": {
     "kind": "topping",
+    "portion": "1/4 cup",
     "grams": 30,
     "low": {
       "cal": 8,
@@ -809,15 +832,16 @@
     "high": {
       "cal": 12,
       "protein": 0,
-      "carbs": 3,
+      "carbs": 2,
       "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Chopped Cilantro and Onion": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 15,
     "low": {
       "cal": 4,
@@ -833,49 +857,32 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Chopped Ham": {
     "kind": "topping",
-    "grams": 30,
+    "portion": "2 tbsp",
+    "grams": 20,
     "low": {
+      "cal": 30,
+      "protein": 5,
+      "carbs": 0,
+      "fat": 1
+    },
+    "high": {
       "cal": 50,
-      "protein": 8,
+      "protein": 7,
       "carbs": 1,
       "fat": 2
     },
-    "high": {
-      "cal": 80,
-      "protein": 10,
-      "carbs": 2,
-      "fat": 4
-    },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Chopped Onion": {
     "kind": "topping",
-    "grams": 20,
-    "low": {
-      "cal": 7,
-      "protein": 0,
-      "carbs": 2,
-      "fat": 0
-    },
-    "high": {
-      "cal": 12,
-      "protein": 0,
-      "carbs": 3,
-      "fat": 0
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Chopped Tomatoes": {
-    "kind": "topping",
-    "grams": 30,
+    "portion": "2 tbsp",
+    "grams": 15,
     "low": {
       "cal": 5,
       "protein": 0,
@@ -883,150 +890,218 @@
       "fat": 0
     },
     "high": {
-      "cal": 10,
+      "cal": 8,
       "protein": 0,
       "carbs": 2,
       "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Chopped Turkey": {
+  "Chopped Tomatoes": {
     "kind": "topping",
-    "grams": 30,
+    "portion": "1/4 cup",
+    "grams": 40,
     "low": {
-      "cal": 45,
-      "protein": 9,
-      "carbs": 0,
-      "fat": 1
+      "cal": 8,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
     },
     "high": {
-      "cal": 70,
-      "protein": 11,
-      "carbs": 1,
-      "fat": 3
+      "cal": 12,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Chopped Turkey": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 20,
+    "low": {
+      "cal": 22,
+      "protein": 4,
+      "carbs": 0,
+      "fat": 0
+    },
+    "high": {
+      "cal": 35,
+      "protein": 6,
+      "carbs": 0,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Cilantro Lime Rice": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
       "cal": 180,
-      "protein": 3,
+      "protein": 4,
       "carbs": 36,
       "fat": 2
     },
     "high": {
-      "cal": 220,
+      "cal": 240,
       "protein": 4,
-      "carbs": 40,
+      "carbs": 42,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Cochinita Pibil": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 140,
     "low": {
-      "cal": 240,
-      "protein": 28,
+      "cal": 280,
+      "protein": 32,
       "carbs": 2,
-      "fat": 13
+      "fat": 15
     },
     "high": {
-      "cal": 310,
-      "protein": 32,
+      "cal": 360,
+      "protein": 36,
       "carbs": 4,
-      "fat": 18
+      "fat": 20
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Coconut Yogurt": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 cup",
+    "grams": 170,
     "low": {
-      "cal": 120,
-      "protein": 2,
-      "carbs": 12,
-      "fat": 6
+      "cal": 180,
+      "protein": 3,
+      "carbs": 20,
+      "fat": 9
     },
     "high": {
-      "cal": 160,
-      "protein": 3,
-      "carbs": 16,
-      "fat": 9
+      "cal": 240,
+      "protein": 4,
+      "carbs": 26,
+      "fat": 12
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Confetti Rice": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
       "cal": 190,
-      "protein": 3,
+      "protein": 4,
       "carbs": 38,
       "fat": 2
     },
     "high": {
-      "cal": 240,
+      "cal": 250,
       "protein": 4,
       "carbs": 44,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Corn on the Cob": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 ear",
+    "grams": 100,
     "low": {
-      "cal": 100,
+      "cal": 80,
       "protein": 3,
-      "carbs": 20,
+      "carbs": 17,
       "fat": 1
     },
     "high": {
-      "cal": 140,
+      "cal": 120,
       "protein": 4,
-      "carbs": 26,
+      "carbs": 22,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Corn, Poblano Peppers, and Onion": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 70,
+      "protein": 2,
+      "carbs": 14,
+      "fat": 2
+    },
+    "high": {
+      "cal": 110,
+      "protein": 3,
+      "carbs": 18,
       "fat": 3
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Cotija Cheese": {
+    "kind": "topping",
+    "portion": "1/4 cup",
+    "grams": 30,
+    "low": {
+      "cal": 110,
+      "protein": 7,
+      "carbs": 1,
+      "fat": 9
+    },
+    "high": {
+      "cal": 130,
+      "protein": 8,
+      "carbs": 2,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Cottage Cheese": {
     "kind": "dish",
-    "grams": 120,
+    "portion": "1/2 cup",
+    "grams": 110,
     "low": {
       "cal": 100,
       "protein": 14,
       "carbs": 4,
-      "fat": 3
+      "fat": 4
     },
     "high": {
       "cal": 140,
-      "protein": 16,
+      "protein": 18,
       "carbs": 6,
-      "fat": 5
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Creamy Caesar Dressing": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 140,
@@ -1042,152 +1117,161 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
-  },
-  "Creamy Cauliflower Mash": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 120,
-      "protein": 4,
-      "carbs": 12,
-      "fat": 6
-    },
-    "high": {
-      "cal": 170,
-      "protein": 5,
-      "carbs": 16,
-      "fat": 9
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Creamy Lime Cilantro Mustard Dressing": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
-      "cal": 100,
+      "cal": 120,
       "protein": 0,
       "carbs": 3,
-      "fat": 10
+      "fat": 12
     },
     "high": {
-      "cal": 150,
+      "cal": 160,
       "protein": 1,
       "carbs": 4,
-      "fat": 15
+      "fat": 16
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Crispy Fried Hash Brown Patties": {
     "kind": "dish",
-    "grams": 100,
+    "portion": "1 patty",
+    "grams": 70,
     "low": {
-      "cal": 180,
+      "cal": 160,
       "protein": 2,
-      "carbs": 20,
-      "fat": 10
+      "carbs": 18,
+      "fat": 9
     },
     "high": {
-      "cal": 240,
+      "cal": 210,
       "protein": 3,
-      "carbs": 24,
-      "fat": 14
+      "carbs": 22,
+      "fat": 12
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Crispy Fried Tater Tots": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 100,
     "low": {
-      "cal": 200,
+      "cal": 220,
       "protein": 2,
-      "carbs": 22,
-      "fat": 11
+      "carbs": 26,
+      "fat": 12
     },
     "high": {
-      "cal": 260,
-      "protein": 3,
-      "carbs": 26,
-      "fat": 15
+      "cal": 290,
+      "protein": 4,
+      "carbs": 32,
+      "fat": 16
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Crumbled Oreo Cookies": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 20,
     "low": {
       "cal": 90,
       "protein": 1,
-      "carbs": 13,
+      "carbs": 12,
       "fat": 4
     },
     "high": {
-      "cal": 110,
+      "cal": 100,
       "protein": 1,
-      "carbs": 15,
+      "carbs": 13,
       "fat": 5
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Crumbled Tofu": {
-    "kind": "topping",
-    "grams": 30,
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
-      "cal": 20,
-      "protein": 3,
-      "carbs": 1,
-      "fat": 1
+      "cal": 60,
+      "protein": 8,
+      "carbs": 2,
+      "fat": 3
     },
     "high": {
-      "cal": 35,
-      "protein": 4,
-      "carbs": 2,
-      "fat": 2
+      "cal": 90,
+      "protein": 10,
+      "carbs": 3,
+      "fat": 5
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Curtido (Salvadoran Cabbage Jalapeno  Slaw)": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 30,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 0
+    },
+    "high": {
+      "cal": 60,
+      "protein": 1,
+      "carbs": 7,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Daily Grill Specials (including Beyond Burger and Halal Beef Burgers)": {
     "kind": "not_a_dish",
+    "portion": null,
     "grams": null,
     "low": null,
     "high": null,
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Egg Whites": {
-    "kind": "topping",
-    "grams": 40,
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
-      "cal": 18,
-      "protein": 4,
-      "carbs": 0,
-      "fat": 0
-    },
-    "high": {
-      "cal": 25,
-      "protein": 5,
+      "cal": 50,
+      "protein": 11,
       "carbs": 1,
       "fat": 0
     },
+    "high": {
+      "cal": 60,
+      "protein": 12,
+      "carbs": 1,
+      "fat": 1
+    },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Eggs": {
-    "kind": "topping",
+    "kind": "dish",
+    "portion": "1 egg",
     "grams": 50,
     "low": {
       "cal": 70,
@@ -1196,131 +1280,138 @@
       "fat": 5
     },
     "high": {
-      "cal": 90,
-      "protein": 7,
+      "cal": 80,
+      "protein": 6,
       "carbs": 1,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Fried Falafel": {
+    "kind": "dish",
+    "portion": "1 piece",
+    "grams": 50,
+    "low": {
+      "cal": 120,
+      "protein": 4,
+      "carbs": 10,
+      "fat": 7
+    },
+    "high": {
+      "cal": 150,
+      "protein": 5,
+      "carbs": 12,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Garlic Herb Aioli": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 240,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 27
+    },
+    "high": {
+      "cal": 280,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 31
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Garlic and Dill Rice with Green Peas": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 160,
+      "protein": 4,
+      "carbs": 32,
+      "fat": 2
+    },
+    "high": {
+      "cal": 200,
+      "protein": 5,
+      "carbs": 35,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Grape Jelly": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 32,
+    "low": {
+      "cal": 100,
+      "protein": 0,
+      "carbs": 26,
+      "fat": 0
+    },
+    "high": {
+      "cal": 110,
+      "protein": 0,
+      "carbs": 27,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Grapefruit": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 150,
+    "low": {
+      "cal": 60,
+      "protein": 1,
+      "carbs": 15,
+      "fat": 0
+    },
+    "high": {
+      "cal": 75,
+      "protein": 1,
+      "carbs": 19,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Green Chicken Pozole": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 20,
+      "carbs": 18,
+      "fat": 4
+    },
+    "high": {
+      "cal": 240,
+      "protein": 24,
+      "carbs": 22,
       "fat": 7
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
-  },
-  "Garlic Herb Aioli": {
-    "kind": "topping",
-    "grams": 20,
-    "low": {
-      "cal": 140,
-      "protein": 0,
-      "carbs": 1,
-      "fat": 15
-    },
-    "high": {
-      "cal": 180,
-      "protein": 0,
-      "carbs": 2,
-      "fat": 20
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Garlic and Dill Rice with Green Peas": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 180,
-      "protein": 4,
-      "carbs": 36,
-      "fat": 2
-    },
-    "high": {
-      "cal": 230,
-      "protein": 5,
-      "carbs": 42,
-      "fat": 4
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Grape Jelly": {
-    "kind": "topping",
-    "grams": 20,
-    "low": {
-      "cal": 50,
-      "protein": 0,
-      "carbs": 13,
-      "fat": 0
-    },
-    "high": {
-      "cal": 65,
-      "protein": 0,
-      "carbs": 16,
-      "fat": 0
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Grapefruit": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 50,
-      "protein": 1,
-      "carbs": 13,
-      "fat": 0
-    },
-    "high": {
-      "cal": 70,
-      "protein": 1,
-      "carbs": 16,
-      "fat": 0
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Green Chicken Pozole": {
-    "kind": "dish",
-    "grams": 200,
-    "low": {
-      "cal": 180,
-      "protein": 22,
-      "carbs": 14,
-      "fat": 4
-    },
-    "high": {
-      "cal": 260,
-      "protein": 26,
-      "carbs": 20,
-      "fat": 8
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Griddled Papas a la Mexicana": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 160,
-      "protein": 3,
-      "carbs": 20,
-      "fat": 8
-    },
-    "high": {
-      "cal": 220,
-      "protein": 4,
-      "carbs": 26,
-      "fat": 12
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Grilled Lemongrass Chicken": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 140,
     "low": {
       "cal": 200,
@@ -1329,93 +1420,98 @@
       "fat": 8
     },
     "high": {
-      "cal": 260,
-      "protein": 36,
-      "carbs": 4,
-      "fat": 12
+      "cal": 240,
+      "protein": 35,
+      "carbs": 3,
+      "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "House Fried Salt and Vinegar Chips": {
     "kind": "dish",
-    "grams": 60,
+    "portion": "1 scoop",
+    "grams": 80,
     "low": {
-      "cal": 280,
+      "cal": 320,
       "protein": 3,
-      "carbs": 30,
-      "fat": 16
+      "carbs": 36,
+      "fat": 18
     },
     "high": {
-      "cal": 340,
+      "cal": 380,
       "protein": 4,
-      "carbs": 34,
-      "fat": 20
+      "carbs": 40,
+      "fat": 22
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "House Fried Tostada Shells": {
-    "kind": "topping",
-    "grams": 30,
-    "low": {
-      "cal": 140,
-      "protein": 2,
-      "carbs": 16,
-      "fat": 7
-    },
-    "high": {
-      "cal": 180,
-      "protein": 2,
-      "carbs": 18,
-      "fat": 10
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Hunan Style Pork Stir Fry": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "2 pieces",
+    "grams": 60,
     "low": {
-      "cal": 220,
-      "protein": 24,
-      "carbs": 8,
-      "fat": 11
+      "cal": 240,
+      "protein": 2,
+      "carbs": 28,
+      "fat": 13
     },
     "high": {
       "cal": 290,
-      "protein": 28,
-      "carbs": 12,
-      "fat": 15
+      "protein": 3,
+      "carbs": 32,
+      "fat": 16
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Hunan Style Pork Stir Fry": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 200,
+      "protein": 22,
+      "carbs": 8,
+      "fat": 9
+    },
+    "high": {
+      "cal": 260,
+      "protein": 26,
+      "carbs": 12,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Italian Roasted Veggie Medley": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
-      "cal": 80,
-      "protein": 3,
-      "carbs": 12,
-      "fat": 3
+      "cal": 60,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 2
     },
     "high": {
-      "cal": 130,
-      "protein": 4,
-      "carbs": 16,
-      "fat": 6
+      "cal": 100,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 5
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Kansas City Style BBQ Sauce": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 50,
@@ -1424,17 +1520,338 @@
       "fat": 0
     },
     "high": {
-      "cal": 80,
+      "cal": 70,
       "protein": 0,
-      "carbs": 18,
+      "carbs": 16,
       "fat": 1
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Lettuce": {
     "kind": "topping",
+    "portion": "1 cup",
+    "grams": 50,
+    "low": {
+      "cal": 8,
+      "protein": 1,
+      "carbs": 1,
+      "fat": 0
+    },
+    "high": {
+      "cal": 12,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Little Northern Bakehouse Allergen Free Bread Available Upon Request": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Longanisa Pork Sausage": {
+    "kind": "dish",
+    "portion": "1 link",
+    "grams": 50,
+    "low": {
+      "cal": 150,
+      "protein": 10,
+      "carbs": 1,
+      "fat": 12
+    },
+    "high": {
+      "cal": 180,
+      "protein": 11,
+      "carbs": 2,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Make Your Own Waffle Bar": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Mango Farro": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 160,
+      "protein": 5,
+      "carbs": 32,
+      "fat": 1
+    },
+    "high": {
+      "cal": 200,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Meat Lovers' Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 150,
+    "low": {
+      "cal": 380,
+      "protein": 18,
+      "carbs": 32,
+      "fat": 20
+    },
+    "high": {
+      "cal": 450,
+      "protein": 21,
+      "carbs": 36,
+      "fat": 25
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Mexican Pork Chorizo Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 150,
+    "low": {
+      "cal": 360,
+      "protein": 16,
+      "carbs": 32,
+      "fat": 19
+    },
+    "high": {
+      "cal": 430,
+      "protein": 19,
+      "carbs": 36,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Mixed Bean and Veggie Chili": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 2
+    },
+    "high": {
+      "cal": 220,
+      "protein": 13,
+      "carbs": 32,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Mushroom and White Bean Ragout over Creamy Polenta": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 200,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 6
+    },
+    "high": {
+      "cal": 260,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Oat n' Honey Granola": {
+    "kind": "topping",
+    "portion": "1/4 cup",
+    "grams": 30,
+    "low": {
+      "cal": 130,
+      "protein": 3,
+      "carbs": 18,
+      "fat": 5
+    },
+    "high": {
+      "cal": 150,
+      "protein": 4,
+      "carbs": 20,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Oatmeal": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 150,
+      "protein": 5,
+      "carbs": 27,
+      "fat": 3
+    },
+    "high": {
+      "cal": 180,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Olive/Canola Oil Blend": {
+    "kind": "topping",
+    "portion": "1 tbsp",
+    "grams": 14,
+    "low": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 14
+    },
+    "high": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Oregano, Dijon and Red Wine Vinaigrette": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 12
+    },
+    "high": {
+      "cal": 150,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Overnight Oats": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 200,
+    "low": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 36,
+      "fat": 7
+    },
+    "high": {
+      "cal": 300,
+      "protein": 10,
+      "carbs": 42,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pan de Agua": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 50,
+    "low": {
+      "cal": 120,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 1
+    },
+    "high": {
+      "cal": 150,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pasta with Cheddar Cheese Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 320,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 12
+    },
+    "high": {
+      "cal": 400,
+      "protein": 15,
+      "carbs": 44,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pepperoni Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 140,
+    "low": {
+      "cal": 340,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 17
+    },
+    "high": {
+      "cal": 410,
+      "protein": 17,
+      "carbs": 36,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pickle Chips": {
+    "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 5,
@@ -1444,339 +1861,18 @@
     },
     "high": {
       "cal": 10,
-      "protein": 1,
-      "carbs": 2,
-      "fat": 0
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Little Northern Bakehouse Allergen Free Bread Available Upon Request": {
-    "kind": "not_a_dish",
-    "grams": null,
-    "low": null,
-    "high": null,
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Longanisa Pork Sausage": {
-    "kind": "dish",
-    "grams": 100,
-    "low": {
-      "cal": 280,
-      "protein": 16,
-      "carbs": 2,
-      "fat": 23
-    },
-    "high": {
-      "cal": 350,
-      "protein": 18,
-      "carbs": 4,
-      "fat": 28
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Make Your Own Waffle Bar": {
-    "kind": "not_a_dish",
-    "grams": null,
-    "low": null,
-    "high": null,
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mango Caprese Balsamic Foccacia Sandwich": {
-    "kind": "dish",
-    "grams": 220,
-    "low": {
-      "cal": 420,
-      "protein": 14,
-      "carbs": 48,
-      "fat": 18
-    },
-    "high": {
-      "cal": 520,
-      "protein": 18,
-      "carbs": 54,
-      "fat": 24
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mango Chicken Salad Hoagie Sandwich": {
-    "kind": "dish",
-    "grams": 240,
-    "low": {
-      "cal": 480,
-      "protein": 28,
-      "carbs": 50,
-      "fat": 16
-    },
-    "high": {
-      "cal": 580,
-      "protein": 32,
-      "carbs": 56,
-      "fat": 22
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mango Farro": {
-    "kind": "dish",
-    "grams": 180,
-    "low": {
-      "cal": 240,
-      "protein": 8,
-      "carbs": 42,
-      "fat": 4
-    },
-    "high": {
-      "cal": 300,
-      "protein": 10,
-      "carbs": 48,
-      "fat": 8
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Martin's Famous Potato Bun": {
-    "kind": "dish",
-    "grams": 45,
-    "low": {
-      "cal": 120,
-      "protein": 4,
-      "carbs": 22,
-      "fat": 1
-    },
-    "high": {
-      "cal": 150,
-      "protein": 5,
-      "carbs": 26,
-      "fat": 3
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mexican Pork Chorizo Pizza": {
-    "kind": "dish",
-    "grams": 280,
-    "low": {
-      "cal": 680,
-      "protein": 28,
-      "carbs": 62,
-      "fat": 32
-    },
-    "high": {
-      "cal": 800,
-      "protein": 32,
-      "carbs": 70,
-      "fat": 40
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mixed Bean and Veggie Chili": {
-    "kind": "dish",
-    "grams": 240,
-    "low": {
-      "cal": 200,
-      "protein": 12,
-      "carbs": 28,
-      "fat": 4
-    },
-    "high": {
-      "cal": 280,
-      "protein": 16,
-      "carbs": 36,
-      "fat": 8
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mulita Bar Beef Carne Asada": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 280,
-      "protein": 36,
-      "carbs": 2,
-      "fat": 14
-    },
-    "high": {
-      "cal": 360,
-      "protein": 42,
-      "carbs": 4,
-      "fat": 20
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Mushroom and White Bean Ragout over Creamy Polenta": {
-    "kind": "dish",
-    "grams": 280,
-    "low": {
-      "cal": 320,
-      "protein": 12,
-      "carbs": 42,
-      "fat": 12
-    },
-    "high": {
-      "cal": 420,
-      "protein": 16,
-      "carbs": 50,
-      "fat": 18
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Oat n' Honey Granola": {
-    "kind": "dish",
-    "grams": 50,
-    "low": {
-      "cal": 220,
-      "protein": 5,
-      "carbs": 28,
-      "fat": 10
-    },
-    "high": {
-      "cal": 260,
-      "protein": 7,
-      "carbs": 32,
-      "fat": 12
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Oatmeal": {
-    "kind": "dish",
-    "grams": 200,
-    "low": {
-      "cal": 150,
-      "protein": 5,
-      "carbs": 27,
-      "fat": 3
-    },
-    "high": {
-      "cal": 200,
-      "protein": 7,
-      "carbs": 34,
-      "fat": 5
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Olive/Canola Oil Blend": {
-    "kind": "topping",
-    "grams": 14,
-    "low": {
-      "cal": 120,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 14
-    },
-    "high": {
-      "cal": 130,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 14
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Oregano, Dijon and Red Wine Vinaigrette": {
-    "kind": "topping",
-    "grams": 30,
-    "low": {
-      "cal": 180,
-      "protein": 0,
-      "carbs": 2,
-      "fat": 20
-    },
-    "high": {
-      "cal": 220,
-      "protein": 0,
-      "carbs": 4,
-      "fat": 24
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Overnight Oats": {
-    "kind": "dish",
-    "grams": 220,
-    "low": {
-      "cal": 280,
-      "protein": 10,
-      "carbs": 36,
-      "fat": 10
-    },
-    "high": {
-      "cal": 360,
-      "protein": 14,
-      "carbs": 44,
-      "fat": 14
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Pepperoni Pizza": {
-    "kind": "dish",
-    "grams": 280,
-    "low": {
-      "cal": 700,
-      "protein": 28,
-      "carbs": 62,
-      "fat": 36
-    },
-    "high": {
-      "cal": 820,
-      "protein": 32,
-      "carbs": 70,
-      "fat": 44
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Pickle Chips": {
-    "kind": "topping",
-    "grams": 30,
-    "low": {
-      "cal": 8,
       "protein": 0,
       "carbs": 2,
       "fat": 0
     },
-    "high": {
-      "cal": 15,
-      "protein": 0,
-      "carbs": 3,
-      "fat": 0
-    },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Pickled Jalapenos": {
     "kind": "topping",
-    "grams": 25,
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
       "cal": 8,
       "protein": 0,
@@ -1791,48 +1887,71 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Pico de Gallo": {
     "kind": "topping",
+    "portion": "1/4 cup",
     "grams": 30,
     "low": {
-      "cal": 10,
+      "cal": 8,
       "protein": 0,
       "carbs": 2,
       "fat": 0
     },
     "high": {
-      "cal": 18,
-      "protein": 1,
-      "carbs": 4,
+      "cal": 15,
+      "protein": 0,
+      "carbs": 3,
       "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Pinto Bean and Cheese Pupusas": {
+    "kind": "dish",
+    "portion": "1 piece",
+    "grams": 100,
+    "low": {
+      "cal": 200,
+      "protein": 8,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 260,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Plain Cream Cheese": {
     "kind": "topping",
-    "grams": 28,
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
-      "cal": 90,
+      "cal": 100,
       "protein": 2,
       "carbs": 1,
-      "fat": 9
+      "fat": 10
     },
     "high": {
       "cal": 110,
-      "protein": 3,
-      "carbs": 2,
+      "protein": 2,
+      "carbs": 1,
       "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Plain Crepe": {
     "kind": "dish",
+    "portion": "1 crepe",
     "grams": 50,
     "low": {
       "cal": 100,
@@ -1841,150 +1960,178 @@
       "fat": 2
     },
     "high": {
-      "cal": 140,
+      "cal": 130,
       "protein": 4,
-      "carbs": 20,
+      "carbs": 18,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Plain Greek Yogurt": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 cup",
+    "grams": 170,
     "low": {
-      "cal": 90,
-      "protein": 15,
-      "carbs": 6,
-      "fat": 1
+      "cal": 130,
+      "protein": 20,
+      "carbs": 7,
+      "fat": 0
     },
     "high": {
-      "cal": 130,
-      "protein": 18,
+      "cal": 160,
+      "protein": 22,
       "carbs": 8,
       "fat": 3
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Plain Pasta": {
     "kind": "dish",
-    "grams": 180,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
-      "cal": 280,
-      "protein": 10,
-      "carbs": 54,
-      "fat": 2
+      "cal": 180,
+      "protein": 6,
+      "carbs": 36,
+      "fat": 1
     },
     "high": {
-      "cal": 320,
-      "protein": 12,
-      "carbs": 60,
-      "fat": 4
+      "cal": 210,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Plant Based Caesar Salad": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 150,
+    "low": {
+      "cal": 200,
+      "protein": 6,
+      "carbs": 12,
+      "fat": 14
+    },
+    "high": {
+      "cal": 260,
+      "protein": 8,
+      "carbs": 14,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Plant Based Mayo": {
     "kind": "topping",
-    "grams": 15,
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
-      "cal": 90,
+      "cal": 180,
       "protein": 0,
       "carbs": 1,
-      "fat": 10
+      "fat": 20
     },
     "high": {
-      "cal": 110,
+      "cal": 210,
       "protein": 0,
       "carbs": 2,
-      "fat": 12
+      "fat": 23
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Poblano Cream Sauce": {
     "kind": "topping",
+    "portion": "1/4 cup",
     "grams": 60,
     "low": {
-      "cal": 100,
+      "cal": 80,
+      "protein": 1,
+      "carbs": 3,
+      "fat": 7
+    },
+    "high": {
+      "cal": 120,
       "protein": 2,
       "carbs": 4,
-      "fat": 8
-    },
-    "high": {
-      "cal": 150,
-      "protein": 3,
-      "carbs": 6,
-      "fat": 12
+      "fat": 10
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Pork Chorizo": {
-    "kind": "topping",
-    "grams": 45,
-    "low": {
-      "cal": 200,
-      "protein": 10,
-      "carbs": 1,
-      "fat": 17
-    },
-    "high": {
-      "cal": 240,
-      "protein": 12,
-      "carbs": 2,
-      "fat": 20
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Pork Chorizo, Egg  and Cheese Quesadilla": {
     "kind": "dish",
-    "grams": 200,
+    "portion": "1 link",
+    "grams": 50,
     "low": {
-      "cal": 480,
-      "protein": 22,
-      "carbs": 32,
-      "fat": 28
+      "cal": 160,
+      "protein": 9,
+      "carbs": 1,
+      "fat": 13
     },
     "high": {
-      "cal": 580,
-      "protein": 26,
-      "carbs": 38,
-      "fat": 34
+      "cal": 190,
+      "protein": 10,
+      "carbs": 2,
+      "fat": 15
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Pork Chorizo, Egg and Cheese Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 3,
+      "fat": 22
+    },
+    "high": {
+      "cal": 340,
+      "protein": 21,
+      "carbs": 4,
+      "fat": 27
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Pork Sausage Link": {
     "kind": "dish",
-    "grams": 55,
+    "portion": "1 link",
+    "grams": 45,
     "low": {
-      "cal": 160,
-      "protein": 12,
+      "cal": 140,
+      "protein": 10,
       "carbs": 1,
-      "fat": 12
+      "fat": 11
     },
     "high": {
-      "cal": 200,
-      "protein": 14,
-      "carbs": 2,
-      "fat": 16
+      "cal": 170,
+      "protein": 11,
+      "carbs": 1,
+      "fat": 13
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Powdered Sugar": {
     "kind": "topping",
+    "portion": "1 tbsp",
     "grams": 8,
     "low": {
       "cal": 30,
@@ -2000,48 +2147,51 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Queso Fresco": {
     "kind": "topping",
-    "grams": 28,
+    "portion": "1/4 cup",
+    "grams": 30,
     "low": {
-      "cal": 100,
-      "protein": 6,
+      "cal": 110,
+      "protein": 7,
       "carbs": 1,
-      "fat": 8
+      "fat": 9
     },
     "high": {
-      "cal": 120,
-      "protein": 7,
-      "carbs": 2,
+      "cal": 130,
+      "protein": 8,
+      "carbs": 1,
       "fat": 10
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Raisins": {
     "kind": "topping",
-    "grams": 28,
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
-      "cal": 80,
-      "protein": 1,
-      "carbs": 21,
-      "fat": 0
-    },
-    "high": {
-      "cal": 90,
+      "cal": 85,
       "protein": 1,
       "carbs": 23,
       "fat": 0
     },
+    "high": {
+      "cal": 95,
+      "protein": 1,
+      "carbs": 25,
+      "fat": 0
+    },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Ranch Dressing": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 140,
@@ -2050,265 +2200,299 @@
       "fat": 14
     },
     "high": {
-      "cal": 180,
+      "cal": 170,
       "protein": 1,
-      "carbs": 4,
-      "fat": 18
+      "carbs": 3,
+      "fat": 17
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Ratatouille": {
     "kind": "dish",
-    "grams": 180,
+    "portion": "1 scoop",
+    "grams": 120,
     "low": {
-      "cal": 100,
-      "protein": 3,
-      "carbs": 12,
-      "fat": 5
+      "cal": 70,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 3
     },
     "high": {
-      "cal": 160,
-      "protein": 4,
-      "carbs": 16,
-      "fat": 9
+      "cal": 110,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Red Wine Beef Bourguignon": {
     "kind": "dish",
-    "grams": 200,
+    "portion": "1 scoop",
+    "grams": 160,
     "low": {
-      "cal": 280,
-      "protein": 32,
+      "cal": 220,
+      "protein": 26,
       "carbs": 8,
-      "fat": 12
+      "fat": 9
     },
     "high": {
-      "cal": 360,
-      "protein": 38,
-      "carbs": 12,
-      "fat": 18
+      "cal": 280,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 13
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Rice Noodles": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
       "cal": 190,
-      "protein": 4,
+      "protein": 3,
       "carbs": 42,
       "fat": 1
     },
     "high": {
       "cal": 220,
-      "protein": 5,
-      "carbs": 48,
+      "protein": 4,
+      "carbs": 46,
       "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Roasted Beef with Tomato Bruschetta": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 140,
     "low": {
-      "cal": 240,
+      "cal": 200,
       "protein": 28,
-      "carbs": 12,
-      "fat": 8
+      "carbs": 6,
+      "fat": 7
     },
     "high": {
-      "cal": 320,
-      "protein": 34,
-      "carbs": 16,
-      "fat": 14
+      "cal": 260,
+      "protein": 32,
+      "carbs": 8,
+      "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Roasted Breakfast Potato Medley": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 24,
+      "fat": 4
+    },
+    "high": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Roasted Broccoli": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
-      "cal": 80,
-      "protein": 6,
-      "carbs": 12,
-      "fat": 2
-    },
-    "high": {
-      "cal": 130,
-      "protein": 8,
-      "carbs": 16,
-      "fat": 5
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Roasted Chicken with Apricot Peach Glaze": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 240,
-      "protein": 32,
-      "carbs": 12,
-      "fat": 6
-    },
-    "high": {
-      "cal": 310,
-      "protein": 36,
-      "carbs": 18,
-      "fat": 12
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Roasted Cilantro Lime Glazed Chicken": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 220,
-      "protein": 34,
-      "carbs": 4,
-      "fat": 8
-    },
-    "high": {
-      "cal": 280,
-      "protein": 38,
+      "cal": 50,
+      "protein": 4,
       "carbs": 8,
-      "fat": 12
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Roasted Okinawa Sweet Potatoes": {
-    "kind": "dish",
-    "grams": 150,
-    "low": {
-      "cal": 100,
-      "protein": 2,
-      "carbs": 22,
       "fat": 1
     },
     "high": {
-      "cal": 140,
-      "protein": 3,
+      "cal": 80,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Roasted Chicken with Apricot Peach Glaze": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 220,
+      "protein": 32,
+      "carbs": 8,
+      "fat": 7
+    },
+    "high": {
+      "cal": 280,
+      "protein": 35,
+      "carbs": 12,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Roasted Cilantro Lime Glazed Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 200,
+      "protein": 28,
+      "carbs": 3,
+      "fat": 9
+    },
+    "high": {
+      "cal": 240,
+      "protein": 32,
+      "carbs": 5,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Roasted Okinawan Sweet Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 110,
+      "protein": 2,
+      "carbs": 24,
+      "fat": 0
+    },
+    "high": {
+      "cal": 150,
+      "protein": 2,
       "carbs": 28,
       "fat": 3
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Roasted Parmesan and Herb Potato Wedges": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 scoop",
+    "grams": 140,
     "low": {
-      "cal": 200,
-      "protein": 6,
-      "carbs": 26,
+      "cal": 180,
+      "protein": 4,
+      "carbs": 22,
       "fat": 8
     },
     "high": {
-      "cal": 280,
-      "protein": 8,
-      "carbs": 32,
-      "fat": 14
+      "cal": 220,
+      "protein": 5,
+      "carbs": 25,
+      "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Roasted Zucchini with Cotija": {
     "kind": "dish",
-    "grams": 140,
+    "portion": "1 scoop",
+    "grams": 110,
     "low": {
-      "cal": 110,
-      "protein": 6,
-      "carbs": 8,
+      "cal": 90,
+      "protein": 4,
+      "carbs": 6,
       "fat": 6
     },
     "high": {
-      "cal": 160,
-      "protein": 8,
-      "carbs": 12,
-      "fat": 10
+      "cal": 130,
+      "protein": 5,
+      "carbs": 8,
+      "fat": 9
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Rosated Brussels Sprouts with Golden Raisins and Shallots": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 scoop",
+    "grams": 120,
     "low": {
-      "cal": 120,
+      "cal": 110,
       "protein": 3,
       "carbs": 16,
-      "fat": 5
+      "fat": 4
     },
     "high": {
-      "cal": 160,
+      "cal": 150,
       "protein": 4,
-      "carbs": 18,
-      "fat": 8
+      "carbs": 20,
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sauteed Baby Corn": {
     "kind": "dish",
-    "grams": 120,
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 50,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 1
+    },
+    "high": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Sauteed Sugar Snap Peas": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
       "cal": 60,
-      "protein": 2,
+      "protein": 3,
       "carbs": 8,
       "fat": 2
     },
     "high": {
-      "cal": 100,
-      "protein": 3,
-      "carbs": 10,
-      "fat": 5
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Sauteed Sugar Snap Peas": {
-    "kind": "dish",
-    "grams": 120,
-    "low": {
-      "cal": 50,
-      "protein": 3,
-      "carbs": 7,
-      "fat": 1
-    },
-    "high": {
       "cal": 90,
       "protein": 4,
-      "carbs": 9,
+      "carbs": 10,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Saut\u00e9ed Swiss Chard": {
     "kind": "dish",
-    "grams": 130,
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
       "cal": 50,
       "protein": 2,
@@ -2316,17 +2500,18 @@
       "fat": 2
     },
     "high": {
-      "cal": 90,
+      "cal": 80,
       "protein": 3,
       "carbs": 8,
-      "fat": 5
+      "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Scrambled Eggs": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 100,
     "low": {
       "cal": 140,
@@ -2338,34 +2523,36 @@
       "cal": 180,
       "protein": 14,
       "carbs": 2,
-      "fat": 14
+      "fat": 13
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sesame Barley Stir Fry with Thai Basil": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
-      "cal": 180,
+      "cal": 160,
       "protein": 5,
       "carbs": 28,
-      "fat": 5
+      "fat": 3
     },
     "high": {
-      "cal": 240,
-      "protein": 7,
+      "cal": 210,
+      "protein": 6,
       "carbs": 32,
-      "fat": 9
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sesame Chickpea, Edamame and Veggie Stir Fry": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
       "cal": 180,
       "protein": 8,
@@ -2380,29 +2567,31 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Shredded Lettuce": {
     "kind": "topping",
-    "grams": 40,
+    "portion": "1 cup",
+    "grams": 50,
     "low": {
-      "cal": 5,
-      "protein": 0,
+      "cal": 8,
+      "protein": 1,
       "carbs": 1,
       "fat": 0
     },
     "high": {
-      "cal": 10,
+      "cal": 12,
       "protein": 1,
       "carbs": 2,
       "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Shredded Monterey Jack and Cheddar Cheese Blend": {
     "kind": "topping",
+    "portion": "1/4 cup",
     "grams": 28,
     "low": {
       "cal": 110,
@@ -2418,10 +2607,11 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced American Cheese": {
     "kind": "topping",
+    "portion": "1 slice",
     "grams": 21,
     "low": {
       "cal": 70,
@@ -2437,68 +2627,72 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced Black Olives": {
     "kind": "topping",
-    "grams": 28,
+    "portion": "2 tbsp",
+    "grams": 16,
     "low": {
-      "cal": 40,
+      "cal": 25,
       "protein": 0,
-      "carbs": 2,
-      "fat": 4
+      "carbs": 1,
+      "fat": 2
     },
     "high": {
-      "cal": 50,
-      "protein": 1,
-      "carbs": 3,
-      "fat": 5
+      "cal": 35,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 3
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced French Bread": {
     "kind": "topping",
-    "grams": 45,
+    "portion": "1 slice",
+    "grams": 40,
     "low": {
-      "cal": 110,
-      "protein": 4,
-      "carbs": 21,
+      "cal": 100,
+      "protein": 3,
+      "carbs": 19,
       "fat": 1
     },
     "high": {
       "cal": 130,
-      "protein": 5,
-      "carbs": 23,
+      "protein": 4,
+      "carbs": 22,
       "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced Ham": {
     "kind": "topping",
-    "grams": 45,
+    "portion": "2 slices",
+    "grams": 30,
     "low": {
       "cal": 60,
-      "protein": 9,
+      "protein": 10,
       "carbs": 1,
       "fat": 2
     },
     "high": {
       "cal": 90,
-      "protein": 11,
+      "protein": 12,
       "carbs": 2,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced Honey Multi Grain Bread": {
     "kind": "topping",
-    "grams": 45,
+    "portion": "1 slice",
+    "grams": 40,
     "low": {
       "cal": 110,
       "protein": 4,
@@ -2509,34 +2703,36 @@
       "cal": 140,
       "protein": 5,
       "carbs": 24,
-      "fat": 3
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Sliced Honey Wheat Bread": {
-    "kind": "topping",
-    "grams": 45,
-    "low": {
-      "cal": 110,
-      "protein": 4,
-      "carbs": 21,
-      "fat": 1
-    },
-    "high": {
-      "cal": 130,
-      "protein": 5,
-      "carbs": 23,
       "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Sliced Honey Wheat Bread": {
+    "kind": "topping",
+    "portion": "1 slice",
+    "grams": 40,
+    "low": {
+      "cal": 110,
+      "protein": 4,
+      "carbs": 20,
+      "fat": 1
+    },
+    "high": {
+      "cal": 140,
+      "protein": 5,
+      "carbs": 24,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Sliced Mushrooms": {
     "kind": "topping",
-    "grams": 40,
+    "portion": "1/4 cup",
+    "grams": 20,
     "low": {
       "cal": 5,
       "protein": 1,
@@ -2551,30 +2747,32 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced Sourdough Bread": {
     "kind": "topping",
-    "grams": 45,
+    "portion": "1 slice",
+    "grams": 40,
     "low": {
-      "cal": 110,
-      "protein": 4,
-      "carbs": 21,
+      "cal": 100,
+      "protein": 3,
+      "carbs": 19,
       "fat": 1
     },
     "high": {
       "cal": 130,
-      "protein": 5,
-      "carbs": 23,
+      "protein": 4,
+      "carbs": 22,
       "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced Tomatoes": {
     "kind": "topping",
-    "grams": 50,
+    "portion": "2 slices",
+    "grams": 40,
     "low": {
       "cal": 8,
       "protein": 0,
@@ -2589,11 +2787,12 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sliced Turkey": {
     "kind": "topping",
-    "grams": 45,
+    "portion": "2 slices",
+    "grams": 30,
     "low": {
       "cal": 50,
       "protein": 11,
@@ -2608,48 +2807,51 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sloppy Lentils": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
-      "cal": 160,
-      "protein": 10,
-      "carbs": 22,
+      "cal": 180,
+      "protein": 12,
+      "carbs": 24,
       "fat": 3
     },
     "high": {
-      "cal": 210,
-      "protein": 12,
-      "carbs": 26,
+      "cal": 240,
+      "protein": 14,
+      "carbs": 28,
       "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Smashed Pinto Beans": {
     "kind": "dish",
-    "grams": 140,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
-      "cal": 120,
-      "protein": 7,
-      "carbs": 18,
-      "fat": 2
+      "cal": 140,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 1
     },
     "high": {
-      "cal": 160,
-      "protein": 8,
-      "carbs": 21,
-      "fat": 4
+      "cal": 180,
+      "protein": 10,
+      "carbs": 26,
+      "fat": 3
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sour Cream": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
       "cal": 60,
@@ -2665,29 +2867,11 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
-  },
-  "Sourdough French Toast with Strawberries": {
-    "kind": "dish",
-    "grams": 180,
-    "low": {
-      "cal": 280,
-      "protein": 8,
-      "carbs": 38,
-      "fat": 10
-    },
-    "high": {
-      "cal": 360,
-      "protein": 10,
-      "carbs": 44,
-      "fat": 15
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Southwestern Corn Chowder": {
     "kind": "dish",
+    "portion": "1 cup",
     "grams": 240,
     "low": {
       "cal": 200,
@@ -2698,54 +2882,77 @@
     "high": {
       "cal": 280,
       "protein": 8,
-      "carbs": 32,
-      "fat": 12
+      "carbs": 34,
+      "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Spicy Imitation Crab Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 140,
+      "protein": 10,
+      "carbs": 8,
+      "fat": 7
+    },
+    "high": {
+      "cal": 190,
+      "protein": 12,
+      "carbs": 12,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Spicy Salsa Molcajete": {
     "kind": "topping",
-    "grams": 35,
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
-      "cal": 15,
+      "cal": 10,
       "protein": 0,
-      "carbs": 3,
+      "carbs": 2,
       "fat": 0
     },
     "high": {
-      "cal": 25,
+      "cal": 20,
       "protein": 1,
-      "carbs": 4,
-      "fat": 1
+      "carbs": 3,
+      "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Spicy Salsa Verde": {
     "kind": "topping",
-    "grams": 35,
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
-      "cal": 15,
+      "cal": 10,
       "protein": 0,
-      "carbs": 3,
+      "carbs": 2,
       "fat": 0
     },
     "high": {
-      "cal": 25,
+      "cal": 20,
       "protein": 1,
-      "carbs": 4,
-      "fat": 1
+      "carbs": 3,
+      "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Steamed Baby Bok Choy": {
     "kind": "dish",
-    "grams": 130,
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
       "cal": 20,
       "protein": 2,
@@ -2753,74 +2960,78 @@
       "fat": 0
     },
     "high": {
-      "cal": 40,
+      "cal": 35,
       "protein": 3,
       "carbs": 4,
       "fat": 1
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Steamed Jasmine Rice": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 150,
     "low": {
       "cal": 190,
       "protein": 4,
-      "carbs": 43,
+      "carbs": 42,
       "fat": 0
     },
     "high": {
-      "cal": 210,
-      "protein": 4,
-      "carbs": 45,
+      "cal": 220,
+      "protein": 5,
+      "carbs": 46,
       "fat": 1
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Strawberry Yogurt": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 cup",
+    "grams": 170,
     "low": {
-      "cal": 120,
-      "protein": 5,
-      "carbs": 20,
+      "cal": 150,
+      "protein": 6,
+      "carbs": 26,
       "fat": 2
     },
     "high": {
-      "cal": 160,
-      "protein": 6,
-      "carbs": 24,
+      "cal": 200,
+      "protein": 8,
+      "carbs": 32,
       "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Street Corn Pizza with Chipotle Aioli and Cotija": {
     "kind": "dish",
-    "grams": 200,
+    "portion": "1 slice",
+    "grams": 140,
     "low": {
-      "cal": 380,
-      "protein": 12,
-      "carbs": 42,
-      "fat": 18
+      "cal": 280,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 13
     },
     "high": {
-      "cal": 480,
-      "protein": 14,
-      "carbs": 48,
-      "fat": 24
+      "cal": 360,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 17
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sunflower Seed Butter": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 32,
     "low": {
       "cal": 190,
@@ -2836,10 +3047,11 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sweet Chile Jackfruit": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 140,
     "low": {
       "cal": 120,
@@ -2851,34 +3063,36 @@
       "cal": 160,
       "protein": 3,
       "carbs": 32,
-      "fat": 3
+      "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sweet Chile Sauce": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
-      "cal": 40,
+      "cal": 50,
       "protein": 0,
-      "carbs": 10,
+      "carbs": 12,
       "fat": 0
     },
     "high": {
-      "cal": 60,
+      "cal": 70,
       "protein": 0,
-      "carbs": 12,
-      "fat": 1
+      "carbs": 16,
+      "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sweet Potato, Corn and Black Bean Hash": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
       "cal": 140,
       "protein": 5,
@@ -2887,55 +3101,58 @@
     },
     "high": {
       "cal": 190,
-      "protein": 6,
-      "carbs": 30,
-      "fat": 5
+      "protein": 7,
+      "carbs": 32,
+      "fat": 4
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sweet and Bold BBQ Sauce": {
     "kind": "topping",
+    "portion": "2 tbsp",
     "grams": 30,
     "low": {
-      "cal": 40,
+      "cal": 50,
       "protein": 0,
-      "carbs": 10,
+      "carbs": 12,
       "fat": 0
     },
     "high": {
-      "cal": 60,
+      "cal": 70,
       "protein": 0,
-      "carbs": 12,
-      "fat": 1
+      "carbs": 16,
+      "fat": 0
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Sweet n' Sour Fried Battered Shrimp": {
     "kind": "dish",
+    "portion": "1 scoop",
     "grams": 140,
     "low": {
       "cal": 220,
-      "protein": 14,
+      "protein": 16,
       "carbs": 18,
-      "fat": 10
+      "fat": 9
     },
     "high": {
       "cal": 280,
-      "protein": 16,
+      "protein": 18,
       "carbs": 22,
-      "fat": 14
+      "fat": 12
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Tofu Cacciatore": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
       "cal": 140,
       "protein": 12,
@@ -2946,257 +3163,250 @@
       "cal": 190,
       "protein": 14,
       "carbs": 14,
-      "fat": 10
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "Tofu Chorizo": {
-    "kind": "dish",
-    "grams": 100,
-    "low": {
-      "cal": 120,
-      "protein": 10,
-      "carbs": 6,
-      "fat": 6
-    },
-    "high": {
-      "cal": 160,
-      "protein": 12,
-      "carbs": 8,
       "fat": 9
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Traditional Hummus": {
-    "kind": "topping",
-    "grams": 35,
+  "Tofu Chorizo": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
     "low": {
-      "cal": 100,
-      "protein": 3,
+      "cal": 140,
+      "protein": 10,
       "carbs": 8,
-      "fat": 6
+      "fat": 7
     },
     "high": {
-      "cal": 130,
-      "protein": 4,
-      "carbs": 10,
-      "fat": 8
+      "cal": 190,
+      "protein": 12,
+      "carbs": 12,
+      "fat": 10
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Tuna Salad": {
+  "Tostada Beef Carne Asada": {
     "kind": "dish",
-    "grams": 120,
+    "portion": "1 scoop",
+    "grams": 140,
     "low": {
-      "cal": 180,
-      "protein": 18,
+      "cal": 220,
+      "protein": 26,
       "carbs": 2,
-      "fat": 11
+      "fat": 12
     },
     "high": {
-      "cal": 240,
-      "protein": 20,
+      "cal": 280,
+      "protein": 30,
       "carbs": 4,
       "fat": 15
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Turkey Maple Sausage Links": {
-    "kind": "dish",
-    "grams": 110,
+  "Traditional Hummus": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
     "low": {
-      "cal": 240,
-      "protein": 20,
-      "carbs": 4,
-      "fat": 16
+      "cal": 70,
+      "protein": 2,
+      "carbs": 6,
+      "fat": 4
     },
     "high": {
-      "cal": 280,
-      "protein": 23,
-      "carbs": 6,
-      "fat": 19
+      "cal": 100,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
-  "Veggie Chorizo": {
+  "Tuna Salad": {
     "kind": "dish",
-    "grams": 85,
+    "portion": "1 scoop",
+    "grams": 120,
     "low": {
-      "cal": 160,
-      "protein": 10,
-      "carbs": 8,
+      "cal": 180,
+      "protein": 18,
+      "carbs": 4,
       "fat": 10
     },
     "high": {
-      "cal": 210,
-      "protein": 12,
-      "carbs": 10,
-      "fat": 13
+      "cal": 240,
+      "protein": 20,
+      "carbs": 6,
+      "fat": 14
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
+  },
+  "Turkey Maple Sausage Links": {
+    "kind": "dish",
+    "portion": "1 link",
+    "grams": 45,
+    "low": {
+      "cal": 70,
+      "protein": 10,
+      "carbs": 2,
+      "fat": 3
+    },
+    "high": {
+      "cal": 100,
+      "protein": 12,
+      "carbs": 3,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
+  },
+  "Veggie Chorizo": {
+    "kind": "topping",
+    "portion": "1 scoop",
+    "grams": 80,
+    "low": {
+      "cal": 100,
+      "protein": 6,
+      "carbs": 6,
+      "fat": 5
+    },
+    "high": {
+      "cal": 140,
+      "protein": 8,
+      "carbs": 8,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-09-22",
+    "v": 4
   },
   "Veggie Chorizo and Quinoa Skillet": {
     "kind": "dish",
-    "grams": 280,
+    "portion": "1 scoop",
+    "grams": 150,
     "low": {
-      "cal": 320,
-      "protein": 14,
-      "carbs": 38,
-      "fat": 12
+      "cal": 200,
+      "protein": 8,
+      "carbs": 26,
+      "fat": 7
     },
     "high": {
-      "cal": 400,
-      "protein": 17,
-      "carbs": 44,
-      "fat": 16
+      "cal": 270,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 11
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Veggie Chorizo, Potato, and Plant Based Cheese Burrito": {
     "kind": "dish",
-    "grams": 320,
+    "portion": "1 burrito",
+    "grams": 280,
     "low": {
       "cal": 480,
-      "protein": 16,
+      "protein": 14,
       "carbs": 62,
       "fat": 18
     },
     "high": {
-      "cal": 560,
-      "protein": 19,
-      "carbs": 68,
-      "fat": 23
+      "cal": 620,
+      "protein": 18,
+      "carbs": 72,
+      "fat": 26
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Veggie Chorizo, Spinach and Plant Based Cheese Quesadilla": {
     "kind": "dish",
-    "grams": 240,
+    "portion": "1 quesadilla",
+    "grams": 200,
     "low": {
-      "cal": 420,
-      "protein": 14,
-      "carbs": 44,
-      "fat": 20
+      "cal": 380,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 18
     },
     "high": {
       "cal": 500,
-      "protein": 17,
-      "carbs": 50,
-      "fat": 25
+      "protein": 15,
+      "carbs": 48,
+      "fat": 26
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Whipped Topping": {
     "kind": "topping",
-    "grams": 30,
+    "portion": "2 tbsp",
+    "grams": 10,
     "low": {
-      "cal": 80,
-      "protein": 1,
-      "carbs": 6,
-      "fat": 6
-    },
-    "high": {
-      "cal": 110,
-      "protein": 1,
-      "carbs": 8,
-      "fat": 8
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
-  },
-  "White Bun": {
-    "kind": "dish",
-    "grams": 45,
-    "low": {
-      "cal": 120,
-      "protein": 4,
-      "carbs": 22,
+      "cal": 25,
+      "protein": 0,
+      "carbs": 2,
       "fat": 1
     },
     "high": {
-      "cal": 140,
-      "protein": 5,
-      "carbs": 25,
+      "cal": 35,
+      "protein": 0,
+      "carbs": 3,
       "fat": 2
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Whole Grain Dijon Mustard Roasted Chicken": {
     "kind": "dish",
-    "grams": 150,
+    "portion": "1 scoop",
+    "grams": 140,
     "low": {
-      "cal": 240,
-      "protein": 35,
-      "carbs": 4,
+      "cal": 210,
+      "protein": 30,
+      "carbs": 2,
       "fat": 9
     },
     "high": {
-      "cal": 290,
-      "protein": 38,
-      "carbs": 6,
+      "cal": 260,
+      "protein": 34,
+      "carbs": 4,
       "fat": 12
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
-  },
-  "Whole Grain Mustard Chicken Salad": {
-    "kind": "dish",
-    "grams": 200,
-    "low": {
-      "cal": 280,
-      "protein": 28,
-      "carbs": 12,
-      "fat": 13
-    },
-    "high": {
-      "cal": 360,
-      "protein": 32,
-      "carbs": 16,
-      "fat": 18
-    },
-    "needs_review": false,
-    "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   },
   "Whole Steamed Edamame Pods": {
     "kind": "dish",
-    "grams": 160,
+    "portion": "1 scoop",
+    "grams": 100,
     "low": {
-      "cal": 140,
-      "protein": 12,
-      "carbs": 10,
-      "fat": 6
+      "cal": 95,
+      "protein": 11,
+      "carbs": 7,
+      "fat": 4
     },
     "high": {
-      "cal": 180,
-      "protein": 15,
-      "carbs": 12,
-      "fat": 8
+      "cal": 130,
+      "protein": 13,
+      "carbs": 9,
+      "fat": 6
     },
     "needs_review": false,
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   }
 }

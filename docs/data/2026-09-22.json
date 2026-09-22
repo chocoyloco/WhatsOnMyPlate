@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updated": "2026-09-22T01:32:40.816102-07:00",
+  "updated": "2026-09-22T13:13:19.024010-07:00",
   "halls": [
     {
       "code": "evk",
@@ -334,7 +334,7 @@
                   ]
                 },
                 {
-                  "name": "Mexican Pork Chorizo Pizza",
+                  "name": "Meat Lovers' Pizza",
                   "allergens": [
                     "dairy",
                     "pork",
@@ -386,7 +386,7 @@
                   ]
                 },
                 {
-                  "name": "Mulita Bar Beef Carne Asada",
+                  "name": "Tostada Beef Carne Asada",
                   "allergens": [],
                   "tags": []
                 },
@@ -463,13 +463,14 @@
                   ]
                 },
                 {
-                  "name": "Chicken Kale Caesar Salad",
+                  "name": "Plant Based Caesar Salad",
                   "allergens": [
-                    "dairy",
-                    "eggs",
                     "soy"
                   ],
-                  "tags": []
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
                 },
                 {
                   "name": "Chicken Tortilla Soup",
@@ -507,13 +508,14 @@
                   ]
                 },
                 {
-                  "name": "Chicken Kale Caesar Salad",
+                  "name": "Plant Based Caesar Salad",
                   "allergens": [
-                    "dairy",
-                    "eggs",
                     "soy"
                   ],
-                  "tags": []
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
                 },
                 {
                   "name": "Chicken Tortilla Soup",
@@ -599,7 +601,7 @@
                   ]
                 },
                 {
-                  "name": "Roasted Okinawa Sweet Potatoes",
+                  "name": "Roasted Okinawan Sweet Potatoes",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -670,7 +672,7 @@
                   ]
                 },
                 {
-                  "name": "Mulita Bar Beef Carne Asada",
+                  "name": "Tostada Beef Carne Asada",
                   "allergens": [],
                   "tags": []
                 },
@@ -732,6 +734,16 @@
                     "halal-ingredients",
                     "vegan"
                   ]
+                },
+                {
+                  "name": "Meat Lovers' Pizza",
+                  "allergens": [
+                    "dairy",
+                    "pork",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
                 }
               ]
             }
@@ -926,13 +938,11 @@
                   ]
                 },
                 {
-                  "name": "Pork Chorizo, Egg  and Cheese Quesadilla",
+                  "name": "Pork Chorizo, Egg and Cheese Scramble",
                   "allergens": [
                     "dairy",
                     "eggs",
-                    "pork",
-                    "soy",
-                    "gluten"
+                    "pork"
                   ],
                   "tags": []
                 },
@@ -957,10 +967,8 @@
                   ]
                 },
                 {
-                  "name": "Griddled Papas a la Mexicana",
-                  "allergens": [
-                    "soy"
-                  ],
+                  "name": "Roasted Breakfast Potato Medley",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
@@ -1163,43 +1171,26 @@
               "station": "Bistro",
               "items": [
                 {
-                  "name": "Boca Burger Veggie Patty",
+                  "name": "Boca Burger on Martin's Potato Bun",
                   "allergens": [
+                    "dairy",
+                    "sesame",
                     "soy",
                     "gluten"
                   ],
                   "tags": [
                     "halal-ingredients",
-                    "vegan"
+                    "vegetarian"
                   ]
                 },
                 {
-                  "name": "Beef Burger Patty",
-                  "allergens": [],
-                  "tags": []
-                },
-                {
-                  "name": "Martin's Famous Potato Bun",
+                  "name": "Beef Burger on Martin's Potato Bun",
                   "allergens": [
                     "dairy",
                     "sesame",
                     "gluten"
                   ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "White Bun",
-                  "allergens": [
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
+                  "tags": []
                 },
                 {
                   "name": "Bacon",
@@ -1335,13 +1326,17 @@
                   ]
                 },
                 {
-                  "name": "Whole Grain Mustard Chicken Salad",
+                  "name": "Spicy Imitation Crab Salad",
                   "allergens": [
-                    "soy"
+                    "dairy",
+                    "eggs",
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "gluten"
                   ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
+                  "tags": []
                 },
                 {
                   "name": "Pepperoni Pizza",
@@ -1352,6 +1347,18 @@
                     "gluten"
                   ],
                   "tags": []
+                },
+                {
+                  "name": "Cheese Pizza",
+                  "allergens": [
+                    "dairy",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
                 }
               ]
             },
@@ -1475,43 +1482,26 @@
               "station": "Bistro",
               "items": [
                 {
-                  "name": "Boca Burger Veggie Patty",
+                  "name": "Boca Burger on Martin's Potato Bun",
                   "allergens": [
+                    "dairy",
+                    "sesame",
                     "soy",
                     "gluten"
                   ],
                   "tags": [
                     "halal-ingredients",
-                    "vegan"
+                    "vegetarian"
                   ]
                 },
                 {
-                  "name": "Beef Burger Patty",
-                  "allergens": [],
-                  "tags": []
-                },
-                {
-                  "name": "Martin's Famous Potato Bun",
+                  "name": "Beef Burger on Martin's Potato Bun",
                   "allergens": [
                     "dairy",
                     "sesame",
                     "gluten"
                   ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "White Bun",
-                  "allergens": [
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
+                  "tags": []
                 },
                 {
                   "name": "Bacon",
@@ -1760,13 +1750,17 @@
                   ]
                 },
                 {
-                  "name": "Whole Grain Mustard Chicken Salad",
+                  "name": "Spicy Imitation Crab Salad",
                   "allergens": [
-                    "soy"
+                    "dairy",
+                    "eggs",
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "gluten"
                   ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
+                  "tags": []
                 },
                 {
                   "name": "Pepperoni Pizza",
@@ -1777,6 +1771,18 @@
                     "gluten"
                   ],
                   "tags": []
+                },
+                {
+                  "name": "Cheese Pizza",
+                  "allergens": [
+                    "dairy",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
                 }
               ]
             }
@@ -1918,10 +1924,9 @@
               "station": "Expo",
               "items": [
                 {
-                  "name": "Sourdough French Toast with Strawberries",
+                  "name": "Fried Falafel",
                   "allergens": [
-                    "soy",
-                    "gluten"
+                    "soy"
                   ],
                   "tags": [
                     "vegan"
@@ -2180,33 +2185,22 @@
               "station": "Grill",
               "items": [
                 {
-                  "name": "Mango Caprese Balsamic Foccacia Sandwich",
-                  "allergens": [
-                    "dairy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Mango Chicken Salad Hoagie Sandwich",
-                  "allergens": [
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
                   "name": "House Fried Salt and Vinegar Chips",
                   "allergens": [
                     "soy"
                   ],
                   "tags": [
                     "vegan"
+                  ]
+                },
+                {
+                  "name": "Pinto Bean and Cheese Pupusas",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
                   ]
                 },
                 {
@@ -2226,6 +2220,31 @@
                     "gluten"
                   ],
                   "tags": []
+                },
+                {
+                  "name": "Corn, Poblano Peppers, and Onion",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Curtido (Salvadoran Cabbage Jalapeno  Slaw)",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cotija Cheese",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
                 },
                 {
                   "name": "Spicy Salsa Molcajete",
@@ -2512,16 +2531,6 @@
                   ]
                 },
                 {
-                  "name": "Creamy Cauliflower Mash",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
                   "name": "Chipotle Sweet Potato Mash",
                   "allergens": [
                     "dairy"
@@ -2532,24 +2541,27 @@
                   ]
                 },
                 {
-                  "name": "Plain Pasta",
+                  "name": "Pasta with Cheddar Cheese Sauce",
                   "allergens": [
+                    "dairy",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Pan de Agua",
+                  "allergens": [
+                    "sesame",
+                    "soy",
                     "gluten"
                   ],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
-                  ]
-                },
-                {
-                  "name": "Cheddar Cheese Sauce",
-                  "allergens": [
-                    "dairy",
-                    "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
                   ]
                 }
               ]
@@ -2570,6 +2582,15 @@
             {
               "station": "Crepes",
               "items": [
+                {
+                  "name": "Chocolate Ice Cream",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
                 {
                   "name": "Plain Crepe",
                   "allergens": [
@@ -2652,33 +2673,22 @@
               "station": "Grill",
               "items": [
                 {
-                  "name": "Mango Caprese Balsamic Foccacia Sandwich",
-                  "allergens": [
-                    "dairy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Mango Chicken Salad Hoagie Sandwich",
-                  "allergens": [
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
                   "name": "House Fried Salt and Vinegar Chips",
                   "allergens": [
                     "soy"
                   ],
                   "tags": [
                     "vegan"
+                  ]
+                },
+                {
+                  "name": "Pinto Bean and Cheese Pupusas",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
                   ]
                 },
                 {
@@ -2698,6 +2708,31 @@
                     "gluten"
                   ],
                   "tags": []
+                },
+                {
+                  "name": "Corn, Poblano Peppers, and Onion",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Curtido (Salvadoran Cabbage Jalapeno  Slaw)",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cotija Cheese",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
                 },
                 {
                   "name": "Spicy Salsa Molcajete",
@@ -2804,20 +2839,11 @@
                   ]
                 },
                 {
-                  "name": "Plain Pasta",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Cheddar Cheese Sauce",
+                  "name": "Pasta with Cheddar Cheese Sauce",
                   "allergens": [
                     "dairy",
-                    "soy"
+                    "soy",
+                    "gluten"
                   ],
                   "tags": [
                     "halal-ingredients",
@@ -3035,6 +3061,15 @@
             {
               "station": "Crepes",
               "items": [
+                {
+                  "name": "Chocolate Ice Cream",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
                 {
                   "name": "Plain Crepe",
                   "allergens": [
