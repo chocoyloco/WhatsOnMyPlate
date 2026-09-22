@@ -6,7 +6,7 @@
 <title>MyMeal — build your plate from today's USC dining hall menus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=DM+Sans:wght@500;600;700&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-page="meal">
@@ -18,9 +18,13 @@
     <p class="date" id="date">Loading today's menus…</p>
     <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
     <div class="row" id="meals" role="group" aria-label="Meal"></div>
-    <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
-    <p class="key"><span></span>Protein pick — build your plate around these</p>
-    <p class="hint">Tap a dish to add it to your plate.</p>
+    <p class="hint">Tap a dish to add it to your plate. Green rows are the highest-protein options.</p>
+
+    <section id="picks-wrap" hidden>
+      <h2 class="chunky">Protein picks</h2>
+      <div id="picks"></div>
+    </section>
+
     <div id="menu"></div>
 
     <section id="saved-wrap" hidden>
@@ -32,7 +36,7 @@
   <!-- The plate: a sidebar on wide screens, a bar at the bottom of the screen on phones -->
   <aside class="plate" id="plate" aria-label="Your plate">
     <button class="plate-handle" id="plateHandle" aria-expanded="false" aria-controls="plate-body">
-      <span class="chunky" id="handleCount">Your plate</span>
+      <span class="count" id="handleCount">Your plate</span>
       <span id="handleCals">Nothing added yet</span>
     </button>
 
@@ -86,6 +90,7 @@ let plate = [];        // [{ name, size }]
 const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.createElement(tag), props); n.append(...kids); return n; };
 const $ = id => document.getElementById(id);
 const estimateFor = name => nutrition[name] || null;
+const portionOf = est => est.portion || (est.grams ? `${est.grams} g` : "1 serving");
 const isCountable = name => { const e = estimateFor(name); return e && e.low && e.high && e.kind !== "not_a_dish"; };
 
 // ---------- menu ----------
@@ -126,27 +131,42 @@ function renderMeals() {
   pick(box, meal, renderMenu);
 }
 
+function renderPicks(stations) {
+  const wrap = $("picks-wrap"), box = $("picks");
+  box.replaceChildren();
+  const all = stations.flatMap(st => st.items.map(i => ({ ...i, name: i.name.trim() })));
+  const ranked = all
+    .filter(i => isCountable(i.name))
+    .map(i => ({ item: i, protein: estimateFor(i.name).high.protein }))
+    .filter(p => p.protein >= 10)
+    .sort((a, b) => b.protein - a.protein)
+    .slice(0, 10);
+  wrap.hidden = !ranked.length;
+  if (!ranked.length) return;
+  box.append(el("ul", { className: "items" }, ...ranked.map(p => menuRow({ ...p.item, protein: true }))));
+}
+
 function renderMenu() {
   const out = $("menu");
   out.replaceChildren();
   const h = data.halls.find(x => x.code === hall);
   const m = h.meals.find(x => x.meal === meal);
   if (!m) {
+    $("picks-wrap").hidden = true;
     out.append(el("p", { className: "empty", textContent: h.error
       ? "This hall's menu didn't load today. Check back after the next update."
       : "No menu posted for this hall today." }));
     return;
   }
-  const only = $("onlyProtein").checked;
+  renderPicks(m.stations);
   m.stations.forEach(st => {
     const items = st.items
-      .map(i => ({ ...i, name: i.name.trim(), protein: PROTEIN.test(i.name) && !NOT_PROTEIN.test(i.name) }))
-      .filter(i => !only || i.protein);
+      .map(i => ({ ...i, name: i.name.trim(), protein: PROTEIN.test(i.name) && !NOT_PROTEIN.test(i.name) }));
     if (!items.length) return;
     out.append(el("h2", { className: "chunky", textContent: st.station }),
       el("ul", { className: "items" }, ...items.map(menuRow)));
   });
-  if (!out.children.length) out.append(el("p", { className: "empty", textContent: "No protein picks at this meal. Try another hall." }));
+  if (!out.children.length) out.append(el("p", { className: "empty", textContent: "No menu posted for this meal. Try another hall." }));
 }
 
 function menuRow(item) {
@@ -161,7 +181,7 @@ function menuRow(item) {
   if (est && est.kind === "not_a_dish") {
     line = el("span", { className: "est muted", textContent: "Ask at the station" });
   } else if (isCountable(item.name)) {
-    line = el("span", { className: "est", textContent: `${est.portion} · ${est.low.cal}–${est.high.cal} cal · ${est.low.protein}–${est.high.protein} g protein` });
+    line = el("span", { className: "est", textContent: `${portionOf(est)} · ${est.low.cal}–${est.high.cal} cal · ${est.low.protein}–${est.high.protein} g protein` });
   } else {
     line = el("span", { className: "est muted", textContent: "No estimate yet" });
   }
@@ -238,7 +258,7 @@ function renderPlate() {
         sizes.append(b);
       });
       line.append(sizes,
-        el("div", { className: "plate-est", textContent: `${est.portion} · ${s.low.cal}–${s.high.cal} cal · ${s.low.protein}–${s.high.protein} g protein` }));
+        el("div", { className: "plate-est", textContent: `${portionOf(est)} · ${s.low.cal}–${s.high.cal} cal · ${s.low.protein}–${s.high.protein} g protein` }));
     } else {
       line.append(el("div", { className: "plate-est muted", textContent: "No estimate yet — not counted below" }));
     }
@@ -251,7 +271,7 @@ function renderPlate() {
   if (plate.length) {
     box.append(
       el("div", { className: "total-cal" },
-        el("span", { className: "chunky", textContent: `${sum.low.cal}–${sum.high.cal}` }),
+        el("span", { className: "figure", textContent: `${sum.low.cal}–${sum.high.cal}` }),
         el("span", { className: "unit", textContent: "calories" })),
       el("div", { className: "macros" },
         ...[["Protein", "protein"], ["Carbs", "carbs"], ["Fat", "fat"]].map(([label, k]) =>
@@ -334,7 +354,6 @@ $("plateHandle").onclick = () => {
 };
 $("savePlate").onclick = savePlate;
 $("clearPlate").onclick = () => { plate = []; renderPlate(); renderMenu(); };
-$("onlyProtein").onchange = renderMenu;
 
 Promise.all([
   fetch("data/latest.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error("no menu"); return r.json(); }),

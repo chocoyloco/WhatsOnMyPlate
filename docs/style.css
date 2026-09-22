@@ -1,34 +1,26 @@
 /* ============================================================
-   What's On My Plate — shared styles for every page
-   Look: mustard crumpled paper, chunky white type, black outline
+   What's On My Plate — shared styles
+   Pale yellow paper, green plates, blue wordmark.
+   Type: DM Sans (headings + body), Arvo (plate items), Quicksand (macros)
    ============================================================ */
 
-/* ---- FONT: swap in "Lazy Dog" later --------------------------------
-   1. Upload your font file (e.g. LazyDog.ttf) into the docs folder.
-   2. Delete the comment markers just above and below the @font-face block.
-   3. Make sure the file name in url("...") matches your upload.
-   Until then, the page falls back to "Chewy" (loaded from Google Fonts
-   in each page's <head>), which is a similar chunky, playful font.
--------------------------------------------------------------------- */
-/*
-@font-face {
-  font-family: "Lazy Dog";
-  src: url("LazyDog.ttf") format("truetype");
-  font-display: swap;
-}
-*/
-
 :root {
-  --paper: #e4ac58;          /* mustard, sampled from the banner */
-  --ink: #1b1b1b;            /* the black outline */
-  --chalk: #f7f3f3;          /* the white letters */
-  --card: #fff6e2;           /* cream, for readable text panels */
-  --green: #3c8a2e;          /* protein pick highlight */
-  --green-tint: #e4f1d3;
-  --muted: #5a4a2e;
+  --paper:  #feffd7;    /* background, sampled from the banner */
+  --ink:    #1f2417;    /* borders and body text */
+  --pine:   #3e582d;    /* headings */
+  --leaf:   #92bc76;    /* plates: panel, selected buttons */
+  --leaf-soft: #d8e9c8; /* protein highlight */
+  --sky:    #5796f7;    /* the wordmark blue: buttons, focus */
+  --card:   #ffffff;
+  --muted:  #6b7360;
 
-  --font-display: "Lazy Dog", "Chewy", "Comic Sans MS", cursive;
-  --font-body: "Fredoka", system-ui, sans-serif;
+  --font-head: "DM Sans", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-plate: "Arvo", Georgia, serif;
+  --font-macro: "Quicksand", system-ui, sans-serif;
+
+  --edge: 2px solid var(--ink);
+  --pop: 4px 4px 0 var(--ink);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -37,91 +29,82 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 500 17px/1.5 var(--font-body);
+  font: 500 17px/1.55 var(--font-body);
   padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
   min-height: 100vh;
 }
 
-/* Crumpled paper stays put while the page scrolls over it */
+/* The plates sit behind the page and stay put while it scrolls */
 body::before {
   content: "";
   position: fixed; inset: 0; z-index: -1;
-  background: var(--paper) url("paper.jpg") center / cover no-repeat;
+  background: var(--paper) url("plates.jpg") center / cover no-repeat;
 }
 
-.wrap { max-width: 860px; margin: 0 auto; padding: 0 18px; }
-main.wrap { padding-top: 8px; padding-bottom: 60px; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 0 18px; }
+main.wrap { padding-top: 6px; padding-bottom: 60px; }
 
 .sr-only {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap;
 }
 
-/* ---- Chunky outlined type (matches the banner) ---- */
+/* ---- Headings ---- */
 .chunky {
-  font-family: var(--font-display);
-  font-weight: 400;
-  color: var(--chalk);
-  -webkit-text-stroke: .16em var(--ink);
-  paint-order: stroke fill;            /* outline sits behind the white fill */
-  filter: drop-shadow(-.04em .06em 0 var(--ink));
-  letter-spacing: .02em;
-  line-height: 1.05;
+  font-family: var(--font-head);
+  font-weight: 700;
+  color: var(--pine);
+  letter-spacing: -.02em;
+  line-height: 1.1;
   margin: 0;
 }
-h1.chunky { font-size: clamp(40px, 9vw, 64px); margin: 14px 0 10px; }
-h2.chunky { font-size: clamp(26px, 5.5vw, 34px); margin: 30px 0 12px; }
+h1.chunky { font-size: clamp(34px, 7vw, 52px); margin: 10px 0 2px; }
+h2.chunky { font-size: clamp(22px, 4.5vw, 30px); margin: 30px 0 10px; }
 
 /* ---- Top navigation ---- */
-#site-header { min-height: 72px; padding-top: 16px; }
-#site-header nav {
-  display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;
-}
+#site-header { min-height: 64px; padding-top: 14px; }
+#site-header nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 #site-header a {
-  font: 400 20px/1 var(--font-display);
-  color: var(--ink);
+  font: 600 17px/1 var(--font-head);
+  color: var(--pine);
   background: var(--card);
-  border: 3px solid var(--ink);
+  border: var(--edge);
   border-radius: 999px;
-  box-shadow: 3px 3px 0 var(--ink);
-  padding: 11px 20px;
+  padding: 11px 18px;
   text-decoration: none;
 }
-#site-header a:hover { background: var(--chalk); }
-#site-header a[aria-current="page"] {
-  background: var(--ink); color: var(--chalk);
-}
+#site-header a:hover { background: var(--leaf-soft); }
+#site-header a[aria-current="page"] { background: var(--leaf); color: #12220b; }
 a:focus-visible, button:focus-visible, input:focus-visible {
-  outline: 3px solid var(--chalk); outline-offset: 3px;
-  box-shadow: 0 0 0 6px var(--ink);
+  outline: 3px solid var(--sky); outline-offset: 2px;
 }
 
 /* ---- Cards, buttons ---- */
 .card {
   background: var(--card);
-  border: 3px solid var(--ink);
-  border-radius: 22px;
-  box-shadow: 5px 5px 0 var(--ink);
-  padding: 20px 22px;
+  border: var(--edge);
+  border-radius: 18px;
+  box-shadow: var(--pop);
+  padding: 18px 20px;
 }
-.card h3 { margin: 0 0 6px; font: 600 20px/1.2 var(--font-body); }
+.card h3 { margin: 0 0 6px; font: 700 19px/1.2 var(--font-head); color: var(--pine); }
 .card p { margin: 0; }
 
 .btn {
   display: inline-block;
-  font: 400 26px/1 var(--font-display);
-  color: var(--chalk);
-  -webkit-text-stroke: .14em var(--ink);
-  paint-order: stroke fill;
-  background: var(--green);
-  border: 3px solid var(--ink);
+  font: 700 18px/1 var(--font-head);
+  color: #0f1f27;
+  background: var(--sky);
+  border: var(--edge);
   border-radius: 999px;
-  box-shadow: 5px 5px 0 var(--ink);
-  padding: 16px 30px;
+  box-shadow: var(--pop);
+  padding: 15px 26px;
   text-decoration: none;
+  cursor: pointer;
   transition: transform .08s, box-shadow .08s;
 }
-.btn:hover { transform: translate(2px, 2px); box-shadow: 3px 3px 0 var(--ink); }
+.btn:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+.btn.small { font-size: 16px; padding: 11px 18px; box-shadow: 3px 3px 0 var(--ink); }
 
 .site-footer {
   text-align: center; font-size: 14px; color: var(--muted);
@@ -129,210 +112,178 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 /* ---- MyHome ---- */
-.hero {
-  margin: 12px 0 26px;
-  border: 3px solid var(--ink);
-  border-radius: 24px;
-  box-shadow: 6px 6px 0 var(--ink);
-  overflow: hidden;
-  background: var(--paper);
-}
-.hero img { display: block; width: 100%; height: auto; }
+.hero { margin: 4px 0 18px; text-align: center; }
+.hero img { display: block; width: 100%; max-width: 480px; height: auto; margin: 0 auto; }
 .intro { text-align: center; margin-bottom: 26px; }
-.intro p { font-size: 20px; margin: 0 0 20px; }
+.intro p { font-size: 19px; margin: 0 auto 20px; max-width: 34em; }
 .steps { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
 
-/* ---- MyMeal ---- */
-.date { margin: 6px 0 18px; font-weight: 600; color: var(--ink); }
-.row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
-.row button {
-  font: 400 19px/1 var(--font-display);
-  padding: 11px 18px;
-  border: 3px solid var(--ink);
-  border-radius: 999px;
-  background: var(--card);
-  color: var(--ink);
-  box-shadow: 3px 3px 0 var(--ink);
-  cursor: pointer;
-}
-.row button:hover { background: var(--chalk); }
-.row button[aria-pressed="true"] { background: var(--ink); color: var(--chalk); }
-
-label.toggle {
-  display: inline-flex; align-items: center; gap: 10px;
-  margin: 8px 0 12px; padding: 10px 16px;
-  background: var(--card); border: 3px solid var(--ink); border-radius: 999px;
-  font-weight: 600; cursor: pointer;
-}
-label.toggle input { width: 20px; height: 20px; accent-color: var(--green); }
-.key { font-size: 15px; margin: 0 0 4px; }
-.key span {
-  display: inline-block; width: 14px; height: 14px; margin-right: 8px; vertical-align: -1px;
-  background: var(--green); border: 2px solid var(--ink); border-radius: 4px;
-}
-
-ul.items {
-  list-style: none; margin: 0; padding: 0;
-  background: var(--card);
-  border: 3px solid var(--ink);
-  border-radius: 20px;
-  box-shadow: 5px 5px 0 var(--ink);
-  overflow: hidden;
-}
-ul.items li {
-  padding: 12px 16px 12px 18px;
-  border-bottom: 2px solid rgba(27, 27, 27, .18);
-  border-left: 8px solid transparent;
-  font-weight: 600;
-}
-ul.items li:last-child { border-bottom: 0; }
-ul.items li.protein { background: var(--green-tint); border-left-color: var(--green); }
-
-.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
-.tag {
-  font-size: 12px; font-weight: 500; color: var(--muted);
-  background: rgba(27, 27, 27, .08); padding: 2px 9px; border-radius: 999px;
-}
-.empty { padding: 20px 0; font-weight: 600; }
-
-@media (max-width: 520px) {
-  #site-header nav { gap: 6px; }
-  #site-header a { font-size: 15px; padding: 9px 10px; border-width: 2px; box-shadow: 2px 2px 0 var(--ink); }
-  .btn { font-size: 22px; padding: 14px 24px; }
-}
-
 /* ============================================================
-   MyMeal plate builder
-   Sidebar on wide screens, bar pinned to the bottom on phones
+   MyMeal
    ============================================================ */
-
 main.build { display: block; }
 @media (min-width: 920px) {
   main.build {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 330px;
+    grid-template-columns: minmax(0, 1fr) 320px;
     gap: 26px;
     align-items: start;
     max-width: 1140px;
   }
 }
 
+.date { margin: 2px 0 16px; font-weight: 600; font-size: 19px; color: var(--pine); }
 .hint { margin: 0 0 14px; font-size: 15px; color: var(--muted); }
+.row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.row button {
+  font: 600 16px/1 var(--font-head);
+  padding: 11px 17px;
+  border: var(--edge);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--pine);
+  cursor: pointer;
+}
+.row button:hover { background: var(--leaf-soft); }
+.row button[aria-pressed="true"] { background: var(--leaf); color: #12220b; }
 
-/* ---- menu rows become tappable ---- */
+.key { font-size: 14px; color: var(--muted); margin: 4px 0 2px; }
+.key span {
+  display: inline-block; width: 12px; height: 12px; margin-right: 7px; vertical-align: -1px;
+  background: var(--leaf); border: 2px solid var(--ink); border-radius: 3px;
+}
+
+/* ---- menu list ---- */
+ul.items {
+  list-style: none; margin: 0 0 6px; padding: 0;
+  background: var(--card);
+  border: var(--edge);
+  border-radius: 16px;
+  box-shadow: var(--pop);
+  overflow: hidden;
+}
 ul.items li {
   display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px 12px 16px;
+  border-bottom: 2px solid rgba(31, 36, 23, .12);
+  border-left: 7px solid transparent;
   cursor: pointer;
 }
-ul.items li:hover { background: #fffdf5; }
-ul.items li.protein:hover { background: #dcedc8; }
-ul.items li.on-plate { background: var(--ink); color: var(--chalk); border-left-color: var(--green); }
-ul.items li.on-plate .tag { background: rgba(247, 243, 243, .18); color: var(--chalk); }
-ul.items li.on-plate .est { color: var(--chalk); }
+ul.items li:last-child { border-bottom: 0; }
+ul.items li.protein { background: var(--leaf-soft); border-left-color: var(--leaf); }
+ul.items li:hover { background: #f4f8ec; }
+ul.items li.on-plate { background: var(--leaf); border-left-color: var(--pine); }
+ul.items li.on-plate .est, ul.items li.on-plate .item-name { color: #12220b; }
+ul.items li.on-plate .tag { background: rgba(31, 36, 23, .16); color: #12220b; }
+
 .item-text { flex: 1; min-width: 0; }
 .item-name { font-weight: 600; }
-.est { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-top: 2px; }
-.est.muted { opacity: .75; font-style: italic; }
+.est { display: block; font: 600 13px var(--font-macro); color: var(--muted); margin-top: 2px; }
+.est.muted { font-style: italic; opacity: .85; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+.tag {
+  font-size: 12px; font-weight: 500; color: var(--muted);
+  background: rgba(31, 36, 23, .07); padding: 2px 9px; border-radius: 999px;
+}
+.empty { padding: 18px 0; font-weight: 600; color: var(--muted); }
 
 button.add {
-  flex: none; width: 40px; height: 40px;
-  font: 400 24px/1 var(--font-display);
-  background: var(--card); color: var(--ink);
-  border: 3px solid var(--ink); border-radius: 50%;
-  box-shadow: 2px 2px 0 var(--ink);
+  flex: none; width: 38px; height: 38px;
+  font: 700 22px/1 var(--font-head);
+  background: var(--sky); color: #0f1f27;
+  border: var(--edge); border-radius: 50%;
   cursor: pointer;
 }
-li.on-plate button.add { background: var(--green); color: var(--chalk); }
+li.on-plate button.add { background: var(--card); }
 
 /* ---- the plate panel ---- */
 .plate {
-  background: var(--card);
-  border: 3px solid var(--ink);
+  background: var(--leaf);
+  border: var(--edge);
   border-radius: 22px;
-  box-shadow: 5px 5px 0 var(--ink);
+  box-shadow: var(--pop);
   margin-top: 22px;
 }
 .plate-handle { display: none; }
 .plate-body { padding: 18px 18px 20px; }
-.plate-title { font-size: 30px; margin-bottom: 10px; }
-
+.plate-title { font-size: 26px; margin-bottom: 8px; color: #12220b; }
 @media (min-width: 920px) {
-  .plate { position: sticky; top: 16px; margin-top: 78px; max-height: calc(100vh - 40px); overflow: auto; }
+  .plate { position: sticky; top: 16px; margin-top: 74px; max-height: calc(100vh - 40px); overflow: auto; }
 }
 
 .plate-items { list-style: none; margin: 0 0 12px; padding: 0; }
-.plate-items li { padding: 10px 0; border-bottom: 2px solid rgba(27, 27, 27, .15); }
+.plate-items li { padding: 10px 0; border-bottom: 2px solid rgba(31, 36, 23, .22); }
 .plate-items li:last-child { border-bottom: 0; }
 .plate-line { display: flex; align-items: flex-start; gap: 8px; }
-.plate-name { flex: 1; font-weight: 600; }
+.plate-name { flex: 1; font: 400 15px/1.35 var(--font-plate); color: #12220b; }
 button.remove {
-  flex: none; width: 26px; height: 26px; line-height: 1;
-  background: none; border: 2px solid var(--ink); border-radius: 50%;
-  font-size: 16px; color: var(--ink); cursor: pointer;
+  flex: none; width: 25px; height: 25px; line-height: 1;
+  background: var(--card); border: var(--edge); border-radius: 50%;
+  font-size: 15px; color: var(--ink); cursor: pointer;
 }
-button.remove:hover { background: var(--ink); color: var(--chalk); }
-.plate-est { font-size: 13px; color: var(--muted); margin-top: 4px; }
+button.remove:hover { background: var(--ink); color: var(--paper); }
+.plate-est { font: 600 12.5px var(--font-macro); color: #35482a; margin-top: 4px; }
+.plate .empty { color: #2f3f24; padding: 10px 0 4px; font-size: 15px; }
 
 /* Light / Regular / Extra */
-.sizes { display: flex; margin-top: 8px; border: 2px solid var(--ink); border-radius: 10px; overflow: hidden; }
+.sizes { display: flex; margin-top: 8px; border: var(--edge); border-radius: 9px; overflow: hidden; background: var(--card); }
 .sizes button {
-  flex: 1; padding: 7px 4px; font: 600 13px var(--font-body);
-  background: var(--chalk); color: var(--ink); border: 0; border-right: 2px solid var(--ink); cursor: pointer;
+  flex: 1; padding: 7px 4px; font: 600 13px var(--font-head);
+  background: var(--card); color: var(--ink); border: 0; border-right: 2px solid var(--ink); cursor: pointer;
 }
 .sizes button:last-child { border-right: 0; }
-.sizes button[aria-pressed="true"] { background: var(--ink); color: var(--chalk); }
+.sizes button[aria-pressed="true"] { background: var(--pine); color: var(--paper); }
 
 /* Totals */
-.totals { margin-top: 6px; }
+.totals { margin-top: 8px; }
 .total-cal { display: flex; align-items: baseline; gap: 8px; }
-.total-cal .chunky { font-size: clamp(30px, 6vw, 38px); }
-.total-cal .unit { font-weight: 600; }
-.macros { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+.total-cal .figure { font: 700 clamp(26px, 5vw, 34px)/1 var(--font-macro); color: #12220b; }
+.total-cal .unit { font: 600 15px var(--font-macro); color: #35482a; }
+.macros { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px; }
 .macros div { display: flex; flex-direction: column; }
-.macros strong { font-size: 16px; }
-.macros span { font-size: 13px; color: var(--muted); }
-.uncounted { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+.macros strong { font: 700 16px var(--font-macro); color: #12220b; }
+.macros span { font: 600 12.5px var(--font-macro); color: #3c5030; }
+.uncounted { font: 600 13px var(--font-macro); color: #35482a; margin: 10px 0 0; }
 
 /* Save */
-.save-box { margin-top: 16px; border-top: 2px solid rgba(27, 27, 27, .15); padding-top: 14px; }
-.save-box label { display: block; font-weight: 600; margin-bottom: 6px; }
+.save-box { margin-top: 16px; border-top: 2px solid rgba(31, 36, 23, .22); padding-top: 14px; }
+.save-box label { display: block; font-weight: 700; margin-bottom: 6px; color: #12220b; }
 .save-box input {
   width: 100%; padding: 11px 13px; font: 500 16px var(--font-body);
-  background: var(--chalk); color: var(--ink);
-  border: 3px solid var(--ink); border-radius: 12px; margin-bottom: 10px;
+  background: var(--card); color: var(--ink);
+  border: var(--edge); border-radius: 11px; margin-bottom: 10px;
 }
-.btn.small { font-size: 19px; padding: 11px 18px; box-shadow: 3px 3px 0 var(--ink); }
 .linkish {
   background: none; border: 0; padding: 10px 6px; margin-left: 4px;
-  font: 600 15px var(--font-body); color: var(--muted); text-decoration: underline; cursor: pointer;
+  font: 600 14px var(--font-head); color: #35482a; text-decoration: underline; cursor: pointer;
 }
-.saved-note { margin: 10px 0 0; font-weight: 600; color: var(--green); }
+.saved-note { margin: 10px 0 0; font-weight: 700; color: #12220b; }
 
 /* ---- saved plates ---- */
-#saved { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.saved-card h3 { margin-bottom: 4px; }
-.saved-meta { font-size: 14px; color: var(--muted); margin: 0 0 2px; }
+#saved { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(235px, 1fr)); }
+.saved-card h3 { font: 400 17px var(--font-plate); color: var(--pine); margin-bottom: 6px; }
+.saved-meta { font: 600 13px var(--font-macro); color: var(--muted); margin: 0 0 2px; }
 .saved-buttons { display: flex; align-items: center; flex-wrap: wrap; margin-top: 12px; }
 
 /* ---- confirm dialog ---- */
 dialog {
-  border: 3px solid var(--ink); border-radius: 20px;
-  box-shadow: 6px 6px 0 var(--ink);
+  border: var(--edge); border-radius: 18px;
+  box-shadow: 5px 5px 0 var(--ink);
   background: var(--card); color: var(--ink);
-  padding: 22px; max-width: 380px; font: 500 17px/1.5 var(--font-body);
+  padding: 22px; max-width: 370px; font: 500 16px/1.5 var(--font-body);
 }
-dialog::backdrop { background: rgba(27, 27, 27, .45); }
-dialog h3 { font-size: 28px; margin: 0 0 8px; }
+dialog::backdrop { background: rgba(31, 36, 23, .45); }
+dialog h3 { font: 700 23px var(--font-head); color: var(--pine); margin: 0 0 8px; }
 dialog p { margin: 0 0 16px; }
 .dialog-buttons { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
 
-/* ---- phones: plate becomes a bar at the bottom ---- */
+/* ---- phones: the plate becomes a bar at the bottom ---- */
 @media (max-width: 919px) {
-  body.has-plate { padding-bottom: 96px; }
+  body.has-plate { padding-bottom: 92px; }
   .plate {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-    margin: 0; border-radius: 20px 20px 0 0; border-width: 3px 0 0;
-    box-shadow: 0 -4px 0 var(--ink);
+    margin: 0; border-radius: 18px 18px 0 0; border-width: 2px 0 0;
+    box-shadow: 0 -3px 0 var(--ink);
     max-height: 82vh; overflow: auto;
     padding-bottom: env(safe-area-inset-bottom);
   }
@@ -340,11 +291,11 @@ dialog p { margin: 0 0 16px; }
   .plate-handle {
     display: flex; flex-direction: column; align-items: flex-start; gap: 2px;
     width: 100%; padding: 12px 18px; text-align: left;
-    background: var(--ink); color: var(--chalk);
-    border: 0; border-radius: 17px 17px 0 0; cursor: pointer;
-    font: 500 14px var(--font-body);
+    background: var(--pine); color: var(--paper);
+    border: 0; border-radius: 16px 16px 0 0; cursor: pointer;
+    font: 600 13px var(--font-macro);
   }
-  .plate-handle .chunky { font-size: 22px; -webkit-text-stroke: .1em var(--ink); }
+  .plate-handle .count { font: 700 19px var(--font-head); }
   .plate-body { display: none; }
   body.plate-open .plate-body { display: block; }
   .plate-title { display: none; }
