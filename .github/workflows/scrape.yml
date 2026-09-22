@@ -13,8 +13,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install requests
@@ -25,9 +25,9 @@ jobs:
           else
             python scrape.py
           fi
-      - name: Look up nutrition for new dishes
+      - name: Estimate nutrition for new dishes
         env:
-          FDC_API_KEY: ${{ secrets.FDC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python nutrition.py
       - name: Commit new data
         run: |
