@@ -2,8 +2,8 @@ name: Daily menu scrape
 
 on:
   schedule:
-    - cron: "0 15 * * *"  # 8 AM Los Angeles during daylight time
-    - cron: "0 16 * * *"  # 8 AM Los Angeles during standard time
+    - cron: "0 13 * * *"  # 6 AM Los Angeles during daylight time
+    - cron: "0 14 * * *"  # 6 AM Los Angeles during standard time
   workflow_dispatch: {}     # lets you run it manually from the Actions tab
 
 permissions:
@@ -25,11 +25,15 @@ jobs:
           else
             python scrape.py
           fi
+      - name: Look up nutrition for new dishes
+        env:
+          FDC_API_KEY: ${{ secrets.FDC_API_KEY }}
+        run: python nutrition.py
       - name: Commit new data
         run: |
           git config user.name "menu-bot"
           git config user.email "menu-bot@users.noreply.github.com"
           git add docs/data
           git diff --cached --quiet || git commit -m "Menus for $(date -u +%F)"
-          git pull --rebase origin main
+          git pull --rebase
           git push
