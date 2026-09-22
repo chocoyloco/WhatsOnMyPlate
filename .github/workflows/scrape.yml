@@ -2,8 +2,9 @@ name: Daily menu scrape
 
 on:
   schedule:
-    - cron: "0 13 * * *"  # 6 AM Los Angeles during daylight time
-    - cron: "0 14 * * *"  # 6 AM Los Angeles during standard time
+    - cron: "7 13 * * *"   # 6 AM Los Angeles, daylight time
+    - cron: "7 14 * * *"   # 6 AM standard time / 7 AM daylight time
+    - cron: "7 16 * * *"   # backstop: 9 AM daylight, 8 AM standard
   workflow_dispatch: {}     # lets you run it manually from the Actions tab
 
 permissions:
