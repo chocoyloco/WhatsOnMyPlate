@@ -148,7 +148,7 @@ def look_up(name, key):
 
 
 def main():
-    key = os.environ.get("FDC_API_KEY")
+    key = os.environ.get("FDC_API_KEY", "").strip()
     if not key:
         sys.exit("FDC_API_KEY is missing. Add it under Settings > Secrets and variables > Actions.")
     if not MENU_FILE.exists():
