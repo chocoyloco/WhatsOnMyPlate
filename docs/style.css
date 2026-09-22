@@ -300,3 +300,11 @@ dialog p { margin: 0 0 16px; }
   body.plate-open .plate-body { display: block; }
   .plate-title { display: none; }
 }
+
+label.toggle {
+  display: inline-flex; align-items: center; gap: 9px;
+  margin: 6px 0 10px; padding: 9px 15px;
+  background: var(--card); border: var(--edge); border-radius: 999px;
+  font: 600 15px var(--font-head); color: var(--pine); cursor: pointer;
+}
+label.toggle input { width: 18px; height: 18px; accent-color: var(--pine); }
