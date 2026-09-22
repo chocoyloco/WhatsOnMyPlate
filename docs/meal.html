@@ -19,7 +19,6 @@
     <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
     <div class="row" id="meals" role="group" aria-label="Meal"></div>
     <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
-    <p class="key"><span></span>Protein pick — build your plate around these</p>
     <p class="hint">Tap a dish to add it to your plate.</p>
     <div id="menu"></div>
 
@@ -87,14 +86,18 @@ const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.crea
 const $ = id => document.getElementById(id);
 const estimateFor = name => nutrition[name] || null;
 const portionOf = est => est.portion || (est.grams ? `${est.grams} g` : "1 serving");
-// A protein pick is a real protein source: a solid amount per serving, and protein
+// A protein pick earns its calories: a real amount of protein per serving, and protein
 // carrying a decent share of the calories. Falls back to the keyword list when a dish
 // has no estimate yet.
+const PICK_MIN_GRAMS = 6;      // at least this much protein in one serving
+const PICK_MIN_SHARE = 0.25;   // and at least this share of its calories from protein
+
 function isProteinPick(name) {
   const e = estimateFor(name);
-  if (!e || !e.high || e.kind === "not_a_dish") return PROTEIN.test(name) && !NOT_PROTEIN.test(name);
-  const protein = e.high.protein, cal = e.high.cal || 1;
-  return protein >= 15 && (protein * 4) / cal >= 0.25;
+  if (!e || !e.low || !e.high || e.kind === "not_a_dish") return PROTEIN.test(name) && !NOT_PROTEIN.test(name);
+  const protein = (e.low.protein + e.high.protein) / 2;
+  const cal = (e.low.cal + e.high.cal) / 2 || 1;
+  return protein >= PICK_MIN_GRAMS && (protein * 4) / cal >= PICK_MIN_SHARE;
 }
 
 const isCountable = name => { const e = estimateFor(name); return e && e.low && e.high && e.kind !== "not_a_dish"; };

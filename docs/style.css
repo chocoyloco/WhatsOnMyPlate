@@ -147,12 +147,6 @@ main.build { display: block; }
 .row button:hover { background: var(--leaf-soft); }
 .row button[aria-pressed="true"] { background: var(--leaf); color: #12220b; }
 
-.key { font-size: 14px; color: var(--muted); margin: 4px 0 2px; }
-.key span {
-  display: inline-block; width: 12px; height: 12px; margin-right: 7px; vertical-align: -1px;
-  background: var(--leaf); border: 2px solid var(--ink); border-radius: 3px;
-}
-
 /* ---- menu list ---- */
 ul.items {
   list-style: none; margin: 0 0 6px; padding: 0;
