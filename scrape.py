@@ -50,8 +50,8 @@ def fetch_hall(code, today):
 def main():
     now = datetime.now(LA)
     # The workflow fires at two UTC times to cover daylight saving; only run at 8 AM LA time.
-    if "--force" not in sys.argv and now.hour != 8:
-        print(f"Skipping: it's {now:%H:%M} in Los Angeles, not 8 AM.")
+    if "--force" not in sys.argv and now.hour != 6:
+        print(f"Skipping: it's {now:%H:%M} in Los Angeles, not 6 AM.")
         return
 
     halls = []
