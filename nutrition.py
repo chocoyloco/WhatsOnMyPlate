@@ -8,13 +8,14 @@ Needs the ANTHROPIC_API_KEY secret in GitHub.
 
 Each saved dish looks like:
   "Chicken Mole": {
+    "portion": "1 entree scoop",                                # what Regular means
     "grams": 150,                                               # a Regular serving
     "low":  {"cal": 230, "protein": 22, "carbs": 8,  "fat": 11},
     "high": {"cal": 320, "protein": 30, "carbs": 14, "fat": 18},
     "kind": "dish",                  # dish | topping | not_a_dish
     "needs_review": false,           # true = numbers didn't add up, check by hand
     "checked": "2026-09-22",
-    "v": 3
+    "v": 4
   }
 
 To fix a dish by hand: edit its numbers and add  "override": true
@@ -30,10 +31,10 @@ from pathlib import Path
 
 import requests
 
-VERSION = 3          # bump when the estimating method changes; older entries get redone
+VERSION = 4          # bump when the estimating method changes; older entries get redone
 MODEL = "claude-haiku-4-5-20251001"
 PRICE_IN, PRICE_OUT = 1.00, 5.00     # dollars per million tokens, for the cost printout
-BATCH_SIZE = 40                      # dishes per request
+BATCH_SIZE = 60                      # dishes per request
 MAX_DISHES_PER_RUN = 400
 
 DATA_DIR = Path(__file__).parent / "docs" / "data"
@@ -46,19 +47,33 @@ INSTRUCTIONS = """You estimate nutrition for items on a university dining hall m
 Recipes and portions are not published, so give realistic estimates for how a large campus
 dining hall typically makes and serves each item.
 
-For each item, estimate ONE regular serving as a student would get it at that station:
-- A main dish or side: one standard scoop/portion (e.g. a chicken entree ~120-170 g, rice ~150 g).
-- A topping, sauce, dressing, spread, or salad-bar add-on: one typical portion (e.g. dressing ~30 g,
-  shredded cheese ~28 g, oil ~10 g, bacon bits ~15 g).
+For each item, estimate ONE regular serving as a student would get it at that station, and describe
+it in "portion" (a short label shown to students, like "1 slice", "1 link", "1 egg", "1 scoop", "1 cup",
+"2 tbsp", "1 sandwich"):
+- Items that come in pieces (pizza, sausage links, eggs, taquitos, tacos, sandwiches, bagels, muffins,
+  slices of bread/cheese/ham, cookies): Regular = ONE piece, even if the name is plural
+  ("Assorted Bagels" = 1 bagel, "Turkey Sausage Links" = 1 link, "Eggs" = 1 egg, "Boiled Eggs" = 1 egg).
+  Pizza = 1 slice of a large dining-hall pizza.
+- Scooped main dishes and sides: one standard scoop/portion (e.g. chicken entree ~120-170 g,
+  rice ~150 g, soup ~1 cup).
+- Toppings, sauces, dressings, spreads, and salad-bar add-ons: one typical portion
+  (e.g. dressing 2 tbsp, shredded cheese 1/4 cup, oil 1 tbsp).
 - Things like "Make Your Own Waffle Bar", "Daily Grill Specials", or "available upon request"
-  notes are not a single food: mark kind "not_a_dish" and set low and high to null.
+  notes are not a single food: mark kind "not_a_dish" and set portion, grams, low and high to null.
+Use the same conventions for similar items so they are consistent with each other, and anchor
+to these reference portions:
+  1 slice large cheese pizza ~120 g; 1 pork sausage link ~45 g; 1 large egg ~50 g;
+  scrambled eggs 1 scoop ~100 g (about 2 eggs); 1 bagel ~95 g; 1 slice sandwich bread ~40 g;
+  1 slice deli meat ~15 g (Regular = 2 slices); 1 taquito ~40 g; 1 taco ~100 g;
+  cooked rice/pasta 1 scoop ~150 g; protein entree 1 scoop ~140 g; cooked vegetables 1 scoop ~100 g;
+  soup or chili 1 cup ~240 g; yogurt 1 cup ~170 g; dressing 2 tbsp ~30 g.
 
 Give a LOW and HIGH estimate for calories, protein (g), carbs (g), and fat (g). The range should
 reflect real uncertainty in recipe and portion, not be artificially narrow or wide. Low and high
 should each be internally consistent (calories roughly = 4*protein + 4*carbs + 9*fat).
 
 Reply with ONLY a JSON array, no other text, one object per item, using the item name exactly as given:
-[{"name": "...", "kind": "dish" | "topping" | "not_a_dish", "grams": 150,
+[{"name": "...", "kind": "dish" | "topping" | "not_a_dish", "portion": "1 scoop", "grams": 150,
   "low": {"cal": 0, "protein": 0, "carbs": 0, "fat": 0},
   "high": {"cal": 0, "protein": 0, "carbs": 0, "fat": 0}}]"""
 
@@ -91,7 +106,7 @@ def ask_claude(items, key):
         headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
         json={
             "model": MODEL,
-            "max_tokens": 8000,
+            "max_tokens": 16000,
             "temperature": 0,
             "system": INSTRUCTIONS,
             "messages": [{"role": "user", "content": f"Items:\n{listing}"}],
@@ -102,7 +117,12 @@ def ask_claude(items, key):
         raise RuntimeError(f"API error {resp.status_code}: {resp.text[:300]}")
     data = resp.json()
     text = "".join(block.get("text", "") for block in data.get("content", []))
-    text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
+    if data.get("stop_reason") == "max_tokens":
+        raise RuntimeError("reply was cut off")
+    start, end = text.find("["), text.rfind("]")
+    if start == -1 or end == -1:
+        raise RuntimeError("reply had no JSON list")
+    text = text[start:end + 1]
     usage = data.get("usage", {})
     cost = usage.get("input_tokens", 0) / 1e6 * PRICE_IN + usage.get("output_tokens", 0) / 1e6 * PRICE_OUT
     return json.loads(text), cost
@@ -111,7 +131,7 @@ def ask_claude(items, key):
 def clean(estimate):
     """Check one estimate. Returns a saved entry, or None if it's unusable."""
     kind = estimate.get("kind", "dish")
-    entry = {"kind": kind, "grams": None, "low": None, "high": None,
+    entry = {"kind": kind, "portion": None, "grams": None, "low": None, "high": None,
              "needs_review": False, "checked": date.today().isoformat(), "v": VERSION}
     if kind == "not_a_dish":
         return entry
@@ -124,12 +144,12 @@ def clean(estimate):
     for k in MACROS:                              # make sure low really is the lower one
         if low[k] > high[k]:
             low[k], high[k] = high[k], low[k]
-    entry.update(grams=grams, low=low, high=high)
+    entry.update(portion=str(estimate.get("portion") or f"{grams} g"), grams=grams, low=low, high=high)
 
     # Sanity checks: flag for review instead of trusting numbers that don't add up.
     for side in (low, high):
         from_macros = 4 * side["protein"] + 4 * side["carbs"] + 9 * side["fat"]
-        if side["cal"] > 20 and abs(from_macros - side["cal"]) > 0.3 * side["cal"]:
+        if abs(from_macros - side["cal"]) > max(20, 0.3 * side["cal"]):
             entry["needs_review"] = True
     if grams <= 0 or grams > 700 or high["cal"] > 1500 or any(v < 0 for v in low.values()):
         entry["needs_review"] = True
@@ -172,12 +192,18 @@ def main():
           f"{reused} matched a saved name, {len(todo)} to estimate.")
 
     total_cost = added = review = 0
-    for start in range(0, len(todo), BATCH_SIZE):
-        batch = todo[start:start + BATCH_SIZE]
+    queue = [todo[i:i + BATCH_SIZE] for i in range(0, len(todo), BATCH_SIZE)]
+    while queue:
+        batch = queue.pop(0)
         try:
             estimates, cost = ask_claude([(n, station_of[n]) for n in batch], key)
         except Exception as err:
-            print(f"  Batch of {len(batch)} failed: {err} (will retry next run)")
+            if len(batch) > 5 and "API error 4" not in str(err):
+                print(f"  Batch of {len(batch)} failed ({err}); trying it in two halves")
+                half = len(batch) // 2
+                queue[:0] = [batch[:half], batch[half:]]
+            else:
+                print(f"  Batch of {len(batch)} failed: {err} (will retry next run)")
             continue
         total_cost += cost
         by_name = {e.get("name", "").strip(): e for e in estimates if isinstance(e, dict)}
@@ -194,7 +220,7 @@ def main():
                 print(f"  {name} -> not a single dish, skipped")
             else:
                 flag = "  <- needs review" if entry["needs_review"] else ""
-                print(f"  {name} -> {entry['grams']} g, {entry['low']['cal']}-{entry['high']['cal']} cal, "
+                print(f"  {name} -> {entry['portion']} ({entry['grams']} g), {entry['low']['cal']}-{entry['high']['cal']} cal, "
                       f"{entry['low']['protein']}-{entry['high']['protein']} g protein{flag}")
 
     NUTRITION_FILE.write_text(json.dumps(dict(sorted(table.items())), indent=2))

@@ -49,10 +49,17 @@ def fetch_hall(code, today):
 
 def main():
     now = datetime.now(LA)
-    # The workflow fires at two UTC times to cover daylight saving; only run at 8 AM LA time.
-    if "--force" not in sys.argv and now.hour != 6:
-        print(f"Skipping: it's {now:%H:%M} in Los Angeles, not 6 AM.")
-        return
+    today_file = DATA_DIR / f"{now:%Y-%m-%d}.json"
+    # The workflow fires at two UTC times to cover daylight saving. Run on the first one
+    # that lands at or after 6 AM Los Angeles time, once per day. (GitHub sometimes starts
+    # scheduled runs late, so this doesn't require it to be exactly 6 AM.)
+    if "--force" not in sys.argv:
+        if now.hour < 6:
+            print(f"Skipping: it's {now:%H:%M} in Los Angeles, before 6 AM.")
+            return
+        if today_file.exists():
+            print(f"Skipping: today's menu was already saved.")
+            return
 
     halls = []
     for code in HALLS:
