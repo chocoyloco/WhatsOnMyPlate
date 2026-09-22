@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>MyMeal — today's USC dining hall menus</title>
+<title>MyMeal — build your plate from today's USC dining hall menus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
@@ -12,86 +12,351 @@
 <body data-page="meal">
 <header id="site-header" class="wrap"></header>
 
-<main class="wrap">
-  <h1 class="chunky">MyMeal</h1>
-  <p class="date" id="date">Loading today's menus…</p>
-  <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
-  <div class="row" id="meals" role="group" aria-label="Meal"></div>
-  <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
-  <p class="key"><span></span>Protein pick — build your plate around these</p>
-  <div id="menu"></div>
+<main class="wrap build">
+  <div class="menu-col">
+    <h1 class="chunky">MyMeal</h1>
+    <p class="date" id="date">Loading today's menus…</p>
+    <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
+    <div class="row" id="meals" role="group" aria-label="Meal"></div>
+    <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
+    <p class="key"><span></span>Protein pick — build your plate around these</p>
+    <p class="hint">Tap a dish to add it to your plate.</p>
+    <div id="menu"></div>
+
+    <section id="saved-wrap" hidden>
+      <h2 class="chunky">Saved plates</h2>
+      <div id="saved"></div>
+    </section>
+  </div>
+
+  <!-- The plate: a sidebar on wide screens, a bar at the bottom of the screen on phones -->
+  <aside class="plate" id="plate" aria-label="Your plate">
+    <button class="plate-handle" id="plateHandle" aria-expanded="false" aria-controls="plate-body">
+      <span class="chunky" id="handleCount">Your plate</span>
+      <span id="handleCals">Nothing added yet</span>
+    </button>
+
+    <div class="plate-body" id="plate-body">
+      <h2 class="chunky plate-title">Your plate</h2>
+      <ul class="plate-items" id="plateItems"></ul>
+      <p class="empty" id="plateEmpty">Tap a dish on the menu to start building.</p>
+
+      <div class="totals" id="totals" aria-live="polite"></div>
+      <p class="uncounted" id="uncounted" hidden></p>
+
+      <div class="save-box" id="saveBox" hidden>
+        <label for="plateName">Name this plate</label>
+        <input id="plateName" type="text" maxlength="40" placeholder="Post-gym lunch" autocomplete="off">
+        <button class="btn small" id="savePlate">Save plate</button>
+        <button class="linkish" id="clearPlate">Clear plate</button>
+      </div>
+      <p class="saved-note" id="savedNote" hidden></p>
+    </div>
+  </aside>
 </main>
+
+<dialog id="confirmSwitch">
+  <h3 class="chunky">Leave this plate?</h3>
+  <p id="confirmText">Switching will clear the plate you're building.</p>
+  <div class="dialog-buttons">
+    <button class="btn small" id="confirmYes">Switch anyway</button>
+    <button class="linkish" id="confirmNo">Keep building</button>
+  </div>
+</dialog>
 
 <footer class="site-footer">
   Unofficial student project. Menu data comes from USC Hospitality and updates every morning.
+  Calories and macros are estimates, not exact numbers.
 </footer>
 
 <script src="site.js"></script>
 <script>
-// Same logic as before: a rough keyword match decides what counts as a protein pick.
+// ---------- protein picks: a rough keyword match ----------
 const PROTEIN = /chicken|salmon|fish|tuna|shrimp|mahi|catfish|egg|turkey|tofu|greek yogurt|cottage cheese|beef|steak|pork|lentil|bean|dal|chickpea|edamame|souvlaki|tandoori/i;
 const NOT_PROTEIN = /noodle soup|fried|nugget|pizza|sandwich|pancake|salad dressing|mayo|egg salad/i;
-let data, hall, meal;
+
+// ---------- serving sizes ----------
+const SIZES = [["light", "Light", 0.75], ["regular", "Regular", 1], ["extra", "Extra", 1.5]];
+const MACROS = ["cal", "protein", "carbs", "fat"];
+const STORE = "womp:plates";
+
+let data, nutrition = {}, hall, meal;
+let plate = [];        // [{ name, size }]
 
 const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.createElement(tag), props); n.append(...kids); return n; };
+const $ = id => document.getElementById(id);
+const estimateFor = name => nutrition[name] || null;
+const isCountable = name => { const e = estimateFor(name); return e && e.low && e.high && e.kind !== "not_a_dish"; };
 
+// ---------- menu ----------
 function pick(group, value, onChoose) {
   [...group.children].forEach(b => b.setAttribute("aria-pressed", b.dataset.v === value));
   onChoose(value);
 }
 
+// Ask before switching away from a plate in progress.
+function confirmSwitch(what, go) {
+  if (!plate.length) return go();
+  $("confirmText").textContent = `Switching ${what} will clear the plate you're building. Save it first if you want to keep it.`;
+  const dialog = $("confirmSwitch");
+  const yes = () => { close(); plate = []; renderPlate(); go(); };
+  const no = () => close();
+  function close() {
+    dialog.close();
+    $("confirmYes").removeEventListener("click", yes);
+    $("confirmNo").removeEventListener("click", no);
+  }
+  $("confirmYes").addEventListener("click", yes);
+  $("confirmNo").addEventListener("click", no);
+  dialog.showModal();
+}
+
 function renderMeals() {
   const h = data.halls.find(x => x.code === hall);
-  const box = document.getElementById("meals");
+  const box = $("meals");
   box.replaceChildren();
   if (!h.meals.length) { meal = null; renderMenu(); return; }
   if (!h.meals.some(m => m.meal === meal)) meal = h.meals[0].meal;
   h.meals.forEach(m => {
     const b = el("button", { textContent: m.meal });
     b.dataset.v = m.meal;
-    b.onclick = () => pick(box, m.meal, v => { meal = v; renderMenu(); });
+    b.onclick = () => { if (m.meal === meal) return; confirmSwitch("meal", () => pick(box, m.meal, v => { meal = v; renderMenu(); })); };
     box.append(b);
   });
   pick(box, meal, renderMenu);
 }
 
 function renderMenu() {
-  const out = document.getElementById("menu");
+  const out = $("menu");
   out.replaceChildren();
   const h = data.halls.find(x => x.code === hall);
   const m = h.meals.find(x => x.meal === meal);
-  if (!m) { out.append(el("p", { className: "empty", textContent: h.error ? "This hall's menu didn't load today. Check back after the next update." : "No menu posted for this hall today." })); return; }
-  const only = document.getElementById("onlyProtein").checked;
+  if (!m) {
+    out.append(el("p", { className: "empty", textContent: h.error
+      ? "This hall's menu didn't load today. Check back after the next update."
+      : "No menu posted for this hall today." }));
+    return;
+  }
+  const only = $("onlyProtein").checked;
   m.stations.forEach(st => {
-    const items = st.items.map(i => ({ ...i, protein: PROTEIN.test(i.name) && !NOT_PROTEIN.test(i.name) }))
-                          .filter(i => !only || i.protein);
+    const items = st.items
+      .map(i => ({ ...i, name: i.name.trim(), protein: PROTEIN.test(i.name) && !NOT_PROTEIN.test(i.name) }))
+      .filter(i => !only || i.protein);
     if (!items.length) return;
     out.append(el("h2", { className: "chunky", textContent: st.station }),
-      el("ul", { className: "items" }, ...items.map(i => el("li", { className: i.protein ? "protein" : "" },
-        el("div", { textContent: i.name }),
-        el("div", { className: "tags" }, ...[...i.tags, ...i.allergens.map(a => "contains " + a)]
-          .map(t => el("span", { className: "tag", textContent: t.replace(/-/g, " ") })))))));
+      el("ul", { className: "items" }, ...items.map(menuRow)));
   });
   if (!out.children.length) out.append(el("p", { className: "empty", textContent: "No protein picks at this meal. Try another hall." }));
 }
 
-fetch("data/latest.json", { cache: "no-store" })
-  .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-  .then(json => {
-    data = json;
-    const d = new Date(json.date + "T12:00:00");
-    document.getElementById("date").textContent = d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
-    const box = document.getElementById("halls");
-    json.halls.forEach(h => {
-      const b = el("button", { textContent: h.name });
-      b.dataset.v = h.code;
-      b.onclick = () => pick(box, h.code, v => { hall = v; renderMeals(); });
-      box.append(b);
-    });
-    pick(box, json.halls[0].code, v => { hall = v; renderMeals(); });
-    document.getElementById("onlyProtein").onchange = renderMenu;
-  })
-  .catch(() => { document.getElementById("date").textContent = "No menu data yet. Run the scraper once from the Actions tab."; });
+function menuRow(item) {
+  const est = estimateFor(item.name);
+  const onPlate = plate.some(p => p.name === item.name);
+  const li = el("li", { className: (item.protein ? "protein " : "") + (onPlate ? "on-plate" : "") });
+
+  const tags = [...item.tags, ...item.allergens.map(a => "contains " + a)]
+    .map(t => el("span", { className: "tag", textContent: t.replace(/-/g, " ") }));
+
+  let line;
+  if (est && est.kind === "not_a_dish") {
+    line = el("span", { className: "est muted", textContent: "Ask at the station" });
+  } else if (isCountable(item.name)) {
+    line = el("span", { className: "est", textContent: `${est.portion} · ${est.low.cal}–${est.high.cal} cal · ${est.low.protein}–${est.high.protein} g protein` });
+  } else {
+    line = el("span", { className: "est muted", textContent: "No estimate yet" });
+  }
+
+  const body = el("div", { className: "item-text" },
+    el("div", { className: "item-name", textContent: item.name }), line,
+    el("div", { className: "tags" }, ...tags));
+
+  if (est && est.kind === "not_a_dish") {
+    li.append(body);
+    return li;
+  }
+  const btn = el("button", { className: "add", type: "button", title: onPlate ? "Remove from plate" : "Add to plate", textContent: onPlate ? "✓" : "+" });
+  btn.setAttribute("aria-label", `${onPlate ? "Remove" : "Add"} ${item.name}`);
+  btn.setAttribute("aria-pressed", String(onPlate));
+  li.onclick = () => togglePlate(item.name);
+  li.append(body, btn);
+  return li;
+}
+
+// ---------- the plate ----------
+function togglePlate(name) {
+  const i = plate.findIndex(p => p.name === name);
+  if (i >= 0) plate.splice(i, 1);
+  else plate.push({ name, size: "regular" });
+  renderMenu();
+  renderPlate();
+}
+
+function scaled(est, size) {
+  const mult = SIZES.find(s => s[0] === size)[2];
+  const out = { low: {}, high: {} };
+  MACROS.forEach(k => { out.low[k] = Math.round(est.low[k] * mult); out.high[k] = Math.round(est.high[k] * mult); });
+  return out;
+}
+
+function totals() {
+  const sum = { low: { cal: 0, protein: 0, carbs: 0, fat: 0 }, high: { cal: 0, protein: 0, carbs: 0, fat: 0 } };
+  let counted = 0;
+  plate.forEach(p => {
+    if (!isCountable(p.name)) return;
+    counted++;
+    const s = scaled(estimateFor(p.name), p.size);
+    MACROS.forEach(k => { sum.low[k] += s.low[k]; sum.high[k] += s.high[k]; });
+  });
+  return { sum, counted, missing: plate.length - counted };
+}
+
+function renderPlate() {
+  const list = $("plateItems");
+  list.replaceChildren();
+  $("plateEmpty").hidden = plate.length > 0;
+  $("saveBox").hidden = plate.length === 0;
+
+  plate.forEach(p => {
+    const est = estimateFor(p.name);
+    const line = el("li");
+    const top = el("div", { className: "plate-line" },
+      el("span", { className: "plate-name", textContent: p.name }));
+    const remove = el("button", { className: "remove", type: "button", textContent: "×", title: "Remove" });
+    remove.setAttribute("aria-label", `Remove ${p.name}`);
+    remove.onclick = () => togglePlate(p.name);
+    top.append(remove);
+    line.append(top);
+
+    if (isCountable(p.name)) {
+      const s = scaled(est, p.size);
+      const sizes = el("div", { className: "sizes", role: "group" });
+      sizes.setAttribute("aria-label", `Serving size for ${p.name}`);
+      SIZES.forEach(([id, label]) => {
+        const b = el("button", { type: "button", textContent: label });
+        b.setAttribute("aria-pressed", String(p.size === id));
+        b.onclick = () => { p.size = id; renderPlate(); };
+        sizes.append(b);
+      });
+      line.append(sizes,
+        el("div", { className: "plate-est", textContent: `${est.portion} · ${s.low.cal}–${s.high.cal} cal · ${s.low.protein}–${s.high.protein} g protein` }));
+    } else {
+      line.append(el("div", { className: "plate-est muted", textContent: "No estimate yet — not counted below" }));
+    }
+    list.append(line);
+  });
+
+  const { sum, missing } = totals();
+  const box = $("totals");
+  box.replaceChildren();
+  if (plate.length) {
+    box.append(
+      el("div", { className: "total-cal" },
+        el("span", { className: "chunky", textContent: `${sum.low.cal}–${sum.high.cal}` }),
+        el("span", { className: "unit", textContent: "calories" })),
+      el("div", { className: "macros" },
+        ...[["Protein", "protein"], ["Carbs", "carbs"], ["Fat", "fat"]].map(([label, k]) =>
+          el("div", {}, el("strong", { textContent: `${sum.low[k]}–${sum.high[k]} g` }),
+                        el("span", { textContent: label })))));
+  }
+  const note = $("uncounted");
+  note.hidden = !missing;
+  note.textContent = missing === 1 ? "1 item has no estimate yet, so it isn't counted."
+                                   : `${missing} items have no estimate yet, so they aren't counted.`;
+
+  $("handleCount").textContent = plate.length ? `Your plate (${plate.length})` : "Your plate";
+  $("handleCals").textContent = plate.length ? `${sum.low.cal}–${sum.high.cal} cal · ${sum.low.protein}–${sum.high.protein} g protein`
+                                             : "Nothing added yet";
+  document.body.classList.toggle("has-plate", plate.length > 0);
+}
+
+// ---------- saved plates (this browser only, for now) ----------
+const readSaved = () => { try { return JSON.parse(localStorage.getItem(STORE)) || []; } catch { return []; } };
+const writeSaved = list => { try { localStorage.setItem(STORE, JSON.stringify(list)); } catch { /* private mode */ } };
+
+function savePlate() {
+  if (!plate.length) return;
+  const name = $("plateName").value.trim() || `${mealLabel()} plate`;
+  const { sum } = totals();
+  const list = readSaved();
+  list.unshift({
+    id: Date.now(), name, hall, hallName: data.halls.find(h => h.code === hall).name, meal,
+    date: data.date, items: plate.map(p => ({ name: p.name, size: p.size })),
+    cal: [sum.low.cal, sum.high.cal], protein: [sum.low.protein, sum.high.protein],
+  });
+  writeSaved(list.slice(0, 50));
+  $("plateName").value = "";
+  const note = $("savedNote");
+  note.hidden = false;
+  note.textContent = `Saved “${name}”.`;
+  setTimeout(() => { note.hidden = true; }, 4000);
+  renderSaved();
+}
+
+const mealLabel = () => (meal || "").toLowerCase() || "my";
+
+function renderSaved() {
+  const list = readSaved();
+  $("saved-wrap").hidden = !list.length;
+  const box = $("saved");
+  box.replaceChildren();
+  list.forEach(s => {
+    const when = new Date(s.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    const card = el("div", { className: "card saved-card" },
+      el("h3", { textContent: s.name }),
+      el("p", { className: "saved-meta", textContent: `${s.hallName} · ${s.meal} · ${when} · ${s.items.length} item${s.items.length === 1 ? "" : "s"}` }),
+      el("p", { className: "saved-meta", textContent: `${s.cal[0]}–${s.cal[1]} cal · ${s.protein[0]}–${s.protein[1]} g protein` }));
+    const use = el("button", { className: "btn small", type: "button", textContent: "Use this plate" });
+    use.onclick = () => usePlate(s);
+    const del = el("button", { className: "linkish", type: "button", textContent: "Delete" });
+    del.onclick = () => { writeSaved(readSaved().filter(x => x.id !== s.id)); renderSaved(); };
+    card.append(el("div", { className: "saved-buttons" }, use, del));
+    box.append(card);
+  });
+}
+
+function usePlate(saved) {
+  const load = () => {
+    const h = data.halls.find(x => x.code === saved.hall);
+    if (h) { hall = saved.hall; pick($("halls"), hall, () => {}); }
+    plate = saved.items.map(i => ({ ...i }));
+    renderMeals();
+    if (h && h.meals.some(m => m.meal === saved.meal)) { meal = saved.meal; pick($("meals"), meal, renderMenu); }
+    renderPlate();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  confirmSwitch("to a saved plate", load);
+}
+
+// ---------- start ----------
+$("plateHandle").onclick = () => {
+  const open = document.body.classList.toggle("plate-open");
+  $("plateHandle").setAttribute("aria-expanded", String(open));
+};
+$("savePlate").onclick = savePlate;
+$("clearPlate").onclick = () => { plate = []; renderPlate(); renderMenu(); };
+$("onlyProtein").onchange = renderMenu;
+
+Promise.all([
+  fetch("data/latest.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error("no menu"); return r.json(); }),
+  fetch("data/nutrition.json", { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+]).then(([menu, table]) => {
+  data = menu;
+  nutrition = table || {};
+  const d = new Date(menu.date + "T12:00:00");
+  $("date").textContent = d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+  const box = $("halls");
+  menu.halls.forEach(h => {
+    const b = el("button", { textContent: h.name });
+    b.dataset.v = h.code;
+    b.onclick = () => { if (h.code === hall) return; confirmSwitch("dining hall", () => pick(box, h.code, v => { hall = v; renderMeals(); })); };
+    box.append(b);
+  });
+  pick(box, menu.halls[0].code, v => { hall = v; renderMeals(); });
+  renderPlate();
+  renderSaved();
+}).catch(() => {
+  $("date").textContent = "No menu data yet. Run the scraper once from the Actions tab.";
+});
 </script>
 </body>
 </html>

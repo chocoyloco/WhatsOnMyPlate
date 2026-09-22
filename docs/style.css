@@ -200,3 +200,152 @@ ul.items li.protein { background: var(--green-tint); border-left-color: var(--gr
   #site-header a { font-size: 15px; padding: 9px 10px; border-width: 2px; box-shadow: 2px 2px 0 var(--ink); }
   .btn { font-size: 22px; padding: 14px 24px; }
 }
+
+/* ============================================================
+   MyMeal plate builder
+   Sidebar on wide screens, bar pinned to the bottom on phones
+   ============================================================ */
+
+main.build { display: block; }
+@media (min-width: 920px) {
+  main.build {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 330px;
+    gap: 26px;
+    align-items: start;
+    max-width: 1140px;
+  }
+}
+
+.hint { margin: 0 0 14px; font-size: 15px; color: var(--muted); }
+
+/* ---- menu rows become tappable ---- */
+ul.items li {
+  display: flex; align-items: center; gap: 12px;
+  cursor: pointer;
+}
+ul.items li:hover { background: #fffdf5; }
+ul.items li.protein:hover { background: #dcedc8; }
+ul.items li.on-plate { background: var(--ink); color: var(--chalk); border-left-color: var(--green); }
+ul.items li.on-plate .tag { background: rgba(247, 243, 243, .18); color: var(--chalk); }
+ul.items li.on-plate .est { color: var(--chalk); }
+.item-text { flex: 1; min-width: 0; }
+.item-name { font-weight: 600; }
+.est { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-top: 2px; }
+.est.muted { opacity: .75; font-style: italic; }
+
+button.add {
+  flex: none; width: 40px; height: 40px;
+  font: 400 24px/1 var(--font-display);
+  background: var(--card); color: var(--ink);
+  border: 3px solid var(--ink); border-radius: 50%;
+  box-shadow: 2px 2px 0 var(--ink);
+  cursor: pointer;
+}
+li.on-plate button.add { background: var(--green); color: var(--chalk); }
+
+/* ---- the plate panel ---- */
+.plate {
+  background: var(--card);
+  border: 3px solid var(--ink);
+  border-radius: 22px;
+  box-shadow: 5px 5px 0 var(--ink);
+  margin-top: 22px;
+}
+.plate-handle { display: none; }
+.plate-body { padding: 18px 18px 20px; }
+.plate-title { font-size: 30px; margin-bottom: 10px; }
+
+@media (min-width: 920px) {
+  .plate { position: sticky; top: 16px; margin-top: 78px; max-height: calc(100vh - 40px); overflow: auto; }
+}
+
+.plate-items { list-style: none; margin: 0 0 12px; padding: 0; }
+.plate-items li { padding: 10px 0; border-bottom: 2px solid rgba(27, 27, 27, .15); }
+.plate-items li:last-child { border-bottom: 0; }
+.plate-line { display: flex; align-items: flex-start; gap: 8px; }
+.plate-name { flex: 1; font-weight: 600; }
+button.remove {
+  flex: none; width: 26px; height: 26px; line-height: 1;
+  background: none; border: 2px solid var(--ink); border-radius: 50%;
+  font-size: 16px; color: var(--ink); cursor: pointer;
+}
+button.remove:hover { background: var(--ink); color: var(--chalk); }
+.plate-est { font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+/* Light / Regular / Extra */
+.sizes { display: flex; margin-top: 8px; border: 2px solid var(--ink); border-radius: 10px; overflow: hidden; }
+.sizes button {
+  flex: 1; padding: 7px 4px; font: 600 13px var(--font-body);
+  background: var(--chalk); color: var(--ink); border: 0; border-right: 2px solid var(--ink); cursor: pointer;
+}
+.sizes button:last-child { border-right: 0; }
+.sizes button[aria-pressed="true"] { background: var(--ink); color: var(--chalk); }
+
+/* Totals */
+.totals { margin-top: 6px; }
+.total-cal { display: flex; align-items: baseline; gap: 8px; }
+.total-cal .chunky { font-size: clamp(30px, 6vw, 38px); }
+.total-cal .unit { font-weight: 600; }
+.macros { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+.macros div { display: flex; flex-direction: column; }
+.macros strong { font-size: 16px; }
+.macros span { font-size: 13px; color: var(--muted); }
+.uncounted { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+
+/* Save */
+.save-box { margin-top: 16px; border-top: 2px solid rgba(27, 27, 27, .15); padding-top: 14px; }
+.save-box label { display: block; font-weight: 600; margin-bottom: 6px; }
+.save-box input {
+  width: 100%; padding: 11px 13px; font: 500 16px var(--font-body);
+  background: var(--chalk); color: var(--ink);
+  border: 3px solid var(--ink); border-radius: 12px; margin-bottom: 10px;
+}
+.btn.small { font-size: 19px; padding: 11px 18px; box-shadow: 3px 3px 0 var(--ink); }
+.linkish {
+  background: none; border: 0; padding: 10px 6px; margin-left: 4px;
+  font: 600 15px var(--font-body); color: var(--muted); text-decoration: underline; cursor: pointer;
+}
+.saved-note { margin: 10px 0 0; font-weight: 600; color: var(--green); }
+
+/* ---- saved plates ---- */
+#saved { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.saved-card h3 { margin-bottom: 4px; }
+.saved-meta { font-size: 14px; color: var(--muted); margin: 0 0 2px; }
+.saved-buttons { display: flex; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+
+/* ---- confirm dialog ---- */
+dialog {
+  border: 3px solid var(--ink); border-radius: 20px;
+  box-shadow: 6px 6px 0 var(--ink);
+  background: var(--card); color: var(--ink);
+  padding: 22px; max-width: 380px; font: 500 17px/1.5 var(--font-body);
+}
+dialog::backdrop { background: rgba(27, 27, 27, .45); }
+dialog h3 { font-size: 28px; margin: 0 0 8px; }
+dialog p { margin: 0 0 16px; }
+.dialog-buttons { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
+
+/* ---- phones: plate becomes a bar at the bottom ---- */
+@media (max-width: 919px) {
+  body.has-plate { padding-bottom: 96px; }
+  .plate {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    margin: 0; border-radius: 20px 20px 0 0; border-width: 3px 0 0;
+    box-shadow: 0 -4px 0 var(--ink);
+    max-height: 82vh; overflow: auto;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  body:not(.has-plate) .plate { display: none; }
+  .plate-handle {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 2px;
+    width: 100%; padding: 12px 18px; text-align: left;
+    background: var(--ink); color: var(--chalk);
+    border: 0; border-radius: 17px 17px 0 0; cursor: pointer;
+    font: 500 14px var(--font-body);
+  }
+  .plate-handle .chunky { font-size: 22px; -webkit-text-stroke: .1em var(--ink); }
+  .plate-body { display: none; }
+  body.plate-open .plate-body { display: block; }
+  .plate-title { display: none; }
+}
