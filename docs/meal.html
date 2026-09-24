@@ -19,7 +19,7 @@
     <div class="row" id="halls" role="group" aria-label="Dining hall"></div>
     <div class="row" id="meals" role="group" aria-label="Meal"></div>
     <label class="toggle"><input type="checkbox" id="onlyProtein"> Show protein picks only</label>
-    <p class="hint">Tap a dish to add it to your plate.</p>
+    <p class="hint">Swipe or use the arrows to see more dishes. Tap one to add it to your plate.</p>
     <div id="menu"></div>
 
     <section id="saved-wrap" hidden>
@@ -140,8 +140,14 @@ function renderMeals() {
   pick(box, meal, renderMenu);
 }
 
+// Each station is a row of dish cards you can swipe, or step through with the arrows.
+// Scroll positions are remembered so adding a dish doesn't jump the row back to the start.
+const scrollSpots = {};
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
+
 function renderMenu() {
   const out = $("menu");
+  out.querySelectorAll(".carousel").forEach(ul => { scrollSpots[ul.dataset.key] = ul.scrollLeft; });
   out.replaceChildren();
   const h = data.halls.find(x => x.code === hall);
   const m = h.meals.find(x => x.meal === meal);
@@ -157,11 +163,61 @@ function renderMenu() {
       .map(i => ({ ...i, name: i.name.trim(), protein: isProteinPick(i.name.trim()) }))
       .filter(i => !only || i.protein);
     if (!items.length) return;
-    out.append(el("h2", { className: "chunky", textContent: st.station }),
-      el("ul", { className: "items" }, ...items.map(menuRow)));
+    out.append(stationRow(st.station, items, `${hall}|${meal}|${only}|${st.station}`));
   });
   if (!out.children.length) out.append(el("p", { className: "empty", textContent: only ? "No protein picks at this meal. Try another hall." : "No menu posted for this meal. Try another hall." }));
+  out.querySelectorAll(".carousel").forEach(ul => {
+    ul.scrollLeft = scrollSpots[ul.dataset.key] || 0;
+    ul.updateArrows();
+  });
 }
+
+function stationRow(name, items, key) {
+  const list = el("ul", { className: "items carousel", tabIndex: 0 }, ...items.map(menuRow));
+  list.dataset.key = key;
+  list.setAttribute("aria-label", name);
+
+  const prev = el("button", { className: "arrow", type: "button", textContent: "‹" });
+  const next = el("button", { className: "arrow", type: "button", textContent: "›" });
+  prev.setAttribute("aria-label", `Previous dishes at ${name}`);
+  next.setAttribute("aria-label", `Next dishes at ${name}`);
+  const count = el("span", { className: "count" });
+
+  // Width of one card plus the gap between cards
+  const step = () => {
+    const cards = list.children;
+    return cards.length > 1 ? cards[1].offsetLeft - cards[0].offsetLeft : list.clientWidth;
+  };
+  const perView = () => Math.max(1, Math.floor((list.clientWidth + 14) / step()));
+
+  list.updateArrows = () => {
+    const max = list.scrollWidth - list.clientWidth;
+    prev.disabled = list.scrollLeft <= 2;
+    next.disabled = list.scrollLeft >= max - 2;
+    const first = Math.min(items.length, Math.round(list.scrollLeft / step()) + 1);
+    const last = Math.min(items.length, first + perView() - 1);
+    count.textContent = first === last ? `${first} of ${items.length}` : `${first}–${last} of ${items.length}`;
+  };
+  const go = dir => list.scrollBy({ left: dir * step() * perView(), behavior: reduceMotion.matches ? "auto" : "smooth" });
+  prev.onclick = () => go(-1);
+  next.onclick = () => go(1);
+
+  let queued = false;
+  list.addEventListener("scroll", () => {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(() => { queued = false; list.updateArrows(); });
+  });
+
+  return el("section", { className: "station" },
+    el("div", { className: "station-head" },
+      el("h2", { className: "chunky", textContent: name }),
+      el("div", { className: "arrows" }, count, prev, next)),
+    list);
+}
+
+// Keep the counters right when the window changes size
+addEventListener("resize", () => document.querySelectorAll(".carousel").forEach(ul => ul.updateArrows()));
 
 function menuRow(item) {
   const est = estimateFor(item.name);

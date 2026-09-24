@@ -147,28 +147,65 @@ main.build { display: block; }
 .row button:hover { background: var(--leaf-soft); }
 .row button[aria-pressed="true"] { background: var(--leaf); color: #12220b; }
 
-/* ---- menu list ---- */
-ul.items {
-  list-style: none; margin: 0 0 6px; padding: 0;
-  background: var(--card);
-  border: var(--edge);
-  border-radius: 16px;
-  box-shadow: var(--pop);
-  overflow: hidden;
+/* ---- menu: one swipeable row of dish cards per station ---- */
+.station { margin-bottom: 8px; }
+.station-head {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;
+  margin: 26px 0 10px;
 }
-ul.items li {
-  display: flex; align-items: center; gap: 12px;
-  padding: 12px 14px 12px 16px;
-  border-bottom: 2px solid rgba(31, 36, 23, .12);
-  border-left: 7px solid transparent;
+.station-head h2.chunky { margin: 0; }
+.arrows { display: flex; align-items: center; gap: 8px; flex: none; }
+.arrows .count { font: 600 14px var(--font-macro); color: var(--muted); margin-right: 4px; white-space: nowrap; }
+button.arrow {
+  width: 40px; height: 40px; padding: 0 0 3px;
+  font: 700 26px/1 var(--font-head);
+  background: var(--card); color: var(--pine);
+  border: var(--edge); border-radius: 50%;
+  box-shadow: 2px 2px 0 var(--ink);
   cursor: pointer;
 }
-ul.items li:last-child { border-bottom: 0; }
-ul.items li.protein { background: var(--leaf-soft); border-left-color: var(--leaf); }
-ul.items li:hover { background: #f4f8ec; }
-ul.items li.on-plate { background: var(--leaf); border-left-color: var(--pine); }
-ul.items li.on-plate .est, ul.items li.on-plate .item-name { color: #12220b; }
-ul.items li.on-plate .tag { background: rgba(31, 36, 23, .16); color: #12220b; }
+button.arrow:hover:not(:disabled) { background: var(--leaf-soft); }
+button.arrow:active:not(:disabled) { transform: translate(2px, 2px); box-shadow: none; }
+button.arrow:disabled { opacity: .35; cursor: default; box-shadow: none; }
+
+ul.carousel {
+  --card-w: 230px;
+  list-style: none; margin: 0; padding: 4px 6px 12px 2px;
+  display: flex; gap: 14px;
+  overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory; scroll-padding-left: 2px;
+  scrollbar-width: none;
+}
+ul.carousel::-webkit-scrollbar { display: none; }
+ul.carousel:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; border-radius: 16px; }
+
+ul.carousel li {
+  flex: 0 0 var(--card-w);
+  scroll-snap-align: start;
+  display: flex; flex-direction: column; gap: 12px;
+  min-height: 176px;
+  padding: 14px 14px 12px 16px;
+  background: var(--card);
+  border: var(--edge);
+  border-top-width: 7px;
+  border-radius: 16px;
+  box-shadow: var(--pop);
+  cursor: pointer;
+}
+ul.carousel li:hover { background: #f4f8ec; }
+ul.carousel li.protein { background: var(--leaf-soft); border-top-color: var(--leaf); }
+ul.carousel li.on-plate { background: var(--leaf); border-top-color: var(--pine); }
+ul.carousel li.on-plate .est, ul.carousel li.on-plate .item-name { color: #12220b; }
+ul.carousel li.on-plate .tag { background: rgba(31, 36, 23, .16); color: #12220b; }
+ul.carousel li button.add { align-self: flex-end; }
+
+/* Phones: one card at a time, with the next one peeking in */
+@media (max-width: 560px) {
+  ul.carousel { --card-w: 78%; }
+  .station-head { align-items: center; }
+  .station-head h2.chunky { font-size: 22px; }
+  button.arrow { width: 36px; height: 36px; font-size: 23px; }
+}
 
 .item-text { flex: 1; min-width: 0; }
 .item-name { font-weight: 600; }
