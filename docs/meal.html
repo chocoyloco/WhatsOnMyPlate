@@ -24,7 +24,12 @@
 
     <section id="saved-wrap" hidden>
       <h2 class="chunky">Saved plates</h2>
+      <p class="saved-none" id="savedNone" hidden>None of your saved plates are on today's menu. They'll show up here on days all their dishes are served.</p>
       <div id="saved"></div>
+      <details class="saved-later" id="savedLater" hidden>
+        <summary id="savedLaterLabel">Not on today's menu</summary>
+        <div id="savedOff"></div>
+      </details>
     </section>
   </div>
 
@@ -399,36 +404,68 @@ function savePlate() {
 
 const mealLabel = () => (meal || "").toLowerCase() || "my";
 
+// A saved plate can be used today only if every dish on it is served at one hall and meal today.
+// Checks the hall and meal it was saved from first, then everywhere else.
+// Returns { where } when it's available, or { missing } listing dishes not served together today.
+function todayMatch(saved) {
+  const names = [...new Set(saved.items.map(i => i.name))];
+  const spots = [];
+  data.halls.forEach(h => h.meals.forEach(m => spots.push({ h, m })));
+  spots.sort((a, b) => (b.h.code === saved.hall && b.m.meal === saved.meal) - (a.h.code === saved.hall && a.m.meal === saved.meal));
+
+  let best = names;
+  for (const { h, m } of spots) {
+    const served = new Set(m.stations.flatMap(st => st.items.map(i => i.name.trim())));
+    const missing = names.filter(n => !served.has(n));
+    if (!missing.length) return { where: { hall: h.code, hallName: h.name, meal: m.meal } };
+    if (missing.length < best.length) best = missing;
+  }
+  return { missing: best };
+}
+
+function savedCard(s, match) {
+  const n = s.items.reduce((t, i) => t + (i.qty || 1), 0);
+  const card = el("div", { className: "card saved-card" + (match.where ? "" : " off") },
+    el("h3", { textContent: s.name }),
+    el("p", { className: "saved-meta", textContent: `${n} item${n === 1 ? "" : "s"} · ${s.cal[0]}–${s.cal[1]} cal · ${s.protein[0]}–${s.protein[1]} g protein` }));
+  const del = el("button", { className: "linkish", type: "button", textContent: "Delete" });
+  del.onclick = () => { writeSaved(readSaved().filter(x => x.id !== s.id)); renderSaved(); };
+
+  if (match.where) {
+    card.append(el("p", { className: "saved-back", textContent: `Back today at ${match.where.hallName}, ${match.where.meal.toLowerCase()}. Eat it again?` }));
+    const use = el("button", { className: "btn small", type: "button", textContent: "Use this plate" });
+    use.onclick = () => usePlate(s, match.where);
+    card.append(el("div", { className: "saved-buttons" }, use, del));
+  } else {
+    card.append(el("p", { className: "saved-meta", textContent: `Not served today: ${match.missing.join(", ")}` }),
+                el("div", { className: "saved-buttons" }, del));
+  }
+  return card;
+}
+
 function renderSaved() {
   const list = readSaved();
   $("saved-wrap").hidden = !list.length;
-  const box = $("saved");
-  box.replaceChildren();
-  list.forEach(s => {
-    const n = s.items.reduce((t, i) => t + (i.qty || 1), 0);
-    const when = new Date(s.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
-    const card = el("div", { className: "card saved-card" },
-      el("h3", { textContent: s.name }),
-      el("p", { className: "saved-meta", textContent: `${s.hallName} · ${s.meal} · ${when} · ${n} item${n === 1 ? "" : "s"}` }),
-      el("p", { className: "saved-meta", textContent: `${s.cal[0]}–${s.cal[1]} cal · ${s.protein[0]}–${s.protein[1]} g protein` }));
-    const use = el("button", { className: "btn small", type: "button", textContent: "Use this plate" });
-    use.onclick = () => usePlate(s);
-    const del = el("button", { className: "linkish", type: "button", textContent: "Delete" });
-    del.onclick = () => { writeSaved(readSaved().filter(x => x.id !== s.id)); renderSaved(); };
-    card.append(el("div", { className: "saved-buttons" }, use, del));
-    box.append(card);
-  });
+  const on = [], off = [];
+  list.forEach(s => { const m = todayMatch(s); (m.where ? on : off).push(savedCard(s, m)); });
+
+  $("saved").replaceChildren(...on);
+  $("savedOff").replaceChildren(...off);
+  $("savedNone").hidden = on.length > 0;
+  $("savedLater").hidden = !off.length;
+  $("savedLaterLabel").textContent = `Not on today's menu (${off.length})`;
 }
 
-function usePlate(saved) {
+function usePlate(saved, where) {
   const load = () => {
-    const h = data.halls.find(x => x.code === saved.hall);
-    if (h) { hall = saved.hall; pick($("halls"), hall, () => {}); }
+    hall = where.hall;
+    meal = where.meal;
+    pick($("halls"), hall, () => {});
     plate = saved.items.map(i => ({ ...i, qty: i.qty || 1 }));   // plates saved before 2x/3x existed count as 1
+    $("onlyProtein").checked = false;                           // so every dish on the plate shows in the menu
     renderMeals();
-    if (h && h.meals.some(m => m.meal === saved.meal)) { meal = saved.meal; pick($("meals"), meal, renderMenu); }
     renderPlate();
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" });
   };
   confirmSwitch("to a saved plate", load);
 }

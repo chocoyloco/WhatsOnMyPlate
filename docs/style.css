@@ -309,10 +309,26 @@ button.remove:hover { background: var(--ink); color: var(--paper); }
 .saved-note { margin: 10px 0 0; font-weight: 700; color: #12220b; }
 
 /* ---- saved plates ---- */
-#saved { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(235px, 1fr)); }
+#saved { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr)); }
 .saved-card h3 { font: 400 17px var(--font-plate); color: var(--pine); margin-bottom: 6px; }
 .saved-meta { font: 600 13px var(--font-macro); color: var(--muted); margin: 0 0 2px; }
 .saved-buttons { display: flex; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+.saved-back { margin: 8px 0 0; font: 700 14px/1.35 var(--font-head); color: var(--pine); }
+.saved-none { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+
+/* Plates whose dishes aren't served today: tucked away, can only be deleted */
+.saved-later { margin-top: 16px; }
+.saved-later summary {
+  display: inline-block; cursor: pointer;
+  font: 600 15px var(--font-head); color: var(--pine);
+  padding: 8px 14px; background: var(--card); border: var(--edge); border-radius: 999px;
+}
+.saved-later summary::-webkit-details-marker { display: none; }
+.saved-later summary::before { content: "▸ "; }
+.saved-later[open] summary::before { content: "▾ "; }
+#savedOff { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr)); margin-top: 12px; }
+.saved-card.off { background: #f3f3ea; box-shadow: 2px 2px 0 var(--ink); }
+.saved-card.off h3 { color: var(--muted); }
 
 /* ---- confirm dialog ---- */
 dialog {
