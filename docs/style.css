@@ -197,7 +197,25 @@ ul.carousel li.protein { background: var(--leaf-soft); border-top-color: var(--l
 ul.carousel li.on-plate { background: var(--leaf); border-top-color: var(--pine); }
 ul.carousel li.on-plate .est, ul.carousel li.on-plate .item-name { color: #12220b; }
 ul.carousel li.on-plate .tag { background: rgba(31, 36, 23, .16); color: #12220b; }
-ul.carousel li button.add { align-self: flex-end; }
+ul.carousel li button.add, ul.carousel li .stepper { align-self: flex-end; }
+
+/* − 2× + : how many of a dish are on the plate */
+.stepper {
+  display: inline-flex; align-items: center; flex: none;
+  background: var(--card); border: var(--edge); border-radius: 999px; overflow: hidden;
+}
+.stepper button {
+  width: 36px; height: 34px; padding: 0 0 2px;
+  font: 700 20px/1 var(--font-head); color: var(--pine);
+  background: var(--card); border: 0; cursor: pointer;
+}
+.stepper button:hover { background: var(--leaf-soft); }
+.stepper .qty-count { min-width: 30px; text-align: center; font: 700 16px var(--font-macro); color: #12220b; }
+.qty-tag { font: 700 14px var(--font-macro); color: #12220b; white-space: nowrap; }
+.plate-controls { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.plate-controls .stepper button { width: 30px; height: 30px; font-size: 18px; }
+.plate-controls .stepper .qty-count { min-width: 26px; font-size: 14px; }
+.plate-controls .sizes { flex: 1; margin-top: 0; }
 
 /* Phones: one card at a time, with the next one peeking in */
 @media (max-width: 560px) {
