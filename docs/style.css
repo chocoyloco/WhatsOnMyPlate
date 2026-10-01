@@ -373,3 +373,84 @@ label.toggle {
   font: 600 15px var(--font-head); color: var(--pine); cursor: pointer;
 }
 label.toggle input { width: 18px; height: 18px; accent-color: var(--pine); }
+
+/* ============================================================
+   MyGoals
+   ============================================================ */
+.lede { margin: 2px 0 18px; font-weight: 600; font-size: 18px; color: var(--pine); max-width: 36em; }
+.goals { display: grid; gap: 24px; align-items: start; }
+@media (min-width: 860px) { .goals { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+
+/* Targets live on a green "plate", like the MyMeal panel */
+.targets { background: var(--leaf); border: var(--edge); border-radius: 22px; box-shadow: var(--pop); padding: 20px 20px 22px; }
+.targets h2.chunky, .weighins h2.chunky { margin: 0 0 12px; }
+.targets h2.chunky { color: #12220b; }
+.field-label { display: block; font: 700 15px var(--font-head); color: #12220b; margin: 14px 0 6px; }
+.targets .sizes { margin-top: 0; }
+.targets .sizes button { padding: 10px 4px; font-size: 14px; }
+
+.big-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+.big-field { background: var(--card); border: var(--edge); border-radius: 16px; padding: 10px 14px 12px; }
+.big-field label { display: block; font: 700 14px var(--font-head); color: var(--pine); }
+.big-field .with-unit { display: flex; align-items: baseline; gap: 6px; }
+.big-field input {
+  width: 100%; min-width: 0; padding: 2px 0; border: 0; background: none;
+  font: 700 clamp(28px, 6vw, 36px)/1.1 var(--font-macro); color: #12220b;
+  -moz-appearance: textfield;
+}
+.big-field input::-webkit-outer-spin-button, .big-field input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.big-field .unit { font: 600 15px var(--font-macro); color: var(--muted); }
+.big-field:focus-within { outline: 3px solid var(--sky); outline-offset: 2px; }
+.big-field input:focus-visible { outline: none; }
+.big-fields.small .big-field input { font-size: 24px; }
+.split-note { font: 600 13px var(--font-macro); color: #35482a; margin: 8px 2px 0; min-height: 1.2em; }
+
+.targets details { margin-top: 14px; }
+.targets summary {
+  display: inline-block; cursor: pointer;
+  font: 600 15px var(--font-head); color: #12220b;
+  padding: 8px 14px; background: var(--card); border: var(--edge); border-radius: 999px;
+}
+.targets summary::-webkit-details-marker { display: none; }
+.targets summary::before { content: "▸ "; }
+.targets details[open] summary::before { content: "▾ "; }
+
+.calc { background: var(--card); border: var(--edge); border-radius: 16px; padding: 4px 16px 16px; margin-top: 10px; }
+.calc .field-label { color: var(--pine); }
+.calc .sizes button { padding: 9px 4px; }
+.calc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.calc-grid label, .weigh-form label { font: 700 13px var(--font-head); color: var(--pine); display: flex; flex-direction: column; gap: 4px; }
+.text-in, .calc select {
+  width: 100%; min-width: 0; padding: 10px 11px; font: 600 16px var(--font-macro);
+  background: var(--card); color: var(--ink); border: var(--edge); border-radius: 11px;
+}
+.calc select { font-family: var(--font-body); font-weight: 500; margin-bottom: 4px; }
+.calc-result { margin: 14px 0 0; padding: 12px 14px; background: var(--leaf-soft); border-radius: 12px; }
+.calc-result p { margin: 0 0 10px; font-weight: 600; }
+.calc-result strong { font-family: var(--font-macro); }
+.calc-error { margin: 12px 0 0; font-weight: 700; color: #8a2a12; }
+.fine { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+
+.save-row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+.status { font-weight: 700; color: #12220b; }
+
+/* Weigh-ins */
+.weighins { padding: 20px; }
+.weigh-form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: end; }
+.weigh-form .btn { grid-column: 1 / -1; justify-self: start; }
+.weigh-form .btn.small { white-space: nowrap; }
+.change { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; margin: 18px 0 4px; }
+.change .figure { font: 700 clamp(26px, 5vw, 32px)/1 var(--font-macro); color: var(--pine); }
+.change .since { font: 600 14px var(--font-macro); color: var(--muted); }
+.chart { width: 100%; height: auto; display: block; margin: 8px 0 4px; }
+.chart text { font: 700 22px var(--font-macro); fill: var(--muted); }
+.log { list-style: none; margin: 10px 0 0; padding: 0; }
+.log li { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 2px solid rgba(31, 36, 23, .12); }
+.log li:last-child { border-bottom: 0; }
+.log .when { flex: 1; font-weight: 600; }
+.log .lb { font: 700 16px var(--font-macro); color: var(--pine); }
+.weighins .empty { padding: 14px 0 0; }
+
+@media (max-width: 520px) {
+  .calc-grid { grid-template-columns: 1fr 1fr; }
+}
