@@ -659,6 +659,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Baked Potatoes": {
+    "kind": "dish",
+    "portion": "1 medium potato",
+    "grams": 170,
+    "low": {
+      "cal": 130,
+      "protein": 3,
+      "carbs": 29,
+      "fat": 0
+    },
+    "high": {
+      "cal": 160,
+      "protein": 4,
+      "carbs": 36,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Baked Swai with Lemon Garlic Butter": {
     "kind": "dish",
     "portion": "1 fillet",
@@ -1469,6 +1489,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Boca Burger Veggie Patty": {
+    "kind": "dish",
+    "portion": "1 patty",
+    "grams": 71,
+    "low": {
+      "cal": 140,
+      "protein": 11,
+      "carbs": 5,
+      "fat": 7
+    },
+    "high": {
+      "cal": 160,
+      "protein": 13,
+      "carbs": 6,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Boca Burger on Martin's Potato Bun": {
     "kind": "dish",
     "portion": "1 burger",
@@ -2027,6 +2067,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Bruschetta Balsamic Flatbread Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 130,
+    "low": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 290,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "Bulgogi Chicken": {
@@ -2647,6 +2707,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Cheeseburger on Martin's Potato Bun": {
+    "kind": "dish",
+    "portion": "1 burger",
+    "grams": 240,
+    "low": {
+      "cal": 480,
+      "protein": 28,
+      "carbs": 38,
+      "fat": 22
+    },
+    "high": {
+      "cal": 560,
+      "protein": 32,
+      "carbs": 42,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "Cheesy Cabbage and Kale Gratin": {
@@ -4349,6 +4429,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Crispy Fried Seasoned Breakfast Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 180,
+      "protein": 2,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Crispy Fried Sweet Potato Tater Tots": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -4729,6 +4829,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "EVK Burger Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 180,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 19
+    },
+    "high": {
+      "cal": 220,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 23
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "EVK Philly Chicken": {
@@ -5731,6 +5851,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Garlic and Herb Roasted Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 210,
+      "protein": 32,
+      "carbs": 1,
+      "fat": 9
+    },
+    "high": {
+      "cal": 250,
+      "protein": 36,
+      "carbs": 2,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Ginger Sesame Beef and Broccoli": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -6229,6 +6369,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Halal Beef Burger Patty": {
+    "kind": "dish",
+    "portion": "1 patty",
+    "grams": 113,
+    "low": {
+      "cal": 250,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 14
+    },
+    "high": {
+      "cal": 300,
+      "protein": 32,
+      "carbs": 1,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "Harissa Butternut Squash and Black Bean Ragout": {
@@ -7791,6 +7951,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Molasses and Whole Grain Dijon Grilled Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 220,
+      "protein": 33,
+      "carbs": 4,
+      "fat": 7
+    },
+    "high": {
+      "cal": 270,
+      "protein": 37,
+      "carbs": 6,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Molly's Broccoli Cheese Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -8610,6 +8790,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pasta with Creamy Plant Based Alfredo and Mushrooms": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 280,
+      "protein": 10,
+      "carbs": 36,
+      "fat": 11
+    },
+    "high": {
+      "cal": 340,
+      "protein": 12,
+      "carbs": 42,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "Pasta with Marinara Sauce": {
@@ -10802,6 +11002,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Roasted Tofu with Mushroom Gravy": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 140,
+      "protein": 14,
+      "carbs": 8,
+      "fat": 6
+    },
+    "high": {
+      "cal": 180,
+      "protein": 16,
+      "carbs": 10,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Roasted Vegetable Medley": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -11542,6 +11762,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Sesame Coconut Chicken Curry Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 200,
+      "protein": 16,
+      "carbs": 14,
+      "fat": 9
+    },
+    "high": {
+      "cal": 260,
+      "protein": 19,
+      "carbs": 18,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Sesame Garlic Bean Sprout Salad": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -11620,6 +11860,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Shoestring French Fries": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 110,
+    "low": {
+      "cal": 280,
+      "protein": 3,
+      "carbs": 36,
+      "fat": 13
+    },
+    "high": {
+      "cal": 330,
+      "protein": 4,
+      "carbs": 40,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "Shredded Cabbage": {
@@ -12000,6 +12260,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-01",
+    "v": 4
+  },
+  "Sliced Red Onion": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 20,
+    "low": {
+      "cal": 7,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "high": {
+      "cal": 10,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "Sliced Sourdough Bread": {
@@ -14132,6 +14412,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Tri Color Three Cheese Tortellini": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 12
+    },
+    "high": {
+      "cal": 380,
+      "protein": 16,
+      "carbs": 42,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
+    "v": 4
+  },
   "Tuna Salad": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -14810,6 +15110,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "White Bun": {
+    "kind": "dish",
+    "portion": "1 bun",
+    "grams": 43,
+    "low": {
+      "cal": 120,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 1
+    },
+    "high": {
+      "cal": 140,
+      "protein": 5,
+      "carbs": 25,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-10-03",
     "v": 4
   },
   "White Wine Alfredo Sauce": {
