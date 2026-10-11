@@ -99,6 +99,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "American Style Ground Beef Soft Taco": {
+    "kind": "dish",
+    "portion": "1 taco",
+    "grams": 100,
+    "low": {
+      "cal": 220,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 10
+    },
+    "high": {
+      "cal": 280,
+      "protein": 15,
+      "carbs": 20,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Ancient Grain Freekeh Herb Pilaf": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -417,6 +437,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Avocado Salsa": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 35,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 3
+    },
+    "high": {
+      "cal": 50,
+      "protein": 1,
+      "carbs": 3,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "BBQ Baked Beans": {
@@ -1489,6 +1529,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Beef and Rice Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 14,
+      "carbs": 18,
+      "fat": 6
+    },
+    "high": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 22,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Beef, Vegetable and Barley Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -2509,6 +2569,26 @@
     "checked": "2026-10-02",
     "v": 4
   },
+  "Braised White Beans and Greens": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 140,
+      "protein": 8,
+      "carbs": 16,
+      "fat": 4
+    },
+    "high": {
+      "cal": 190,
+      "protein": 11,
+      "carbs": 20,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Braised White Beans with Garlic and Herbs": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -2959,6 +3039,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Cajun Chicken Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 120,
+    "low": {
+      "cal": 280,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 11
+    },
+    "high": {
+      "cal": 340,
+      "protein": 19,
+      "carbs": 32,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Cajun Cream Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -3037,6 +3137,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Cajun Spiced Tater Tots": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 24,
+      "fat": 12
+    },
+    "high": {
+      "cal": 280,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "Cajun Spiced Tofu with Sauteed Kale": {
@@ -3459,6 +3579,26 @@
     "checked": "2026-10-02",
     "v": 4
   },
+  "Cheese Mulita on Corn Tortilla": {
+    "kind": "dish",
+    "portion": "1 mulita",
+    "grams": 90,
+    "low": {
+      "cal": 210,
+      "protein": 8,
+      "carbs": 20,
+      "fat": 11
+    },
+    "high": {
+      "cal": 270,
+      "protein": 10,
+      "carbs": 24,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Cheese Pizza": {
     "kind": "dish",
     "portion": "1 slice",
@@ -3837,6 +3977,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Chicken Parmesan with Marinara Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 280,
+      "protein": 28,
+      "carbs": 12,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 32,
+      "carbs": 16,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "Chicken Pesto Pizza": {
@@ -5298,6 +5458,27 @@
     "needs_review": false,
     "checked": "2026-09-27",
     "v": 4
+  },
+  "Creamy Chicken and Wild Rice Soup (available at 2pm)": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 220,
+      "protein": 16,
+      "carbs": 18,
+      "fat": 9
+    },
+    "high": {
+      "cal": 300,
+      "protein": 20,
+      "carbs": 22,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-09-27",
+    "v": 4,
+    "same_as": "Creamy Chicken and Wild Rice Soup"
   },
   "Creamy Herb Polenta": {
     "kind": "dish",
@@ -8072,6 +8253,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Grilled Pork Chops with Pineapple Salsa": {
+    "kind": "dish",
+    "portion": "1 chop",
+    "grams": 140,
+    "low": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 10
+    },
+    "high": {
+      "cal": 310,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Grilled Tofu with Mediterranean Salad": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -10231,6 +10432,46 @@
     },
     "needs_review": false,
     "checked": "2026-10-04",
+    "v": 4
+  },
+  "Mexican Street Corn Cup (no meat)": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 5,
+      "carbs": 22,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 7,
+      "carbs": 26,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
+  "Mexican Street Corn Cup with Barbacoa Beef": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 24,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 22,
+      "carbs": 28,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "Mexican Street Corn with Lime and Cotija": {
@@ -12982,6 +13223,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Ricotta, Spinach, and Garlic Confit Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 120,
+    "low": {
+      "cal": 260,
+      "protein": 12,
+      "carbs": 26,
+      "fat": 12
+    },
+    "high": {
+      "cal": 320,
+      "protein": 15,
+      "carbs": 30,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "Risotto Primavera": {
@@ -16834,6 +17095,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Steamed Broccoli and Carrots": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 35,
+      "protein": 3,
+      "carbs": 6,
+      "fat": 0
+    },
+    "high": {
+      "cal": 55,
+      "protein": 4,
+      "carbs": 8,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Steamed Broccoli, Cauliflower and Carrots": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -17792,6 +18073,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-10",
+    "v": 4
+  },
+  "Tajin": {
+    "kind": "topping",
+    "portion": "1 tsp",
+    "grams": 3,
+    "low": {
+      "cal": 8,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "high": {
+      "cal": 12,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "Tamarind Coconut Curry Rockfish": {
@@ -18784,6 +19085,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Vegetable Barley Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 120,
+      "protein": 5,
+      "carbs": 22,
+      "fat": 2
+    },
+    "high": {
+      "cal": 170,
+      "protein": 7,
+      "carbs": 28,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Vegetable Egg Rolls": {
     "kind": "dish",
     "portion": "1 roll",
@@ -19124,6 +19445,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Veggie Meatballs Arrabiata": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 160,
+      "protein": 10,
+      "carbs": 16,
+      "fat": 6
+    },
+    "high": {
+      "cal": 220,
+      "protein": 13,
+      "carbs": 20,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
+    "v": 4
+  },
   "Veggie Meatballs Marinara": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19222,6 +19563,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Veggie Shepherds Pie with Olive Oil Mashed Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 200,
+      "protein": 8,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 280,
+      "protein": 11,
+      "carbs": 30,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-11",
     "v": 4
   },
   "Village Cheese Pizza": {
