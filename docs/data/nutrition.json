@@ -559,6 +559,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "BBQ Jackfruit Sliders with Slaw and Pickled Onions": {
+    "kind": "dish",
+    "portion": "1 slider",
+    "grams": 120,
+    "low": {
+      "cal": 220,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 8
+    },
+    "high": {
+      "cal": 280,
+      "protein": 8,
+      "carbs": 36,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "BBQ Pork Baby Back Ribs": {
     "kind": "dish",
     "portion": "3 ribs",
@@ -617,6 +637,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "BBQ Pulled Pork Sliders on Hawaiian Roll": {
+    "kind": "dish",
+    "portion": "1 slider",
+    "grams": 130,
+    "low": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 12
+    },
+    "high": {
+      "cal": 340,
+      "protein": 16,
+      "carbs": 32,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "BBQ Sauce": {
@@ -1527,6 +1567,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Beef and Pork Polish Kielbasa Sausage": {
+    "kind": "dish",
+    "portion": "1 link",
+    "grams": 85,
+    "low": {
+      "cal": 240,
+      "protein": 12,
+      "carbs": 2,
+      "fat": 20
+    },
+    "high": {
+      "cal": 290,
+      "protein": 14,
+      "carbs": 3,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "Beef and Rice Soup": {
@@ -4159,6 +4219,26 @@
     "checked": "2026-10-06",
     "v": 4
   },
+  "Chicken Tinga with Lime Pickled Onions": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 24,
+      "carbs": 6,
+      "fat": 7
+    },
+    "high": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Chicken Tortilla Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -6553,6 +6633,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Egg, Pork Chorizo, Cheese, and Potato Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 280,
+      "protein": 16,
+      "carbs": 18,
+      "fat": 16
+    },
+    "high": {
+      "cal": 360,
+      "protein": 20,
+      "carbs": 22,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Eggs": {
     "kind": "dish",
     "portion": "1 egg",
@@ -7633,6 +7733,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Garlic Butter Hawaiian Rolls": {
+    "kind": "dish",
+    "portion": "1 roll",
+    "grams": 50,
+    "low": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 20,
+      "fat": 5
+    },
+    "high": {
+      "cal": 170,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Garlic Cheese Breadsticks": {
     "kind": "dish",
     "portion": "1 stick",
@@ -8693,6 +8813,46 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Hawaiian Garlic Butter Roasted Tofu Bowls": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 200,
+    "low": {
+      "cal": 240,
+      "protein": 16,
+      "carbs": 18,
+      "fat": 12
+    },
+    "high": {
+      "cal": 310,
+      "protein": 20,
+      "carbs": 24,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
+  "Hawaiian Garlic Butter Shrimp Bowls": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 200,
+    "low": {
+      "cal": 220,
+      "protein": 22,
+      "carbs": 16,
+      "fat": 8
+    },
+    "high": {
+      "cal": 290,
+      "protein": 26,
+      "carbs": 22,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Hawaiian Pizza": {
     "kind": "dish",
     "portion": "1 slice",
@@ -8713,6 +8873,46 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Hawaiian Roll Cheese Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 12,
+      "carbs": 36,
+      "fat": 14
+    },
+    "high": {
+      "cal": 400,
+      "protein": 16,
+      "carbs": 42,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
+  "Hawaiian Roll Pizza with Ham and Pineapple": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 150,
+    "low": {
+      "cal": 340,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 14
+    },
+    "high": {
+      "cal": 420,
+      "protein": 18,
+      "carbs": 44,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Hawaiian Rolls": {
     "kind": "dish",
     "portion": "1 roll",
@@ -8731,6 +8931,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Hawaiian Sweet Roll Bread Pudding": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 240,
+      "protein": 5,
+      "carbs": 36,
+      "fat": 8
+    },
+    "high": {
+      "cal": 310,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "Hendel Roasted Chicken": {
@@ -11534,6 +11754,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Nacho Cheddar Cheese Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 90,
+      "protein": 3,
+      "carbs": 2,
+      "fat": 7
+    },
+    "high": {
+      "cal": 120,
+      "protein": 4,
+      "carbs": 3,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Napa Cabbage Slaw with Edamame and Miso Dressing": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -12013,6 +12253,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Pandan Whipped Topping": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 20,
+    "low": {
+      "cal": 50,
+      "protein": 0,
+      "carbs": 4,
+      "fat": 4
+    },
+    "high": {
+      "cal": 70,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "Parker House Dinner Rolls": {
@@ -14585,6 +14845,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Roasted Mexican Spiced Cauliflower": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 70,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 3
+    },
+    "high": {
+      "cal": 110,
+      "protein": 4,
+      "carbs": 10,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Roasted Mushroom Muffaletta Hoagie Sandwich": {
     "kind": "dish",
     "portion": "1 sandwich",
@@ -15873,6 +16153,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Seared Tofu with Maple Soy Glaze": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 160,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 7
+    },
+    "high": {
+      "cal": 220,
+      "protein": 16,
+      "carbs": 14,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "Seasoned Fried Chicken Patty": {
@@ -17493,6 +17793,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Sprinkles": {
+    "kind": "topping",
+    "portion": "1 tbsp",
+    "grams": 8,
+    "low": {
+      "cal": 30,
+      "protein": 0,
+      "carbs": 7,
+      "fat": 0
+    },
+    "high": {
+      "cal": 35,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "Ssamjang Dipping Sauce": {
@@ -19605,6 +19925,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Tuscan Braised White Beans with Sundried Tomatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 140,
+      "protein": 8,
+      "carbs": 18,
+      "fat": 4
+    },
+    "high": {
+      "cal": 190,
+      "protein": 10,
+      "carbs": 22,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
+    "v": 4
+  },
   "Tzatziki Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -19643,6 +19983,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Ube Whipped Topping": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 20,
+    "low": {
+      "cal": 50,
+      "protein": 0,
+      "carbs": 4,
+      "fat": 4
+    },
+    "high": {
+      "cal": 70,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "Umami Crunchy Garlic Sesame Edamame": {
@@ -20303,6 +20663,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Watermelon and Basil Salad with Red Wine Greek Vinaigrette": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 12,
+      "fat": 3
+    },
+    "high": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-10-13",
     "v": 4
   },
   "West African-Inspired Sunflower Tomato Stew": {
