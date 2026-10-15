@@ -939,6 +939,26 @@
     "checked": "2026-10-08",
     "v": 4
   },
+  "Baked Tilapia with Veracruz Sauce": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 160,
+    "low": {
+      "cal": 220,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 8
+    },
+    "high": {
+      "cal": 280,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Baked Tofu with Mint Chimichurri": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -1037,6 +1057,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-05",
+    "v": 4
+  },
+  "Banana Cream Cheese Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 280,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 12
+    },
+    "high": {
+      "cal": 340,
+      "protein": 6,
+      "carbs": 44,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
     "v": 4
   },
   "Barley Risotto Primavera": {
@@ -3979,6 +4019,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Chicken Andouille Sausage and Peppers Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 160,
+    "low": {
+      "cal": 380,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 16
+    },
+    "high": {
+      "cal": 450,
+      "protein": 22,
+      "carbs": 42,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Chicken Apple Maple Sausage Links": {
     "kind": "dish",
     "portion": "1 link",
@@ -5960,6 +6020,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Creole Chicken Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 18,
+      "carbs": 14,
+      "fat": 6
+    },
+    "high": {
+      "cal": 240,
+      "protein": 22,
+      "carbs": 18,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Creole Cream Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -6793,6 +6873,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Egg Salad Hoagie Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 220,
+    "low": {
+      "cal": 420,
+      "protein": 16,
+      "carbs": 38,
+      "fat": 22
+    },
+    "high": {
+      "cal": 520,
+      "protein": 20,
+      "carbs": 44,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Egg Whites": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -7491,6 +7591,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-14",
+    "v": 4
+  },
+  "Fried Hawaiian Sweet Bread": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 90,
+    "low": {
+      "cal": 240,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 11
+    },
+    "high": {
+      "cal": 300,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
     "v": 4
   },
   "Fried Korean BBQ Beef Spring Roll": {
@@ -13755,6 +13875,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Pork Sausage, Egg and Cheese English Muffin Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 180,
+    "low": {
+      "cal": 380,
+      "protein": 18,
+      "carbs": 28,
+      "fat": 20
+    },
+    "high": {
+      "cal": 460,
+      "protein": 22,
+      "carbs": 32,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Pork Vindaloo": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -15525,6 +15665,26 @@
     "checked": "2026-10-12",
     "v": 4
   },
+  "Roasted Salmon with Jalapeno Cilantro Puree": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 160,
+    "low": {
+      "cal": 280,
+      "protein": 32,
+      "carbs": 4,
+      "fat": 16
+    },
+    "high": {
+      "cal": 340,
+      "protein": 36,
+      "carbs": 6,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Roasted Santa Maria Style Beef Tri Tip": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -16835,6 +16995,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Sesame Garlic Rice Noodle Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 220,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 280,
+      "protein": 8,
+      "carbs": 32,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Sesame Ginger Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -18015,6 +18195,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Spiced Tofu": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 160,
+      "protein": 16,
+      "carbs": 6,
+      "fat": 8
+    },
+    "high": {
+      "cal": 220,
+      "protein": 20,
+      "carbs": 10,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Spicy Buffalo Fried Cauliflower Bites": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -18333,6 +18533,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Spinach, Onion, and Tomato Tofu Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 140,
+      "protein": 14,
+      "carbs": 8,
+      "fat": 6
+    },
+    "high": {
+      "cal": 200,
+      "protein": 18,
+      "carbs": 12,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
     "v": 4
   },
   "Split Pea Soup": {
@@ -19375,6 +19595,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Sweet Potato and Beyond Crumble Hash": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 30,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Sweet Potato and Black Bean Quesadilla": {
     "kind": "dish",
     "portion": "1 quesadilla",
@@ -19593,6 +19833,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Tarka Dal with Cauliflower": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 200,
+      "protein": 12,
+      "carbs": 24,
+      "fat": 6
+    },
+    "high": {
+      "cal": 280,
+      "protein": 16,
+      "carbs": 32,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
     "v": 4
   },
   "Test 1": {
@@ -20265,6 +20525,26 @@
     "checked": "2026-10-03",
     "v": 4
   },
+  "Trojan Pork \"McRib\" Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 240,
+    "low": {
+      "cal": 520,
+      "protein": 24,
+      "carbs": 42,
+      "fat": 26
+    },
+    "high": {
+      "cal": 640,
+      "protein": 30,
+      "carbs": 48,
+      "fat": 34
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Tuna Hoagie Melt": {
     "kind": "dish",
     "portion": "1 sandwich",
@@ -20585,6 +20865,26 @@
     "checked": "2026-10-07",
     "v": 4
   },
+  "Ube Coconut French Toast": {
+    "kind": "dish",
+    "portion": "2 slices",
+    "grams": 160,
+    "low": {
+      "cal": 360,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 16
+    },
+    "high": {
+      "cal": 440,
+      "protein": 10,
+      "carbs": 50,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
+    "v": 4
+  },
   "Ube Pancakes": {
     "kind": "dish",
     "portion": "1 pancake",
@@ -20643,6 +20943,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Vanilla Ice Cream": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 9
+    },
+    "high": {
+      "cal": 240,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-15",
     "v": 4
   },
   "Vanilla Yogurt": {
