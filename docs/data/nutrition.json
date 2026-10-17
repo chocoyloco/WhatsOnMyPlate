@@ -419,6 +419,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Aussie Veggie Sanga Sandwich on French Bread": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 280,
+    "low": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 52,
+      "fat": 16
+    },
+    "high": {
+      "cal": 520,
+      "protein": 18,
+      "carbs": 58,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
+    "v": 4
+  },
   "Avocado Crema": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -857,6 +877,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-03",
+    "v": 4
+  },
+  "Baked Soft Pretzels": {
+    "kind": "dish",
+    "portion": "1 pretzel",
+    "grams": 110,
+    "low": {
+      "cal": 280,
+      "protein": 8,
+      "carbs": 54,
+      "fat": 2
+    },
+    "high": {
+      "cal": 330,
+      "protein": 10,
+      "carbs": 58,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
     "v": 4
   },
   "Baked Swai with Lemon Garlic Butter": {
@@ -1647,6 +1687,36 @@
     },
     "needs_review": false,
     "checked": "2026-10-13",
+    "v": 4
+  },
+  "Beef and Potato Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 4
+    },
+    "high": {
+      "cal": 220,
+      "protein": 16,
+      "carbs": 22,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
+    "v": 4
+  },
+  "Beef and Potato Soup (available at 2pm)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-10-17",
     "v": 4
   },
   "Beef and Rice Soup": {
@@ -3899,6 +3969,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Cheese Tortellini with Marinara Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 8
+    },
+    "high": {
+      "cal": 360,
+      "protein": 16,
+      "carbs": 44,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
+    "v": 4
+  },
   "Cheeseburger on Martin's Potato Bun": {
     "kind": "dish",
     "portion": "1 burger",
@@ -5857,6 +5947,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Creamy Broccoli Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 140,
+      "protein": 6,
+      "carbs": 16,
+      "fat": 6
+    },
+    "high": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 20,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
     "v": 4
   },
   "Creamy Caesar Dressing": {
@@ -12614,6 +12724,16 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "NACHO BAR (Available at 2pm)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-10-17",
+    "v": 4
+  },
   "Naan Bread": {
     "kind": "dish",
     "portion": "1 piece",
@@ -12632,6 +12752,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Nacho Bar Beef Carne Asada": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 200,
+      "protein": 24,
+      "carbs": 2,
+      "fat": 10
+    },
+    "high": {
+      "cal": 260,
+      "protein": 28,
+      "carbs": 4,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
     "v": 4
   },
   "Nacho Cheddar Cheese Sauce": {
@@ -13553,6 +13693,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-02",
+    "v": 4
+  },
+  "Pesto Mayo": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 200,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 22
+    },
+    "high": {
+      "cal": 240,
+      "protein": 1,
+      "carbs": 3,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
     "v": 4
   },
   "Pesto Mushroom Sandwich": {
@@ -15443,6 +15603,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Roasted Chicken with Plum Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 10
+    },
+    "high": {
+      "cal": 310,
+      "protein": 32,
+      "carbs": 14,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-17",
     "v": 4
   },
   "Roasted Cilantro Lime Glazed Chicken": {
