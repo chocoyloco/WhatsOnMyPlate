@@ -39,6 +39,46 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Adobo Pork Belly": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 28,
+      "carbs": 2,
+      "fat": 24
+    },
+    "high": {
+      "cal": 380,
+      "protein": 32,
+      "carbs": 3,
+      "fat": 29
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
+  "Adobo Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 25,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 1
+    },
+    "high": {
+      "cal": 45,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Al Pastor Chayote with Soyrizo and Black Beans": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -419,6 +459,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Atchara (Filipino Slaw)": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 60,
+      "protein": 1,
+      "carbs": 12,
+      "fat": 1
+    },
+    "high": {
+      "cal": 100,
+      "protein": 2,
+      "carbs": 15,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Aussie Veggie Sanga Sandwich on French Bread": {
     "kind": "dish",
     "portion": "1 sandwich",
@@ -517,6 +577,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "BBQ Beef Sliders on Hawaiian Roll": {
+    "kind": "dish",
+    "portion": "1 slider",
+    "grams": 110,
+    "low": {
+      "cal": 280,
+      "protein": 16,
+      "carbs": 24,
+      "fat": 12
+    },
+    "high": {
+      "cal": 340,
+      "protein": 19,
+      "carbs": 28,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "BBQ Chicken Pizza": {
@@ -4649,6 +4729,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Chickpea Salad Hoagie Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 220,
+    "low": {
+      "cal": 380,
+      "protein": 14,
+      "carbs": 48,
+      "fat": 14
+    },
+    "high": {
+      "cal": 460,
+      "protein": 17,
+      "carbs": 54,
+      "fat": 19
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Chickpea, Vegetable and Quinoa Scramble": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -6009,6 +6109,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Creamy Cauliflower Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 140,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 7
+    },
+    "high": {
+      "cal": 200,
+      "protein": 8,
+      "carbs": 18,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Creamy Cauliflower Soup with Parmesan": {
     "kind": "dish",
     "portion": "1 cup",
@@ -7263,6 +7383,16 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "FILIPINO ADOBO BOWL BAR (available at 2pm)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Fairy Bread French Toast": {
     "kind": "dish",
     "portion": "1 slice",
@@ -7341,6 +7471,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-06",
+    "v": 4
+  },
+  "Filipino Style Cucumber Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 50,
+      "protein": 1,
+      "carbs": 8,
+      "fat": 2
+    },
+    "high": {
+      "cal": 90,
+      "protein": 2,
+      "carbs": 11,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "Fire Roasted Tomato Sauce": {
@@ -8583,6 +8733,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Garlic Parmesan Roasted Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 180,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Garlic and Dill Rice with Green Peas": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -9461,6 +9631,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-03",
+    "v": 4
+  },
+  "Ham and Cheese Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 200,
+    "low": {
+      "cal": 420,
+      "protein": 22,
+      "carbs": 32,
+      "fat": 20
+    },
+    "high": {
+      "cal": 520,
+      "protein": 28,
+      "carbs": 38,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "Ham and White Bean Soup": {
@@ -11111,6 +11301,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Lasagna Soup with Italian Sausage": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 22,
+      "fat": 10
+    },
+    "high": {
+      "cal": 320,
+      "protein": 18,
+      "carbs": 28,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "Lebanese Spiced Moussaka with Chickpeas": {
@@ -12914,6 +13124,26 @@
     "checked": "2026-10-01",
     "v": 4
   },
+  "Nuoc Mam Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 15,
+      "protein": 3,
+      "carbs": 1,
+      "fat": 0
+    },
+    "high": {
+      "cal": 30,
+      "protein": 5,
+      "carbs": 2,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Oat n' Honey Granola": {
     "kind": "topping",
     "portion": "1/4 cup",
@@ -13733,6 +13963,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Pesto and Ricotta Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 120,
+    "low": {
+      "cal": 300,
+      "protein": 12,
+      "carbs": 28,
+      "fat": 16
+    },
+    "high": {
+      "cal": 380,
+      "protein": 15,
+      "carbs": 32,
+      "fat": 21
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "Philly Cheese Sauce": {
@@ -15185,6 +15435,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Roasted Beef Flank Steak with Chimichurri Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 32,
+      "carbs": 2,
+      "fat": 16
+    },
+    "high": {
+      "cal": 340,
+      "protein": 36,
+      "carbs": 3,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
+    "v": 4
+  },
   "Roasted Beef Flank Steak with Mojo Verde": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -15963,6 +16233,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Roasted Jackfruit with Pineapple Salsa": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 100,
+      "protein": 2,
+      "carbs": 24,
+      "fat": 0
+    },
+    "high": {
+      "cal": 150,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "Roasted Jamaican Jerk Seasoned Chicken": {
@@ -20943,6 +21233,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Tofu Soyrizo": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 120,
+      "protein": 12,
+      "carbs": 6,
+      "fat": 5
+    },
+    "high": {
+      "cal": 170,
+      "protein": 15,
+      "carbs": 8,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-18",
     "v": 4
   },
   "Tofu Soyrizo Quesadilla": {
