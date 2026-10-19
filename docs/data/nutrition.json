@@ -1199,6 +1199,26 @@
     "checked": "2026-10-15",
     "v": 4
   },
+  "Banana Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 38,
+      "fat": 6
+    },
+    "high": {
+      "cal": 280,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Barley Risotto Primavera": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -3299,6 +3319,46 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Butterscotch Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 3,
+      "carbs": 40,
+      "fat": 7
+    },
+    "high": {
+      "cal": 300,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
+  "Buttery Braised Cabbage": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 70,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 5
+    },
+    "high": {
+      "cal": 110,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Buttery Braised Cabbage and Leeks with Lemon Zest": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -3337,6 +3397,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-01",
+    "v": 4
+  },
+  "Buttery Buffalo Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 80,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 8
+    },
+    "high": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "CRUNCHY TACO BAR (available at 2pm)": {
@@ -4269,6 +4349,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Chicken Al Pastor Tacos with Cilantro Crema": {
+    "kind": "dish",
+    "portion": "1 taco",
+    "grams": 120,
+    "low": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 22,
+      "fat": 12
+    },
+    "high": {
+      "cal": 350,
+      "protein": 22,
+      "carbs": 26,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Chicken Andouille Sausage": {
     "kind": "dish",
     "portion": "1 link",
@@ -5089,6 +5189,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Chocolate Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 3,
+      "carbs": 40,
+      "fat": 7
+    },
+    "high": {
+      "cal": 300,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Chocolate Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -5747,6 +5867,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-12",
+    "v": 4
+  },
+  "Comeback Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 200,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 21
+    },
+    "high": {
+      "cal": 240,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 25
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Confetti Buttermilk Pancakes": {
@@ -10223,6 +10363,26 @@
     "checked": "2026-10-12",
     "v": 4
   },
+  "Honey Buffalo Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 60,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 3
+    },
+    "high": {
+      "cal": 100,
+      "protein": 0,
+      "carbs": 12,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Honey Miso Glazed Fish with Mango Slaw": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -11143,6 +11303,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Ken's Honey Mustard Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 140,
+      "protein": 0,
+      "carbs": 6,
+      "fat": 12
+    },
+    "high": {
+      "cal": 180,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Ken's Tartar Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -11363,6 +11543,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Lemon Pepper Seasoning": {
+    "kind": "topping",
+    "portion": "1 tsp",
+    "grams": 3,
+    "low": {
+      "cal": 5,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "high": {
+      "cal": 10,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Lemon Pepper and Garlic Baked Catfish": {
     "kind": "dish",
     "portion": "1 fillet",
@@ -11381,6 +11581,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-02",
+    "v": 4
+  },
+  "Lemon Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 38,
+      "fat": 6
+    },
+    "high": {
+      "cal": 280,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Lemon Wedges": {
@@ -13485,6 +13705,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Pancake Syrup": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 40,
+    "low": {
+      "cal": 100,
+      "protein": 0,
+      "carbs": 26,
+      "fat": 0
+    },
+    "high": {
+      "cal": 130,
+      "protein": 0,
+      "carbs": 32,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Pandan Roasted Chicken": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -13923,6 +14163,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-02",
+    "v": 4
+  },
+  "Pesto Chicken Pasta Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 280,
+      "protein": 16,
+      "carbs": 24,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 20,
+      "carbs": 28,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Pesto Mayo": {
@@ -15235,6 +15495,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Red Wine Roasted Beets, Goat Cheese, and Greens": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 120,
+      "protein": 6,
+      "carbs": 12,
+      "fat": 5
+    },
+    "high": {
+      "cal": 180,
+      "protein": 8,
+      "carbs": 16,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Refried Pinto Beans": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -15333,6 +15613,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Rice Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 6
+    },
+    "high": {
+      "cal": 300,
+      "protein": 5,
+      "carbs": 48,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Ricotta, Spinach, and Garlic Confit Pizza": {
@@ -16835,6 +17135,26 @@
     "checked": "2026-10-12",
     "v": 4
   },
+  "Roasted Umami Chinese Broccoli with Crunchy Garlic Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 140,
+      "protein": 4,
+      "carbs": 12,
+      "fat": 8
+    },
+    "high": {
+      "cal": 200,
+      "protein": 6,
+      "carbs": 16,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Roasted Vegetable Medley": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -17703,6 +18023,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Savory Fried Chicken Fritter": {
+    "kind": "dish",
+    "portion": "1 fritter",
+    "grams": 80,
+    "low": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 14,
+      "fat": 10
+    },
+    "high": {
+      "cal": 260,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Savory Fried Chicken Katsu Fritter": {
@@ -19225,6 +19565,26 @@
     "checked": "2026-10-08",
     "v": 4
   },
+  "Spicy Coleslaw": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 80,
+      "protein": 1,
+      "carbs": 8,
+      "fat": 5
+    },
+    "high": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 12,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Spicy Edamame with Sweet Chile Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19263,6 +19623,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Spicy Fried Chicken Fritter": {
+    "kind": "dish",
+    "portion": "1 fritter",
+    "grams": 80,
+    "low": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 14,
+      "fat": 10
+    },
+    "high": {
+      "cal": 260,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Spicy Honey Fried Chicken Wings": {
@@ -22015,6 +22395,46 @@
     "checked": "2026-10-15",
     "v": 4
   },
+  "Vanilla Pudding": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 38,
+      "fat": 6
+    },
+    "high": {
+      "cal": 280,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
+  "Vanilla Wafers": {
+    "kind": "dish",
+    "portion": "5 wafers",
+    "grams": 35,
+    "low": {
+      "cal": 140,
+      "protein": 1,
+      "carbs": 22,
+      "fat": 5
+    },
+    "high": {
+      "cal": 170,
+      "protein": 2,
+      "carbs": 26,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
+    "v": 4
+  },
   "Vanilla Yogurt": {
     "kind": "dish",
     "portion": "1 cup",
@@ -22093,6 +22513,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Vegetable Rice Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 100,
+      "protein": 3,
+      "carbs": 18,
+      "fat": 2
+    },
+    "high": {
+      "cal": 150,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Vegetable Sesame Manchow Soup": {
@@ -22233,6 +22673,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-01",
+    "v": 4
+  },
+  "Veggie Chorizo Tacos with Corn, Beans, Peppers and Onions": {
+    "kind": "dish",
+    "portion": "1 taco",
+    "grams": 120,
+    "low": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 32,
+      "fat": 9
+    },
+    "high": {
+      "cal": 310,
+      "protein": 11,
+      "carbs": 38,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Veggie Chorizo and Black Bean Sopes with Plant Based Cheese": {
@@ -23013,6 +23473,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Yucca Fries": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 110,
+    "low": {
+      "cal": 220,
+      "protein": 2,
+      "carbs": 28,
+      "fat": 11
+    },
+    "high": {
+      "cal": 280,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-19",
     "v": 4
   },
   "Zesty Lime and Spice Roasted Chickpeas": {
