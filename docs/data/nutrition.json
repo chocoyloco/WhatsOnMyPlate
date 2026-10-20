@@ -99,6 +99,26 @@
     "checked": "2026-10-06",
     "v": 4
   },
+  "Al Pastor Chayote with Veggie Chorizo and Black Beans": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 180,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 7
+    },
+    "high": {
+      "cal": 240,
+      "protein": 11,
+      "carbs": 28,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "All American Club Hoagie Sandwich": {
     "kind": "dish",
     "portion": "1 sandwich",
@@ -1377,6 +1397,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Beef Birria": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 2,
+      "fat": 13
+    },
+    "high": {
+      "cal": 310,
+      "protein": 35,
+      "carbs": 3,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Beef Birria Taco on Corn Tortilla": {
@@ -3239,6 +3279,26 @@
     "checked": "2026-10-05",
     "v": 4
   },
+  "Burrito Bar Beef Carne Asada": {
+    "kind": "dish",
+    "portion": "1 burrito",
+    "grams": 280,
+    "low": {
+      "cal": 520,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 20
+    },
+    "high": {
+      "cal": 650,
+      "protein": 40,
+      "carbs": 56,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Butter Balls": {
     "kind": "topping",
     "portion": "1 tbsp",
@@ -4129,6 +4189,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Cheese Quesadilla": {
+    "kind": "dish",
+    "portion": "1 quesadilla",
+    "grams": 180,
+    "low": {
+      "cal": 380,
+      "protein": 14,
+      "carbs": 36,
+      "fat": 20
+    },
+    "high": {
+      "cal": 480,
+      "protein": 18,
+      "carbs": 42,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Cheese Tortellini with Marinara Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -4269,6 +4349,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Chef Salad with Turkey, Ham, Egg and Ranch Dressing": {
+    "kind": "dish",
+    "portion": "1 salad",
+    "grams": 320,
+    "low": {
+      "cal": 380,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 24
+    },
+    "high": {
+      "cal": 480,
+      "protein": 38,
+      "carbs": 16,
+      "fat": 32
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Cherry Balsamic Grilled Pork Chops": {
     "kind": "dish",
     "portion": "1 chop",
@@ -4367,6 +4467,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-19",
+    "v": 4
+  },
+  "Chicken Albondigas Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 16,
+      "carbs": 12,
+      "fat": 6
+    },
+    "high": {
+      "cal": 220,
+      "protein": 20,
+      "carbs": 16,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Chicken Andouille Sausage": {
@@ -4629,6 +4749,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Chicken Papaya Salad with Sesame Dressing": {
+    "kind": "dish",
+    "portion": "1 salad",
+    "grams": 280,
+    "low": {
+      "cal": 280,
+      "protein": 28,
+      "carbs": 18,
+      "fat": 12
+    },
+    "high": {
+      "cal": 380,
+      "protein": 34,
+      "carbs": 24,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Chicken Parmesan with Marinara Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -4867,6 +5007,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Chile Colorado Steak": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 170,
+    "low": {
+      "cal": 260,
+      "protein": 32,
+      "carbs": 6,
+      "fat": 12
+    },
+    "high": {
+      "cal": 340,
+      "protein": 38,
+      "carbs": 8,
+      "fat": 17
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Chile Garlic Sauce": {
@@ -5927,6 +6087,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Corn Kernals": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 100,
+      "protein": 3,
+      "carbs": 20,
+      "fat": 2
+    },
+    "high": {
+      "cal": 140,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Corn Tortillas": {
@@ -14785,6 +14965,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Plant Based Veggie \"Chorizo\" Casserole": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 22,
+      "fat": 8
+    },
+    "high": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Po' Boy Shrimp Pizza": {
     "kind": "dish",
     "portion": "1 slice",
@@ -14885,6 +15085,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Pork Carnitas Sandwich with Cheese": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 220,
+    "low": {
+      "cal": 480,
+      "protein": 32,
+      "carbs": 36,
+      "fat": 22
+    },
+    "high": {
+      "cal": 600,
+      "protein": 40,
+      "carbs": 42,
+      "fat": 30
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Pork Carnitas with Lime Pickled Onions": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -14923,6 +15143,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pork Chorizo, Egg  and Cheese Quesadilla": {
+    "kind": "dish",
+    "portion": "1 quesadilla",
+    "grams": 200,
+    "low": {
+      "cal": 440,
+      "protein": 18,
+      "carbs": 36,
+      "fat": 26
+    },
+    "high": {
+      "cal": 560,
+      "protein": 24,
+      "carbs": 42,
+      "fat": 34
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Pork Chorizo, Egg and Cheese Scramble": {
@@ -16193,6 +16433,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-17",
+    "v": 4
+  },
+  "Roasted Cilantro Lime Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 220,
+      "protein": 32,
+      "carbs": 2,
+      "fat": 10
+    },
+    "high": {
+      "cal": 280,
+      "protein": 38,
+      "carbs": 3,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Roasted Cilantro Lime Glazed Chicken": {
@@ -19905,6 +20165,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Sport Peppers": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 20,
+    "low": {
+      "cal": 6,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "high": {
+      "cal": 12,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
+    "v": 4
+  },
   "Sprinkles": {
     "kind": "topping",
     "portion": "1 tbsp",
@@ -19943,6 +20223,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Steak Carne Asada": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 280,
+      "protein": 36,
+      "carbs": 1,
+      "fat": 14
+    },
+    "high": {
+      "cal": 360,
+      "protein": 42,
+      "carbs": 2,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Steamed Baby Bok Choy": {
@@ -22753,6 +23053,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Veggie Chorizo con Papas": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 210,
+    "low": {
+      "cal": 240,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 36,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-20",
     "v": 4
   },
   "Veggie Chorizo, Hashbrown, and Plant Based Cheese Scramble": {
