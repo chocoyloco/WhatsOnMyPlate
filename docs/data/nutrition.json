@@ -1919,6 +1919,26 @@
     "checked": "2026-10-16",
     "v": 4
   },
+  "Beer Battered Fried Cod": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 150,
+    "low": {
+      "cal": 320,
+      "protein": 22,
+      "carbs": 16,
+      "fat": 16
+    },
+    "high": {
+      "cal": 380,
+      "protein": 26,
+      "carbs": 20,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
   "Beer Battered Onion Rings": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -3079,6 +3099,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Brie and Strawberry Jam Melt": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 180,
+    "low": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 22
+    },
+    "high": {
+      "cal": 500,
+      "protein": 16,
+      "carbs": 44,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
   "Brioche Ice Cream French Toast": {
     "kind": "dish",
     "portion": "1 slice",
@@ -3547,6 +3587,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Cajun Chicken Baked Pasta": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 340,
+      "protein": 28,
+      "carbs": 32,
+      "fat": 10
+    },
+    "high": {
+      "cal": 420,
+      "protein": 32,
+      "carbs": 38,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Cajun Chicken Pizza": {
@@ -6289,6 +6349,26 @@
     "checked": "2026-10-07",
     "v": 4
   },
+  "Country Style French Toast": {
+    "kind": "dish",
+    "portion": "2 slices",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 12
+    },
+    "high": {
+      "cal": 400,
+      "protein": 12,
+      "carbs": 44,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
   "Country Style Smoked Ham Hocks and Lima Beans": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -8893,6 +8973,26 @@
     "checked": "2026-10-13",
     "v": 4
   },
+  "Garlic Butter Hibachi Mixed Veggies": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 110,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 6
+    },
+    "high": {
+      "cal": 160,
+      "protein": 4,
+      "carbs": 14,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
   "Garlic Cheese Breadsticks": {
     "kind": "dish",
     "portion": "1 stick",
@@ -9531,6 +9631,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Green Peas": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 70,
+      "protein": 5,
+      "carbs": 12,
+      "fat": 1
+    },
+    "high": {
+      "cal": 100,
+      "protein": 6,
+      "carbs": 14,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Griddled Country Ham": {
@@ -10433,6 +10553,86 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Hibachi Fried Rice": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 240,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 11
+    },
+    "high": {
+      "cal": 310,
+      "protein": 8,
+      "carbs": 32,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
+  "Hibachi Teriyaki Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 200,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 6
+    },
+    "high": {
+      "cal": 260,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
+  "Hibachi Teriyaki Shrimp": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 140,
+      "protein": 22,
+      "carbs": 8,
+      "fat": 3
+    },
+    "high": {
+      "cal": 200,
+      "protein": 26,
+      "carbs": 12,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
+  "Hibachi Teriyaki Tofu": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 160,
+      "protein": 16,
+      "carbs": 10,
+      "fat": 6
+    },
+    "high": {
+      "cal": 220,
+      "protein": 20,
+      "carbs": 14,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
   "Hickory Smoked Pork Belly": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -10471,6 +10671,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Homemade Lentil Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 12,
+      "carbs": 28,
+      "fat": 2
+    },
+    "high": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Homemade White Wine Tartar Sauce": {
@@ -11161,6 +11381,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Jackfruit, Mushroom, and Lentil Pot Roast": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 6
+    },
+    "high": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 34,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Jalapeno, Red Onion and Cilantro Pizza": {
@@ -12001,6 +12241,26 @@
     "high": null,
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Madras Curry Chicken and Coconut Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 16,
+      "fat": 12
+    },
+    "high": {
+      "cal": 320,
+      "protein": 22,
+      "carbs": 20,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Mahi Mahi with Thai Curry Sauce": {
@@ -12952,6 +13212,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Molly's Moroccan Lentil Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 200,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 3
+    },
+    "high": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Molly's Potato Leek Soup": {
@@ -14045,6 +14325,26 @@
     "checked": "2026-10-03",
     "v": 4
   },
+  "Pasta with Creole Cream Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 320,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 12
+    },
+    "high": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 44,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
+    "v": 4
+  },
   "Pasta with Marinara Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -14983,6 +15283,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-20",
+    "v": 4
+  },
+  "Plantain, Black Bean and Tofu Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 8
+    },
+    "high": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 38,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Po' Boy Shrimp Pizza": {
@@ -15973,6 +16293,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Roasted Bayou Spiced Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 220,
+      "protein": 32,
+      "carbs": 2,
+      "fat": 9
+    },
+    "high": {
+      "cal": 280,
+      "protein": 36,
+      "carbs": 4,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Roasted Beef Flank Steak with Chimichurri Sauce": {
@@ -17643,6 +17983,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-06",
+    "v": 4
+  },
+  "Salami, Pickle and Provolone Hoagie Melt": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 200,
+    "low": {
+      "cal": 480,
+      "protein": 22,
+      "carbs": 36,
+      "fat": 26
+    },
+    "high": {
+      "cal": 580,
+      "protein": 26,
+      "carbs": 42,
+      "fat": 32
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Sauerbrauten (German Style Braised Beef)": {
@@ -20383,6 +20743,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Steamed Cabbage": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 25,
+      "protein": 2,
+      "carbs": 5,
+      "fat": 0
+    },
+    "high": {
+      "cal": 50,
+      "protein": 3,
+      "carbs": 7,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Steamed Caribbean Blend Veggies": {
@@ -23813,6 +24193,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-19",
+    "v": 4
+  },
+  "Yum Yum Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 200,
+      "protein": 0,
+      "carbs": 4,
+      "fat": 20
+    },
+    "high": {
+      "cal": 240,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-10-21",
     "v": 4
   },
   "Zesty Lime and Spice Roasted Chickpeas": {
