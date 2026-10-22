@@ -10113,6 +10113,26 @@
     "checked": "2026-10-09",
     "v": 4
   },
+  "Harissa Aioli": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 240,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 27
+    },
+    "high": {
+      "cal": 270,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 30
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
   "Harissa Butternut Squash and Black Bean Ragout": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -12674,6 +12694,66 @@
     "checked": "2026-10-07",
     "v": 4
   },
+  "Med Bar Beef": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 220,
+      "protein": 28,
+      "carbs": 2,
+      "fat": 11
+    },
+    "high": {
+      "cal": 280,
+      "protein": 32,
+      "carbs": 4,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
+  "Med Bar Fried Falafel": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 14
+    },
+    "high": {
+      "cal": 340,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
+  "Med Bar Honey Harissa Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 240,
+      "protein": 30,
+      "carbs": 6,
+      "fat": 10
+    },
+    "high": {
+      "cal": 300,
+      "protein": 34,
+      "carbs": 10,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
   "Mediterranean Broccoli Pasta Salad": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -13252,6 +13332,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Molly's Roasted Butternut Squash Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 24,
+      "fat": 4
+    },
+    "high": {
+      "cal": 200,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
     "v": 4
   },
   "Molly's Smoky Tomato Red Pepper Bisque": {
@@ -14503,6 +14603,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-01",
+    "v": 4
+  },
+  "Pepperoni Antipasto Salad Wrap": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 280,
+    "low": {
+      "cal": 420,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 22
+    },
+    "high": {
+      "cal": 520,
+      "protein": 22,
+      "carbs": 44,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
     "v": 4
   },
   "Pepperoni Pizza": {
@@ -16935,6 +17055,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Roasted Eggplant and Garlic Tahini Wrap": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 260,
+    "low": {
+      "cal": 380,
+      "protein": 12,
+      "carbs": 42,
+      "fat": 18
+    },
+    "high": {
+      "cal": 460,
+      "protein": 15,
+      "carbs": 48,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
   "Roasted Eggplant with Tahini and Pomegranate": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -18245,6 +18385,26 @@
     "checked": "2026-10-08",
     "v": 4
   },
+  "Sauteed Garlic Edamame": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 120,
+      "protein": 11,
+      "carbs": 8,
+      "fat": 5
+    },
+    "high": {
+      "cal": 160,
+      "protein": 13,
+      "carbs": 10,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
   "Sauteed Guava BBQ Shrimp": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19323,6 +19483,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Sliced Cucumbers": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 14,
+      "protein": 1,
+      "carbs": 3,
+      "fat": 0
+    },
+    "high": {
+      "cal": 20,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
     "v": 4
   },
   "Sliced French Bread": {
@@ -20945,6 +21125,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Steamed Jerk Seasoned Veggies": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 35,
+      "protein": 2,
+      "carbs": 7,
+      "fat": 0
+    },
+    "high": {
+      "cal": 55,
+      "protein": 3,
+      "carbs": 9,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
   "Steamed Long Grain White Rice": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -20963,6 +21163,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Steamed Mixed Vegetables": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 30,
+      "protein": 2,
+      "carbs": 6,
+      "fat": 0
+    },
+    "high": {
+      "cal": 50,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
     "v": 4
   },
   "Steamed Mushroom Potstickers": {
@@ -21663,6 +21883,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Sweet Potato and Italian Veggie Crumble Hash": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 160,
+      "protein": 6,
+      "carbs": 22,
+      "fat": 6
+    },
+    "high": {
+      "cal": 220,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
     "v": 4
   },
   "Sweet Potato, Corn and Black Bean Hash": {
@@ -22935,6 +23175,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Turmeric and Saffron Basmati Rice": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 180,
+      "protein": 4,
+      "carbs": 36,
+      "fat": 2
+    },
+    "high": {
+      "cal": 220,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
+    "v": 4
+  },
   "Tuscan Braised White Beans with Sundried Tomatoes": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -23713,6 +23973,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-11",
+    "v": 4
+  },
+  "Veggie, Lentil and Coconut Mulligatawny Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 200,
+      "protein": 8,
+      "carbs": 26,
+      "fat": 7
+    },
+    "high": {
+      "cal": 280,
+      "protein": 11,
+      "carbs": 32,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-22",
     "v": 4
   },
   "Village Cheese Pizza": {
