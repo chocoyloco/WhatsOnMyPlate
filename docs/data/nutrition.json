@@ -2159,6 +2159,26 @@
     "checked": "2026-10-08",
     "v": 4
   },
+  "Bistro Curried Tofu": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 12,
+      "carbs": 8,
+      "fat": 11
+    },
+    "high": {
+      "cal": 240,
+      "protein": 16,
+      "carbs": 12,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Bistro Fried Rice Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -2239,6 +2259,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Bistro Green Coconut Curry": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 200,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 12
+    },
+    "high": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 14,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Bistro Marsala Sauce with Mushrooms": {
     "kind": "topping",
     "portion": "1 scoop",
@@ -2279,6 +2319,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Bistro Red Coconut Curry": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 200,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 12
+    },
+    "high": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 14,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Bistro Spicy Sriacha Mayo Raw Poke Tuna": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -2299,6 +2359,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Bistro Tandoori Spiced Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 200,
+      "protein": 28,
+      "carbs": 4,
+      "fat": 8
+    },
+    "high": {
+      "cal": 260,
+      "protein": 32,
+      "carbs": 6,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Bistro White Wine Piccata Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -2317,6 +2397,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Bistro Yellow Coconut Curry": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 200,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 12
+    },
+    "high": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 14,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "Black Bean, Corn and Tofu Tostada with Guac": {
@@ -5769,6 +5869,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Cinnamon Sugar Hawaiian Pretzel Churro Bites": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 320,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 12
+    },
+    "high": {
+      "cal": 380,
+      "protein": 8,
+      "carbs": 54,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Cinnamon Swirl French Toast": {
     "kind": "dish",
     "portion": "1 slice",
@@ -9033,6 +9153,26 @@
     "checked": "2026-10-09",
     "v": 4
   },
+  "Garlic Ginger Stir Fried Red and Napa Cabbage": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 60,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 2
+    },
+    "high": {
+      "cal": 100,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Garlic Herb Aioli": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -9151,6 +9291,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Garlic Parmesan Hawaiian Pretzel Bites": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 300,
+      "protein": 8,
+      "carbs": 42,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 10,
+      "carbs": 48,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "Garlic Parmesan Roasted Potatoes": {
@@ -9751,6 +9911,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Grilled Cheese and Tomato Hoagie Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 220,
+    "low": {
+      "cal": 420,
+      "protein": 16,
+      "carbs": 42,
+      "fat": 20
+    },
+    "high": {
+      "cal": 520,
+      "protein": 20,
+      "carbs": 48,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "Grilled Cheese on Honey Wheat Bread": {
@@ -11281,6 +11461,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Italian Veggie Sausage and Gravy": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 14,
+      "carbs": 12,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 16,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "Italian Wedding Soup": {
@@ -14885,6 +15085,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Pickled Daikon and Carrots": {
+    "kind": "topping",
+    "portion": "1/4 cup",
+    "grams": 50,
+    "low": {
+      "cal": 10,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "high": {
+      "cal": 20,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Pickled Ginger": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -17235,6 +17455,26 @@
     "checked": "2026-10-05",
     "v": 4
   },
+  "Roasted Herb Mustard Beef with Mint Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 220,
+      "protein": 28,
+      "carbs": 4,
+      "fat": 10
+    },
+    "high": {
+      "cal": 280,
+      "protein": 32,
+      "carbs": 6,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Roasted Jackfruit with Mango Salsa": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19003,6 +19243,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Sesame Chicken, Veggie, and Rice Noodle Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 320,
+      "protein": 22,
+      "carbs": 30,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "Sesame Chickpea, Edamame and Veggie Stir Fry": {
@@ -21745,6 +22005,26 @@
     "checked": "2026-10-09",
     "v": 4
   },
+  "Sweet Chile Veggie and Yakisoba Noodle Stir Fry": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 200,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 6
+    },
+    "high": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 36,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Sweet Chile, Veggie, and Rice Noodle Stir Fry": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -22215,6 +22495,26 @@
     "checked": "2026-10-09",
     "v": 4
   },
+  "Thai Chicken and Coconut Soup with Rice Noodles": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 200,
+      "protein": 16,
+      "carbs": 18,
+      "fat": 8
+    },
+    "high": {
+      "cal": 280,
+      "protein": 20,
+      "carbs": 24,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
+    "v": 4
+  },
   "Thai Coconut Chicken Curry": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -22273,6 +22573,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Thai Coconut Tofu Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 10,
+      "carbs": 14,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 20,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "Thai Coconut Tofu Soup with Rice Noodles": {
@@ -24253,6 +24573,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-12",
+    "v": 4
+  },
+  "White Rice": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 190,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 0
+    },
+    "high": {
+      "cal": 210,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-23",
     "v": 4
   },
   "White Wine Alfredo Sauce": {
