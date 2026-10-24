@@ -199,6 +199,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Andouille Chicken Sausage and Chicken Gumbo": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 14,
+      "carbs": 12,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 16,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-24",
+    "v": 4
+  },
   "Apple Cinnamon Breakfast Cobbler": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -257,6 +277,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-08",
+    "v": 4
+  },
+  "Artichoke, Kale and Pepper Wrap": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 220,
+    "low": {
+      "cal": 320,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 14
+    },
+    "high": {
+      "cal": 400,
+      "protein": 13,
+      "carbs": 44,
+      "fat": 19
+    },
+    "needs_review": false,
+    "checked": "2026-10-24",
     "v": 4
   },
   "Asaro (Nigerian Style Yam Porridge)": {
@@ -3809,6 +3849,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Cajun Spiced Breakfast Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 20,
+      "fat": 6
+    },
+    "high": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 24,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-24",
+    "v": 4
+  },
   "Cajun Spiced Tater Tots": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -4847,6 +4907,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Chicken Flautas": {
+    "kind": "dish",
+    "portion": "1 flauta",
+    "grams": 100,
+    "low": {
+      "cal": 220,
+      "protein": 12,
+      "carbs": 16,
+      "fat": 11
+    },
+    "high": {
+      "cal": 280,
+      "protein": 15,
+      "carbs": 20,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-24",
     "v": 4
   },
   "Chicken Marinara and Mozzarella Hoagie Sandwich": {
@@ -14603,6 +14683,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pasta with Chipotle Lime Cream Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 280,
+      "protein": 9,
+      "carbs": 32,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 11,
+      "carbs": 38,
+      "fat": 17
+    },
+    "needs_review": false,
+    "checked": "2026-10-24",
     "v": 4
   },
   "Pasta with Creamy Plant Based Alfredo and Mushrooms": {
