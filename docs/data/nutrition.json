@@ -1669,6 +1669,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Beef Lasagna Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 7
+    },
+    "high": {
+      "cal": 240,
+      "protein": 16,
+      "carbs": 22,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-25",
+    "v": 4
+  },
   "Beef Ropa Vieja with Green Olives": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -8113,6 +8133,26 @@
     "checked": "2026-10-16",
     "v": 4
   },
+  "Florentine White Wine Cream Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 60,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 5
+    },
+    "high": {
+      "cal": 90,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-25",
+    "v": 4
+  },
   "Flour Tortillas": {
     "kind": "dish",
     "portion": "1 tortilla",
@@ -9031,6 +9071,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Fry Bar Carne Asada": {
+    "kind": "dish",
+    "portion": "1 serving",
+    "grams": 150,
+    "low": {
+      "cal": 280,
+      "protein": 22,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 360,
+      "protein": 26,
+      "carbs": 32,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-25",
     "v": 4
   },
   "Furikake": {
@@ -12201,6 +12261,16 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "LOADED ASADA FRENCH FRY BAR (available at 2pm)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-10-25",
     "v": 4
   },
   "Lasagna Soup with Italian Sausage": {
@@ -21045,6 +21115,26 @@
     "checked": "2026-10-15",
     "v": 4
   },
+  "Spinach, Roasted Pepper, Hummus and Sunflower Seed Wrap": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 220,
+    "low": {
+      "cal": 320,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 14
+    },
+    "high": {
+      "cal": 400,
+      "protein": 15,
+      "carbs": 44,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-25",
+    "v": 4
+  },
   "Split Pea Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -21643,6 +21733,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-08",
+    "v": 4
+  },
+  "Steamed Romanesco Blend": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 30,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 0
+    },
+    "high": {
+      "cal": 50,
+      "protein": 4,
+      "carbs": 7,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-25",
     "v": 4
   },
   "Steamed Swiss Chard": {
@@ -23933,6 +24043,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Vegetable Soup with Beyond Beefless Meat": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 140,
+      "protein": 10,
+      "carbs": 16,
+      "fat": 4
+    },
+    "high": {
+      "cal": 200,
+      "protein": 14,
+      "carbs": 20,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-25",
     "v": 4
   },
   "Veggie Birria": {
