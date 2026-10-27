@@ -1609,6 +1609,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Beef Fajitas": {
+    "kind": "dish",
+    "portion": "1 serving",
+    "grams": 280,
+    "low": {
+      "cal": 320,
+      "protein": 28,
+      "carbs": 22,
+      "fat": 12
+    },
+    "high": {
+      "cal": 420,
+      "protein": 35,
+      "carbs": 28,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
+    "v": 4
+  },
   "Beef Flautas": {
     "kind": "dish",
     "portion": "1 flauta",
@@ -4369,6 +4389,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Cheese Enchiladas with Green Sauce": {
+    "kind": "dish",
+    "portion": "2 enchiladas",
+    "grams": 320,
+    "low": {
+      "cal": 380,
+      "protein": 16,
+      "carbs": 38,
+      "fat": 16
+    },
+    "high": {
+      "cal": 480,
+      "protein": 20,
+      "carbs": 44,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
+    "v": 4
+  },
   "Cheese Flautas": {
     "kind": "dish",
     "portion": "1 flauta",
@@ -5507,6 +5547,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chipotle Yukon Gold Potato Mash": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 18,
+      "fat": 6
+    },
+    "high": {
+      "cal": 200,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
     "v": 4
   },
   "Chipotle, Pepper, and Cilantro Pasta Salad": {
@@ -13924,6 +13984,26 @@
     "checked": "2026-10-07",
     "v": 4
   },
+  "Mongo Bar Beef Carne Asada": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 240,
+      "protein": 32,
+      "carbs": 2,
+      "fat": 11
+    },
+    "high": {
+      "cal": 310,
+      "protein": 38,
+      "carbs": 3,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
+    "v": 4
+  },
   "Mongolian Bar Kung Pao Chicken": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19315,6 +19395,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Sauteed Veggie Fajitas": {
+    "kind": "dish",
+    "portion": "1 serving",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 6,
+      "carbs": 20,
+      "fat": 7
+    },
+    "high": {
+      "cal": 240,
+      "protein": 9,
+      "carbs": 26,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
+    "v": 4
+  },
   "Sauteed Yellow Squash": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -24643,6 +24743,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Veggie Chorizo, Potato, and Plant Based Cheese Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 12,
+      "carbs": 22,
+      "fat": 11
+    },
+    "high": {
+      "cal": 320,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
     "v": 4
   },
   "Veggie Chorizo, Spinach and Plant Based Cheese Quesadilla": {
