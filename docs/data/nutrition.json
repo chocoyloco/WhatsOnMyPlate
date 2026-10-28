@@ -3219,6 +3219,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Braised White Beans with Kale": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 120,
+      "protein": 6,
+      "carbs": 18,
+      "fat": 2
+    },
+    "high": {
+      "cal": 180,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Braised White Beans with Spinach and Sun Dried Tomatoes": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -5267,6 +5287,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chicken Yakisoba": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 32,
+      "fat": 8
+    },
+    "high": {
+      "cal": 360,
+      "protein": 22,
+      "carbs": 38,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
     "v": 4
   },
   "Chicken and Rice Soup": {
@@ -8513,6 +8553,26 @@
     "checked": "2026-10-02",
     "v": 4
   },
+  "Fried Buttery Buffalo Chicken Wings": {
+    "kind": "dish",
+    "portion": "1 wing",
+    "grams": 55,
+    "low": {
+      "cal": 140,
+      "protein": 12,
+      "carbs": 2,
+      "fat": 9
+    },
+    "high": {
+      "cal": 190,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Fried Calamari": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -8691,6 +8751,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-05",
+    "v": 4
+  },
+  "Fried Chicken Wings": {
+    "kind": "dish",
+    "portion": "1 wing",
+    "grams": 55,
+    "low": {
+      "cal": 130,
+      "protein": 12,
+      "carbs": 1,
+      "fat": 8
+    },
+    "high": {
+      "cal": 170,
+      "protein": 14,
+      "carbs": 3,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
     "v": 4
   },
   "Fried Cornmeal Crusted Catfish": {
@@ -11903,6 +11983,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Jackfruit and Mushroom Pot Roast": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 140,
+      "protein": 4,
+      "carbs": 20,
+      "fat": 5
+    },
+    "high": {
+      "cal": 200,
+      "protein": 6,
+      "carbs": 26,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Jackfruit and White Bean Stew": {
     "kind": "dish",
     "portion": "1 cup",
@@ -12021,6 +12121,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Jamaican Style Veggie Picadillo with Beyond \"Steak\" Tips": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 170,
+    "low": {
+      "cal": 180,
+      "protein": 12,
+      "carbs": 16,
+      "fat": 8
+    },
+    "high": {
+      "cal": 260,
+      "protein": 16,
+      "carbs": 22,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
     "v": 4
   },
   "Jerk Seared Shrimp": {
@@ -12161,6 +12281,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-14",
+    "v": 4
+  },
+  "Kale Slaw": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 80,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 4
+    },
+    "high": {
+      "cal": 140,
+      "protein": 4,
+      "carbs": 12,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
     "v": 4
   },
   "Kale and Corn Salad with Feta and Dijon Balsamic Vinaigrette": {
@@ -14915,6 +15055,26 @@
     "checked": "2026-10-13",
     "v": 4
   },
+  "Panko Fried Chicken Katsu Fritter": {
+    "kind": "dish",
+    "portion": "1 fritter",
+    "grams": 130,
+    "low": {
+      "cal": 240,
+      "protein": 16,
+      "carbs": 14,
+      "fat": 12
+    },
+    "high": {
+      "cal": 320,
+      "protein": 20,
+      "carbs": 18,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Parker House Dinner Rolls": {
     "kind": "dish",
     "portion": "1 roll",
@@ -14933,6 +15093,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Pasta and Mussels with White Wine Tomato Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 240,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 6
+    },
+    "high": {
+      "cal": 320,
+      "protein": 20,
+      "carbs": 34,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
     "v": 4
   },
   "Pasta with Cajun Cream Sauce": {
@@ -21475,6 +21655,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Spinach": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 25,
+      "protein": 3,
+      "carbs": 3,
+      "fat": 0
+    },
+    "high": {
+      "cal": 60,
+      "protein": 4,
+      "carbs": 4,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Spinach, Onion, and Tomato Tofu Scramble": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -22995,6 +23195,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Tapioca Pudding": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 160,
+      "protein": 2,
+      "carbs": 28,
+      "fat": 5
+    },
+    "high": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 34,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Tarka Dal with Cauliflower": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -23485,6 +23705,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Tofu Sesame Yakisoba": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 260,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 10
+    },
+    "high": {
+      "cal": 340,
+      "protein": 16,
+      "carbs": 38,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
+    "v": 4
+  },
   "Tofu Soyrizo": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -23783,6 +24023,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Traditional Teriyaki Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 30,
+      "protein": 0,
+      "carbs": 7,
+      "fat": 0
+    },
+    "high": {
+      "cal": 50,
+      "protein": 1,
+      "carbs": 10,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-10-28",
     "v": 4
   },
   "Tri Color Three Cheese Tortellini": {
