@@ -619,6 +619,26 @@
     "checked": "2026-10-11",
     "v": 4
   },
+  "Avocado and Veggie Salad": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 150,
+    "low": {
+      "cal": 120,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 9
+    },
+    "high": {
+      "cal": 180,
+      "protein": 4,
+      "carbs": 12,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
+    "v": 4
+  },
   "BBQ Baked Beans": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -857,6 +877,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "BBQ Seasoned Assorted French Fries": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 3,
+      "carbs": 36,
+      "fat": 13
+    },
+    "high": {
+      "cal": 340,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 17
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
     "v": 4
   },
   "BBQ Spice Rubbed Roasted Chicken": {
@@ -2079,6 +2119,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Beer Cheese": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 1,
+      "fat": 7
+    },
+    "high": {
+      "cal": 110,
+      "protein": 3,
+      "carbs": 2,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
+    "v": 4
+  },
   "Beer Cheese Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -2857,6 +2917,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Bok Choy": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 25,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 1
+    },
+    "high": {
+      "cal": 45,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
     "v": 4
   },
   "Bologna and Cheese Melt on French Bread": {
@@ -3697,6 +3777,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Buttermilk Pancakes": {
+    "kind": "dish",
+    "portion": "1 pancake",
+    "grams": 110,
+    "low": {
+      "cal": 240,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 7
+    },
+    "high": {
+      "cal": 300,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
     "v": 4
   },
   "Butternut Squash Polenta": {
@@ -5549,6 +5649,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Chile Lemon Shrimp Thin Crust Pizza with Truffle Oil": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 130,
+    "low": {
+      "cal": 260,
+      "protein": 14,
+      "carbs": 24,
+      "fat": 11
+    },
+    "high": {
+      "cal": 320,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
+    "v": 4
+  },
   "Chile Sesame Oil": {
     "kind": "topping",
     "portion": "1 tbsp",
@@ -6827,6 +6947,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-07",
+    "v": 4
+  },
+  "Country Style Braised Pork and Lima Beans": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 240,
+      "protein": 22,
+      "carbs": 14,
+      "fat": 10
+    },
+    "high": {
+      "cal": 310,
+      "protein": 26,
+      "carbs": 18,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
     "v": 4
   },
   "Country Style French Toast": {
@@ -9013,6 +9153,26 @@
     "checked": "2026-10-02",
     "v": 4
   },
+  "Fried Falafel with Pickled Red Onion": {
+    "kind": "dish",
+    "portion": "1 piece",
+    "grams": 50,
+    "low": {
+      "cal": 120,
+      "protein": 4,
+      "carbs": 11,
+      "fat": 6
+    },
+    "high": {
+      "cal": 160,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
+    "v": 4
+  },
   "Fried Green Tomatoes with Alabama Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -9991,6 +10151,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-29",
+    "v": 4
+  },
+  "Ginger Honey Chili Sesame Cucumber Salad": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 140,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 12,
+      "fat": 3
+    },
+    "high": {
+      "cal": 130,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
     "v": 4
   },
   "Ginger Sesame Beef and Broccoli": {
@@ -13131,6 +13311,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Lima Bean and Corn Succotash": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 110,
+      "protein": 5,
+      "carbs": 18,
+      "fat": 2
+    },
+    "high": {
+      "cal": 160,
+      "protein": 7,
+      "carbs": 24,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-10-30",
     "v": 4
   },
   "Lime Wedges": {
