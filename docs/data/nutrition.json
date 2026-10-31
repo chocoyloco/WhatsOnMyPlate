@@ -459,6 +459,16 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Assorted Halloween Candy": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-10-31",
+    "v": 4
+  },
   "Assorted Halloween Pastries": {
     "kind": "dish",
     "portion": "1 pastry",
@@ -5087,6 +5097,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chicken Burger Patty": {
+    "kind": "dish",
+    "portion": "1 patty",
+    "grams": 110,
+    "low": {
+      "cal": 220,
+      "protein": 28,
+      "carbs": 2,
+      "fat": 11
+    },
+    "high": {
+      "cal": 280,
+      "protein": 32,
+      "carbs": 4,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-10-31",
     "v": 4
   },
   "Chicken Burger on Hawaiian Pretzel Bun": {
@@ -16195,6 +16225,26 @@
     "checked": "2026-10-01",
     "v": 4
   },
+  "Philly Cheesesteak Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 180,
+    "low": {
+      "cal": 420,
+      "protein": 22,
+      "carbs": 38,
+      "fat": 18
+    },
+    "high": {
+      "cal": 520,
+      "protein": 26,
+      "carbs": 44,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-10-31",
+    "v": 4
+  },
   "Pickle Chips": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -21175,6 +21225,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Sliced Pepperjack Cheese": {
+    "kind": "topping",
+    "portion": "1 slice",
+    "grams": 21,
+    "low": {
+      "cal": 80,
+      "protein": 7,
+      "carbs": 0,
+      "fat": 6
+    },
+    "high": {
+      "cal": 90,
+      "protein": 7,
+      "carbs": 1,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-10-31",
+    "v": 4
+  },
   "Sliced Peppers and Onions": {
     "kind": "topping",
     "portion": "1/4 cup",
@@ -21193,6 +21263,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-01",
+    "v": 4
+  },
+  "Sliced Provolone Cheese": {
+    "kind": "topping",
+    "portion": "1 slice",
+    "grams": 21,
+    "low": {
+      "cal": 75,
+      "protein": 7,
+      "carbs": 0,
+      "fat": 5
+    },
+    "high": {
+      "cal": 85,
+      "protein": 7,
+      "carbs": 1,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-10-31",
     "v": 4
   },
   "Sliced Red Onion": {
