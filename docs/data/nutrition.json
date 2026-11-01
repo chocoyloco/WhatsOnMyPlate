@@ -9743,6 +9743,26 @@
     "checked": "2026-10-06",
     "v": 4
   },
+  "Gardein Italian Veggie Chik'n Marinara with Cheese": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 18,
+      "fat": 10
+    },
+    "high": {
+      "cal": 290,
+      "protein": 18,
+      "carbs": 22,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-01",
+    "v": 4
+  },
   "Gardein Veggie \"Beef\" Teriyaki": {
     "kind": "dish",
     "portion": "1 scoop",
