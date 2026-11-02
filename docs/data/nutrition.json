@@ -929,6 +929,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Baba Ghanoush": {
+    "kind": "dish",
+    "portion": "1/4 cup",
+    "grams": 60,
+    "low": {
+      "cal": 80,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 6
+    },
+    "high": {
+      "cal": 120,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Baby Spinach": {
     "kind": "topping",
     "portion": "1 cup",
@@ -1227,6 +1247,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Balsamic Glazed Portabello Mushroom Sandwich with Boursin Cheese on Hoagie": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 280,
+    "low": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 48,
+      "fat": 18
+    },
+    "high": {
+      "cal": 520,
+      "protein": 18,
+      "carbs": 52,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
     "v": 4
   },
   "Balsamic Roasted Portabello Mushrooms": {
@@ -3649,6 +3689,26 @@
     "checked": "2026-10-03",
     "v": 4
   },
+  "Buffalo Chicken Dip": {
+    "kind": "dish",
+    "portion": "1/4 cup",
+    "grams": 70,
+    "low": {
+      "cal": 140,
+      "protein": 10,
+      "carbs": 2,
+      "fat": 10
+    },
+    "high": {
+      "cal": 180,
+      "protein": 14,
+      "carbs": 3,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Buffalo Chicken Pizza": {
     "kind": "dish",
     "portion": "1 slice",
@@ -5559,6 +5619,26 @@
     "checked": "2026-10-28",
     "v": 4
   },
+  "Chicken and Caper Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 20,
+      "carbs": 4,
+      "fat": 9
+    },
+    "high": {
+      "cal": 240,
+      "protein": 24,
+      "carbs": 6,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Chicken and Rice Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -6779,6 +6859,26 @@
     "checked": "2026-10-20",
     "v": 4
   },
+  "Corn Tortilla Chips": {
+    "kind": "dish",
+    "portion": "1 oz",
+    "grams": 28,
+    "low": {
+      "cal": 130,
+      "protein": 2,
+      "carbs": 16,
+      "fat": 6
+    },
+    "high": {
+      "cal": 150,
+      "protein": 2,
+      "carbs": 17,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Corn Tortillas": {
     "kind": "dish",
     "portion": "1 tortilla",
@@ -7017,6 +7117,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-21",
+    "v": 4
+  },
+  "Country Style Marinated Olives": {
+    "kind": "dish",
+    "portion": "1/4 cup",
+    "grams": 50,
+    "low": {
+      "cal": 90,
+      "protein": 1,
+      "carbs": 3,
+      "fat": 9
+    },
+    "high": {
+      "cal": 120,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
     "v": 4
   },
   "Country Style Smoked Ham Hocks and Lima Beans": {
@@ -8293,6 +8413,26 @@
     "checked": "2026-10-01",
     "v": 4
   },
+  "Edamame": {
+    "kind": "dish",
+    "portion": "1/2 cup",
+    "grams": 95,
+    "low": {
+      "cal": 95,
+      "protein": 11,
+      "carbs": 7,
+      "fat": 4
+    },
+    "high": {
+      "cal": 130,
+      "protein": 13,
+      "carbs": 9,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Edamame, Lima Bean, and Corn Succotash": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -9341,6 +9481,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Fried Pita Chips": {
+    "kind": "dish",
+    "portion": "1 oz",
+    "grams": 28,
+    "low": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 16,
+      "fat": 7
+    },
+    "high": {
+      "cal": 160,
+      "protein": 3,
+      "carbs": 17,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
     "v": 4
   },
   "Fried Plant Based Eggplant Parmesan": {
@@ -16065,6 +16225,26 @@
     "checked": "2026-10-16",
     "v": 4
   },
+  "Peruvian Coconut Shrimp Ceviche": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 110,
+      "protein": 16,
+      "carbs": 6,
+      "fat": 2
+    },
+    "high": {
+      "cal": 150,
+      "protein": 18,
+      "carbs": 8,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Peruvian Style Grilled Chicken with Green Lomo Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -16803,6 +16983,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-16",
+    "v": 4
+  },
+  "Plant Based Pesto Pasta Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 11
+    },
+    "high": {
+      "cal": 310,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
     "v": 4
   },
   "Plant Based Strawberry Pancakes": {
@@ -17935,6 +18135,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Roasted Beet and Goat Cheese Dip": {
+    "kind": "dish",
+    "portion": "1/4 cup",
+    "grams": 70,
+    "low": {
+      "cal": 110,
+      "protein": 4,
+      "carbs": 8,
+      "fat": 7
+    },
+    "high": {
+      "cal": 150,
+      "protein": 6,
+      "carbs": 10,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Roasted Beets": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -18695,6 +18915,26 @@
     "checked": "2026-10-05",
     "v": 4
   },
+  "Roasted Green Beans, Broccoli and Onions": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 60,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 2
+    },
+    "high": {
+      "cal": 90,
+      "protein": 4,
+      "carbs": 10,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Roasted Herb Mustard Beef with Mint Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19453,6 +19693,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Roasted White Fish with Coconut Yellow Curry": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 220,
+      "protein": 24,
+      "carbs": 8,
+      "fat": 10
+    },
+    "high": {
+      "cal": 290,
+      "protein": 28,
+      "carbs": 12,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
     "v": 4
   },
   "Roasted Yellow Squash": {
@@ -21865,6 +22125,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Spanish Romesco Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 4,
+      "fat": 6
+    },
+    "high": {
+      "cal": 120,
+      "protein": 3,
+      "carbs": 6,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Spanish Style Potato and Veggie Stew": {
     "kind": "dish",
     "portion": "1 cup",
@@ -23865,6 +24145,26 @@
     "checked": "2026-10-11",
     "v": 4
   },
+  "Tamarind Chutney": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 50,
+      "protein": 0,
+      "carbs": 12,
+      "fat": 0
+    },
+    "high": {
+      "cal": 80,
+      "protein": 1,
+      "carbs": 16,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Tamarind Coconut Curry Rockfish": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -24915,6 +25215,26 @@
     "checked": "2026-10-05",
     "v": 4
   },
+  "Tuna Melt on Sliced French Bread": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 240,
+    "low": {
+      "cal": 380,
+      "protein": 28,
+      "carbs": 32,
+      "fat": 14
+    },
+    "high": {
+      "cal": 480,
+      "protein": 32,
+      "carbs": 36,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
+    "v": 4
+  },
   "Tuna Salad": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -25593,6 +25913,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-06",
+    "v": 4
+  },
+  "Veggie Caesar Salad Wrap with Parmesan": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 220,
+    "low": {
+      "cal": 280,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 13,
+      "carbs": 36,
+      "fat": 17
+    },
+    "needs_review": false,
+    "checked": "2026-11-02",
     "v": 4
   },
   "Veggie Caesar Salad Wrap with Parmesan Cheese": {
