@@ -1389,6 +1389,26 @@
     "checked": "2026-10-15",
     "v": 4
   },
+  "Banana Peppers": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 8,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "high": {
+      "cal": 12,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
+    "v": 4
+  },
   "Banana Pudding": {
     "kind": "dish",
     "portion": "1 cup",
@@ -6519,6 +6539,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Cinnamon Rolls with Cream Cheese Icing": {
+    "kind": "dish",
+    "portion": "1 roll",
+    "grams": 110,
+    "low": {
+      "cal": 320,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 14
+    },
+    "high": {
+      "cal": 380,
+      "protein": 6,
+      "carbs": 46,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
+    "v": 4
+  },
   "Cinnamon Sugar Hawaiian Pretzel Churro Bites": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -6557,6 +6597,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-14",
+    "v": 4
+  },
+  "Cinnamon Toast Crunch": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 40,
+    "low": {
+      "cal": 150,
+      "protein": 2,
+      "carbs": 32,
+      "fat": 2
+    },
+    "high": {
+      "cal": 170,
+      "protein": 2,
+      "carbs": 34,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
     "v": 4
   },
   "Citrus Asada Shrimp": {
@@ -12193,6 +12253,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Honey Mustard Glazed Salmon with Tomato Orange Salsa": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 280,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 14
+    },
+    "high": {
+      "cal": 340,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
+    "v": 4
+  },
   "Honey Peach Soy Glazed Chicken": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -16585,6 +16665,46 @@
     "checked": "2026-10-31",
     "v": 4
   },
+  "Piccata Bar Sliced Mushrooms": {
+    "kind": "topping",
+    "portion": "1/4 cup",
+    "grams": 35,
+    "low": {
+      "cal": 25,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 1
+    },
+    "high": {
+      "cal": 45,
+      "protein": 3,
+      "carbs": 4,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
+    "v": 4
+  },
+  "Piccata Bar Spaghetti": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 180,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 3
+    },
+    "high": {
+      "cal": 220,
+      "protein": 8,
+      "carbs": 36,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
+    "v": 4
+  },
   "Pickle Chips": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -17773,6 +17893,26 @@
     "high": null,
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Rainbow Sprinkles": {
+    "kind": "topping",
+    "portion": "1 tbsp",
+    "grams": 10,
+    "low": {
+      "cal": 35,
+      "protein": 0,
+      "carbs": 9,
+      "fat": 0
+    },
+    "high": {
+      "cal": 45,
+      "protein": 0,
+      "carbs": 10,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
     "v": 4
   },
   "Raisins": {
@@ -19433,6 +19573,26 @@
     },
     "needs_review": false,
     "checked": "2026-11-03",
+    "v": 4
+  },
+  "Roasted Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 5
+    },
+    "high": {
+      "cal": 180,
+      "protein": 4,
+      "carbs": 26,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
     "v": 4
   },
   "Roasted Red Pepper Hummus": {
@@ -22543,6 +22703,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Spicy Fried Buffalo Cauliflower Wrap": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 220,
+    "low": {
+      "cal": 380,
+      "protein": 12,
+      "carbs": 42,
+      "fat": 18
+    },
+    "high": {
+      "cal": 450,
+      "protein": 14,
+      "carbs": 48,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-11-04",
     "v": 4
   },
   "Spicy Fried Cauliflower Wrap": {
