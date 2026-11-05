@@ -8513,6 +8513,26 @@
     "checked": "2026-10-03",
     "v": 4
   },
+  "EVK Fried Nashville Tofu": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 18,
+      "fat": 16
+    },
+    "high": {
+      "cal": 340,
+      "protein": 16,
+      "carbs": 22,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
+    "v": 4
+  },
   "EVK Philly Chicken": {
     "kind": "dish",
     "portion": "1 sandwich",
@@ -11483,6 +11503,26 @@
     "checked": "2026-10-18",
     "v": 4
   },
+  "Ham and Pineapple Pasta Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 220,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 7
+    },
+    "high": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 32,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
+    "v": 4
+  },
   "Ham and White Bean Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -13791,6 +13831,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-10",
+    "v": 4
+  },
+  "Lobster Bisque with Sherry": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 16,
+      "fat": 18
+    },
+    "high": {
+      "cal": 360,
+      "protein": 14,
+      "carbs": 20,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
     "v": 4
   },
   "Lomo Saltado Steak": {
@@ -18995,6 +19055,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Roasted Eggplant": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 5
+    },
+    "high": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
+    "v": 4
+  },
   "Roasted Eggplant and Garlic Tahini Wrap": {
     "kind": "dish",
     "portion": "1 wrap",
@@ -20463,6 +20543,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-07",
+    "v": 4
+  },
+  "Sauteed Edamame and Sugar Snap Peas": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 100,
+      "protein": 8,
+      "carbs": 8,
+      "fat": 4
+    },
+    "high": {
+      "cal": 150,
+      "protein": 10,
+      "carbs": 10,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
     "v": 4
   },
   "Sauteed Edamame, Lima Bean, and Corn Succotash": {
@@ -22665,6 +22765,26 @@
     "checked": "2026-10-08",
     "v": 4
   },
+  "Spicy Chicken Bulgogi": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 200,
+      "protein": 28,
+      "carbs": 6,
+      "fat": 7
+    },
+    "high": {
+      "cal": 260,
+      "protein": 32,
+      "carbs": 10,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
+    "v": 4
+  },
   "Spicy Coleslaw": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -23643,6 +23763,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Steamed Rice": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 190,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 0
+    },
+    "high": {
+      "cal": 210,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
     "v": 4
   },
   "Steamed Rice with Soy Sauce": {
@@ -24813,6 +24953,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Thai Coconut Tofu Mushroom Soup with Yakisoba Noodles": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 240,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 320,
+      "protein": 12,
+      "carbs": 34,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
     "v": 4
   },
   "Thai Coconut Tofu Soup": {
@@ -26873,6 +27033,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-29",
+    "v": 4
+  },
+  "Wasabi Mayo": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 180,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 20
+    },
+    "high": {
+      "cal": 210,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 23
+    },
+    "needs_review": false,
+    "checked": "2026-11-05",
     "v": 4
   },
   "Wasabi Paste": {
