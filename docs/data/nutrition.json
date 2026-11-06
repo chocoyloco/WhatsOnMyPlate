@@ -1759,6 +1759,26 @@
     "checked": "2026-10-10",
     "v": 4
   },
+  "Beef Chimichangas": {
+    "kind": "dish",
+    "portion": "1 chimichanga",
+    "grams": 180,
+    "low": {
+      "cal": 420,
+      "protein": 16,
+      "carbs": 32,
+      "fat": 24
+    },
+    "high": {
+      "cal": 520,
+      "protein": 20,
+      "carbs": 38,
+      "fat": 32
+    },
+    "needs_review": false,
+    "checked": "2026-11-06",
+    "v": 4
+  },
   "Beef Chorizo, Egg and Cheese Quesadilla": {
     "kind": "dish",
     "portion": "1 quesadilla",
@@ -3067,6 +3087,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Braised BBQ Pork": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 14
+    },
+    "high": {
+      "cal": 360,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-06",
     "v": 4
   },
   "Braised Beef Pot Roast with Carrots, Onion, and Celery": {
@@ -7798,6 +7838,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Crispy Fried Breakfast Potato Medley": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 240,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 12
+    },
+    "high": {
+      "cal": 310,
+      "protein": 4,
+      "carbs": 32,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-06",
     "v": 4
   },
   "Crispy Fried Breakfast Potatoes with Caramelized Onions": {
@@ -16225,6 +16285,26 @@
     "checked": "2026-10-21",
     "v": 4
   },
+  "Pasta with Garlic Parmesan Cream Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 340,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 14
+    },
+    "high": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 42,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-06",
+    "v": 4
+  },
   "Pasta with Marinara Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -20425,6 +20505,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Sauteed Cabbage": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 60,
+      "protein": 2,
+      "carbs": 6,
+      "fat": 3
+    },
+    "high": {
+      "cal": 100,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-06",
+    "v": 4
+  },
   "Sauteed Cabbage, Kale and Pepitas": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -24203,6 +24303,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-09",
+    "v": 4
+  },
+  "Surimi Crab Tortilla Salad with Cilantro": {
+    "kind": "dish",
+    "portion": "1 salad",
+    "grams": 280,
+    "low": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 18,
+      "fat": 12
+    },
+    "high": {
+      "cal": 320,
+      "protein": 18,
+      "carbs": 22,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-06",
     "v": 4
   },
   "Sushi White Rice": {
