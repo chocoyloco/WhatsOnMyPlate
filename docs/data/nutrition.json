@@ -15644,6 +15644,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "New Orleans Veggie Boil with Potatoes, Corn, and Mushrooms": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 120,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 2
+    },
+    "high": {
+      "cal": 180,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-07",
+    "v": 4
+  },
   "Nopales Guisados (Sauteed Cactus)": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -20313,6 +20333,16 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "SEAFOOD BOIL BAR (available at 2pm)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-11-07",
     "v": 4
   },
   "SLIDER BAR (available at 2pm)": {
