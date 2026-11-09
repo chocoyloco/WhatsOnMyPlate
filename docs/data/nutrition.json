@@ -429,6 +429,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Assorted Donuts": {
+    "kind": "dish",
+    "portion": "1 donut",
+    "grams": 65,
+    "low": {
+      "cal": 210,
+      "protein": 3,
+      "carbs": 26,
+      "fat": 11
+    },
+    "high": {
+      "cal": 260,
+      "protein": 4,
+      "carbs": 30,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Assorted French Fries": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -1047,6 +1067,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-05",
+    "v": 4
+  },
+  "Baked Fish with Thai Coconut Curry Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 280,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 15
+    },
+    "high": {
+      "cal": 340,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 19
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Baked Harissa Lemon Shrimp": {
@@ -1837,6 +1877,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-02",
+    "v": 4
+  },
+  "Beef Gravy": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 25,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 1
+    },
+    "high": {
+      "cal": 45,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Beef Hot Link Sausage": {
@@ -4069,6 +4129,26 @@
     "checked": "2026-10-19",
     "v": 4
   },
+  "Buttery Mashed Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 160,
+      "protein": 3,
+      "carbs": 20,
+      "fat": 8
+    },
+    "high": {
+      "cal": 210,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "CRUNCHY TACO BAR (available at 2pm)": {
     "kind": "not_a_dish",
     "portion": null,
@@ -6218,6 +6298,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Chocolate Fudge Frosting": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 20,
+      "fat": 5
+    },
+    "high": {
+      "cal": 150,
+      "protein": 1,
+      "carbs": 24,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Chocolate Ice Cream": {
@@ -8534,6 +8634,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Dino Chicken Nuggets": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 110,
+    "low": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 18,
+      "fat": 12
+    },
+    "high": {
+      "cal": 290,
+      "protein": 16,
+      "carbs": 22,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Dirty Quinoa": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -10124,6 +10244,26 @@
     "checked": "2026-10-25",
     "v": 4
   },
+  "Fudge Brownies": {
+    "kind": "dish",
+    "portion": "1 brownie",
+    "grams": 50,
+    "low": {
+      "cal": 180,
+      "protein": 2,
+      "carbs": 24,
+      "fat": 9
+    },
+    "high": {
+      "cal": 220,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Furikake": {
     "kind": "topping",
     "portion": "1 tbsp",
@@ -10922,6 +11062,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-07",
+    "v": 4
+  },
+  "Green Beans with Crispy Onions": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 4
+    },
+    "high": {
+      "cal": 120,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Green Chicken Pozole": {
@@ -13474,6 +13634,26 @@
     "checked": "2026-10-26",
     "v": 4
   },
+  "Kidney Bean and Lentil Dal": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 160,
+      "protein": 10,
+      "carbs": 22,
+      "fat": 4
+    },
+    "high": {
+      "cal": 210,
+      "protein": 12,
+      "carbs": 26,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Kimchi and Garlic Fried Rice": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -14412,6 +14592,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-26",
+    "v": 4
+  },
+  "Matcha Icing": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 110,
+      "protein": 0,
+      "carbs": 18,
+      "fat": 4
+    },
+    "high": {
+      "cal": 140,
+      "protein": 1,
+      "carbs": 22,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Meat Lovers' Pizza": {
@@ -19194,6 +19394,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Roasted Doenjang Honey Salmon": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 26,
+      "carbs": 6,
+      "fat": 16
+    },
+    "high": {
+      "cal": 340,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Roasted Eggplant": {
@@ -24196,6 +24416,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Strawberry Preserves": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 32,
+    "low": {
+      "cal": 80,
+      "protein": 0,
+      "carbs": 20,
+      "fat": 0
+    },
+    "high": {
+      "cal": 110,
+      "protein": 0,
+      "carbs": 27,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Strawberry Yogurt": {
     "kind": "dish",
     "portion": "1 cup",
@@ -24794,6 +25034,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-10",
+    "v": 4
+  },
+  "Sweetened Condensed Milk": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 120,
+      "protein": 3,
+      "carbs": 20,
+      "fat": 3
+    },
+    "high": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 23,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "Szechuan Marinated Pineapple": {
@@ -26386,6 +26646,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Vanilla Frosting": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 20,
+      "fat": 5
+    },
+    "high": {
+      "cal": 150,
+      "protein": 0,
+      "carbs": 24,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Vanilla Ice Cream": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -27066,6 +27346,26 @@
     "checked": "2026-10-05",
     "v": 4
   },
+  "Veggie Pad See Ew with Beyond Tips": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 240,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 9
+    },
+    "high": {
+      "cal": 300,
+      "protein": 18,
+      "carbs": 32,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
+    "v": 4
+  },
   "Veggie Pad See Ew with Tofu": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -27484,6 +27784,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-03",
+    "v": 4
+  },
+  "White Cheddar Mac n' Cheese": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 280,
+      "protein": 12,
+      "carbs": 28,
+      "fat": 14
+    },
+    "high": {
+      "cal": 340,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-09",
     "v": 4
   },
   "White Cheddar and Balsamic Onion Jam Hoagie Melt": {
