@@ -2809,6 +2809,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Black Garlic Chile Oil": {
+    "kind": "topping",
+    "portion": "1 tbsp",
+    "grams": 14,
+    "low": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 14
+    },
+    "high": {
+      "cal": 130,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Black Garlic Oil": {
     "kind": "topping",
     "portion": "1 tbsp",
@@ -4759,6 +4779,26 @@
     "checked": "2026-10-16",
     "v": 4
   },
+  "Carrots": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 35,
+      "protein": 1,
+      "carbs": 8,
+      "fat": 0
+    },
+    "high": {
+      "cal": 45,
+      "protein": 1,
+      "carbs": 10,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Celery Sticks": {
     "kind": "dish",
     "portion": "1 cup",
@@ -6140,6 +6180,26 @@
     "checked": "2026-10-06",
     "v": 4
   },
+  "Chipotle Mayo": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 200,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 22
+    },
+    "high": {
+      "cal": 220,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Chipotle Roasted Tofu": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -6678,6 +6738,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-05",
+    "v": 4
+  },
+  "Churros": {
+    "kind": "dish",
+    "portion": "1 churro",
+    "grams": 50,
+    "low": {
+      "cal": 210,
+      "protein": 2,
+      "carbs": 26,
+      "fat": 11
+    },
+    "high": {
+      "cal": 240,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Cilantro Chutney": {
@@ -7258,6 +7338,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Corn on the Cob with Garlic Cream": {
+    "kind": "dish",
+    "portion": "1 ear",
+    "grams": 160,
+    "low": {
+      "cal": 180,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 8
+    },
+    "high": {
+      "cal": 220,
+      "protein": 5,
+      "carbs": 26,
+      "fat": 11
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Corn, Poblano Peppers, and Onion": {
@@ -8994,6 +9094,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Enoki Mushrooms": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 80,
+    "low": {
+      "cal": 20,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 0
+    },
+    "high": {
+      "cal": 30,
+      "protein": 3,
+      "carbs": 4,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "FILIPINO ADOBO BOWL BAR (available at 2pm)": {
     "kind": "not_a_dish",
     "portion": null,
@@ -9302,6 +9422,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-10",
+    "v": 4
+  },
+  "Fried Battered Cod": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 22,
+      "carbs": 12,
+      "fat": 16
+    },
+    "high": {
+      "cal": 340,
+      "protein": 25,
+      "carbs": 15,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Fried Battered Green Beans": {
@@ -10462,6 +10602,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Garlic Chile Sesame Oil": {
+    "kind": "topping",
+    "portion": "1 tbsp",
+    "grams": 14,
+    "low": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 14
+    },
+    "high": {
+      "cal": 130,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Garlic Ginger Stir Fried Napa and Red Cabbage": {
@@ -14875,6 +15035,26 @@
     "checked": "2026-10-04",
     "v": 4
   },
+  "Mexican Spiced Succotash with Edamame": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 110,
+      "protein": 5,
+      "carbs": 16,
+      "fat": 3
+    },
+    "high": {
+      "cal": 150,
+      "protein": 7,
+      "carbs": 19,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Mexican Spiced Veggie Chorizo": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -17764,6 +17944,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Ponzu Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 15,
+      "protein": 1,
+      "carbs": 3,
+      "fat": 0
+    },
+    "high": {
+      "cal": 25,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Pork Andouille Sausage": {
@@ -21856,6 +22056,46 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Shabu Shabu Miso Veggie Broth": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 60,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 2
+    },
+    "high": {
+      "cal": 90,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
+  "Shabu Shabu Pork Broth": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 80,
+      "protein": 8,
+      "carbs": 6,
+      "fat": 3
+    },
+    "high": {
+      "cal": 120,
+      "protein": 12,
+      "carbs": 8,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Shichimi Togarashi": {
     "kind": "topping",
     "portion": "1 tsp",
@@ -22134,6 +22374,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Sliced Beef Ribeye": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 280,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 18
+    },
+    "high": {
+      "cal": 320,
+      "protein": 30,
+      "carbs": 0,
+      "fat": 21
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Sliced Bell Peppers": {
@@ -23676,6 +23936,26 @@
     "checked": "2026-10-20",
     "v": 4
   },
+  "Steak Quesadilla": {
+    "kind": "dish",
+    "portion": "1 quesadilla",
+    "grams": 200,
+    "low": {
+      "cal": 480,
+      "protein": 28,
+      "carbs": 38,
+      "fat": 24
+    },
+    "high": {
+      "cal": 560,
+      "protein": 32,
+      "carbs": 42,
+      "fat": 30
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Steamed Baby Bok Choy": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -24616,6 +24896,26 @@
     "checked": "2026-10-09",
     "v": 4
   },
+  "Surimi Crab Sriracha Ranch Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 180,
+      "protein": 12,
+      "carbs": 8,
+      "fat": 11
+    },
+    "high": {
+      "cal": 230,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
+    "v": 4
+  },
   "Surimi Crab Tortilla Salad with Cilantro": {
     "kind": "dish",
     "portion": "1 salad",
@@ -25094,6 +25394,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-11",
+    "v": 4
+  },
+  "Tajin Spiced Fries": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 280,
+      "protein": 3,
+      "carbs": 36,
+      "fat": 13
+    },
+    "high": {
+      "cal": 330,
+      "protein": 4,
+      "carbs": 40,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Tamarind Chutney": {
@@ -27144,6 +27464,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-20",
+    "v": 4
+  },
+  "Veggie Chorizo, Black Bean, Plant Based Cheese Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 220,
+      "protein": 14,
+      "carbs": 16,
+      "fat": 11
+    },
+    "high": {
+      "cal": 280,
+      "protein": 17,
+      "carbs": 20,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-10",
     "v": 4
   },
   "Veggie Chorizo, Hashbrown, and Plant Based Cheese Scramble": {
