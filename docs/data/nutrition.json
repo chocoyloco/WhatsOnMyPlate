@@ -1,4 +1,14 @@
 {
+  "AVOCADO TOAST BAR POP-UP (served until 10am)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-11-11",
+    "v": 4
+  },
   "Acai Sorbet": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -3127,6 +3137,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-30",
+    "v": 4
+  },
+  "Bologna and Cheese Hoagie Melt": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 280,
+    "low": {
+      "cal": 620,
+      "protein": 28,
+      "carbs": 42,
+      "fat": 35
+    },
+    "high": {
+      "cal": 720,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 42
+    },
+    "needs_review": false,
+    "checked": "2026-11-11",
     "v": 4
   },
   "Bologna and Cheese Melt on French Bread": {
@@ -14714,6 +14744,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Mashed Avocado": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 45,
+      "protein": 0,
+      "carbs": 2,
+      "fat": 4
+    },
+    "high": {
+      "cal": 55,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-11",
+    "v": 4
+  },
   "Mashed Potatoes": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -14933,6 +14983,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-07",
+    "v": 4
+  },
+  "Mediterranean Veggie Pasta Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 180,
+      "protein": 6,
+      "carbs": 22,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 26,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-11",
     "v": 4
   },
   "Mexican Beef and Vegetable Soup": {
@@ -22836,6 +22906,26 @@
     "checked": "2026-10-14",
     "v": 4
   },
+  "Smoked Salmon": {
+    "kind": "topping",
+    "portion": "1 slice",
+    "grams": 30,
+    "low": {
+      "cal": 50,
+      "protein": 7,
+      "carbs": 0,
+      "fat": 2
+    },
+    "high": {
+      "cal": 65,
+      "protein": 8,
+      "carbs": 0,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-11",
+    "v": 4
+  },
   "Smoked Three Cheese Country Grits": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -26466,6 +26556,26 @@
     "checked": "2026-10-15",
     "v": 4
   },
+  "Tropical Surimi Crab Salad with Cucumber and Pineapple": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 120,
+      "protein": 10,
+      "carbs": 12,
+      "fat": 3
+    },
+    "high": {
+      "cal": 170,
+      "protein": 12,
+      "carbs": 16,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-11",
+    "v": 4
+  },
   "Truffle Mac n' Cheese with Lobster": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -27804,6 +27914,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-22",
+    "v": 4
+  },
+  "Village Bell  Pepper and Onion Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 130,
+    "low": {
+      "cal": 240,
+      "protein": 10,
+      "carbs": 32,
+      "fat": 8
+    },
+    "high": {
+      "cal": 310,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-11",
     "v": 4
   },
   "Village Cheese Pizza": {
