@@ -799,6 +799,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "BBQ Fried Cauliflower with Cheesy Grits": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 280,
+      "protein": 8,
+      "carbs": 32,
+      "fat": 12
+    },
+    "high": {
+      "cal": 360,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
   "BBQ Fried Cauliflower with Cheezy Grits": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -1417,6 +1437,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Bamboo Shoots": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 25,
+      "protein": 2,
+      "carbs": 4,
+      "fat": 0
+    },
+    "high": {
+      "cal": 45,
+      "protein": 3,
+      "carbs": 6,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
     "v": 4
   },
   "Banana Chips": {
@@ -3959,6 +3999,26 @@
     "checked": "2026-10-01",
     "v": 4
   },
+  "Bulgogi Style Jackfruit": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 120,
+      "protein": 2,
+      "carbs": 26,
+      "fat": 1
+    },
+    "high": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
   "Bulgur Herb Pilaf": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -4427,6 +4487,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-24",
+    "v": 4
+  },
+  "Cajun Spiced Corn Ribs": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 8
+    },
+    "high": {
+      "cal": 240,
+      "protein": 4,
+      "carbs": 26,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
     "v": 4
   },
   "Cajun Spiced Tater Tots": {
@@ -7628,6 +7708,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-07",
+    "v": 4
+  },
+  "Country Style Braised Ham Hocks and Lima Beans": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 16,
+      "fat": 10
+    },
+    "high": {
+      "cal": 320,
+      "protein": 22,
+      "carbs": 20,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
     "v": 4
   },
   "Country Style Braised Pork and Lima Beans": {
@@ -15865,6 +15965,26 @@
     "checked": "2026-10-27",
     "v": 4
   },
+  "Mongolia Grill Stir Fried Chicken and Noodles": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 220,
+    "low": {
+      "cal": 320,
+      "protein": 22,
+      "carbs": 32,
+      "fat": 10
+    },
+    "high": {
+      "cal": 420,
+      "protein": 26,
+      "carbs": 38,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
   "Mongolian Bar Kung Pao Chicken": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -15923,6 +16043,46 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Mongolian Grill Stir Fried Beef and Noodles": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 230,
+    "low": {
+      "cal": 360,
+      "protein": 24,
+      "carbs": 32,
+      "fat": 14
+    },
+    "high": {
+      "cal": 480,
+      "protein": 28,
+      "carbs": 38,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
+  "Mongolian Grill Stir Fried Tofu and Noodles": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 210,
+    "low": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 10
+    },
+    "high": {
+      "cal": 380,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
     "v": 4
   },
   "Mongolian Grilled Beef": {
@@ -16916,6 +17076,26 @@
     "checked": "2026-10-28",
     "v": 4
   },
+  "Pasta and Roasted Vegetable Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 200,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 7
+    },
+    "high": {
+      "cal": 300,
+      "protein": 8,
+      "carbs": 34,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
   "Pasta with Cajun Cream Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -17456,6 +17636,26 @@
     "checked": "2026-10-19",
     "v": 4
   },
+  "Pesto Cream Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 100,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 10
+    },
+    "high": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 13
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
   "Pesto Mayo": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -17574,6 +17774,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-31",
+    "v": 4
+  },
+  "Philly Cheesesteak Sandwich": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 280,
+    "low": {
+      "cal": 520,
+      "protein": 28,
+      "carbs": 42,
+      "fat": 24
+    },
+    "high": {
+      "cal": 680,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 32
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
     "v": 4
   },
   "Piccata Bar Sliced Mushrooms": {
@@ -22446,6 +22666,26 @@
     "checked": "2026-11-12",
     "v": 4
   },
+  "Sesame Sweet Chile Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 50,
+      "protein": 0,
+      "carbs": 12,
+      "fat": 0
+    },
+    "high": {
+      "cal": 80,
+      "protein": 1,
+      "carbs": 16,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
+    "v": 4
+  },
   "Shabu Shabu Miso Veggie Broth": {
     "kind": "dish",
     "portion": "1 cup",
@@ -25084,6 +25324,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-23",
+    "v": 4
+  },
+  "Stir Fry House Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 40,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 1
+    },
+    "high": {
+      "cal": 70,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-11-13",
     "v": 4
   },
   "Strawberry Banana Smoothie": {
@@ -28015,6 +28275,27 @@
     "needs_review": false,
     "checked": "2026-09-24",
     "v": 4
+  },
+  "Veggie Chorizo, Potato and Plant Based Cheese Scramble": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 12,
+      "carbs": 22,
+      "fat": 11
+    },
+    "high": {
+      "cal": 320,
+      "protein": 16,
+      "carbs": 28,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-10-27",
+    "v": 4,
+    "same_as": "Veggie Chorizo, Potato, and Plant Based Cheese Scramble"
   },
   "Veggie Chorizo, Potato, and Plant Based Cheese Burrito": {
     "kind": "dish",
