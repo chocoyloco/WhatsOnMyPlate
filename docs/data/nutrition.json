@@ -10374,6 +10374,26 @@
     "checked": "2026-10-12",
     "v": 4
   },
+  "Fried Pork and Vegetable Egg Roll": {
+    "kind": "dish",
+    "portion": "1 roll",
+    "grams": 85,
+    "low": {
+      "cal": 180,
+      "protein": 6,
+      "carbs": 16,
+      "fat": 10
+    },
+    "high": {
+      "cal": 220,
+      "protein": 8,
+      "carbs": 18,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-14",
+    "v": 4
+  },
   "Fried Potato Boats": {
     "kind": "dish",
     "portion": "1 boat",
