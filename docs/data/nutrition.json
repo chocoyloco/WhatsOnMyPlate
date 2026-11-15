@@ -899,6 +899,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "BBQ Pork Sandwich with pickled Onion": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 280,
+    "low": {
+      "cal": 520,
+      "protein": 28,
+      "carbs": 42,
+      "fat": 22
+    },
+    "high": {
+      "cal": 620,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 28
+    },
+    "needs_review": false,
+    "checked": "2026-11-15",
+    "v": 4
+  },
   "BBQ Pulled Pork": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -9124,6 +9144,46 @@
     "checked": "2026-10-01",
     "v": 4
   },
+  "EVK Poke Bowl Sesame Ponzu Marinated Tofu": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 380,
+    "low": {
+      "cal": 380,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 16
+    },
+    "high": {
+      "cal": 480,
+      "protein": 22,
+      "carbs": 44,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-11-15",
+    "v": 4
+  },
+  "EVK Spicy Sriracha Sesame Raw Poke Tuna": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 380,
+    "low": {
+      "cal": 420,
+      "protein": 32,
+      "carbs": 36,
+      "fat": 16
+    },
+    "high": {
+      "cal": 520,
+      "protein": 38,
+      "carbs": 42,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-11-15",
+    "v": 4
+  },
   "Edamame": {
     "kind": "dish",
     "portion": "1/2 cup",
@@ -15425,6 +15485,46 @@
     "checked": "2026-10-04",
     "v": 4
   },
+  "Mexican Street Corn Bowl (no meat)": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 320,
+    "low": {
+      "cal": 380,
+      "protein": 12,
+      "carbs": 48,
+      "fat": 16
+    },
+    "high": {
+      "cal": 480,
+      "protein": 16,
+      "carbs": 54,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-11-15",
+    "v": 4
+  },
+  "Mexican Street Corn Bowl with Barbacoa Beef": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 420,
+    "low": {
+      "cal": 520,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 22
+    },
+    "high": {
+      "cal": 640,
+      "protein": 40,
+      "carbs": 54,
+      "fat": 30
+    },
+    "needs_review": false,
+    "checked": "2026-11-15",
+    "v": 4
+  },
   "Mexican Street Corn Cup (no meat)": {
     "kind": "dish",
     "portion": "1 cup",
@@ -15763,6 +15863,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Molly's Creamy New England Clam Chowder with Bacon": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 280,
+      "protein": 14,
+      "carbs": 22,
+      "fat": 14
+    },
+    "high": {
+      "cal": 360,
+      "protein": 18,
+      "carbs": 28,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-15",
     "v": 4
   },
   "Molly's French Onion Soup with Sherry": {
@@ -16874,6 +16994,16 @@
     },
     "needs_review": false,
     "checked": "2026-11-12",
+    "v": 4
+  },
+  "POKE BOWL BAR (available at 2pm)": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-11-15",
     "v": 4
   },
   "Pad Thai Chicken": {
