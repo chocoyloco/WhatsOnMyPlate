@@ -1119,6 +1119,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Baked Falafel": {
+    "kind": "dish",
+    "portion": "1 piece",
+    "grams": 50,
+    "low": {
+      "cal": 140,
+      "protein": 5,
+      "carbs": 12,
+      "fat": 7
+    },
+    "high": {
+      "cal": 170,
+      "protein": 6,
+      "carbs": 15,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
+    "v": 4
+  },
   "Baked Falafel with Tahini and Pickled Red Onions": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -3397,6 +3417,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-09",
+    "v": 4
+  },
+  "Braised Cajun Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 200,
+      "protein": 28,
+      "carbs": 2,
+      "fat": 9
+    },
+    "high": {
+      "cal": 250,
+      "protein": 32,
+      "carbs": 4,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
     "v": 4
   },
   "Braised Collard Greens": {
@@ -6248,6 +6288,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Chili Garlic Roasted Potatoes": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 140,
+      "protein": 2,
+      "carbs": 18,
+      "fat": 6
+    },
+    "high": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
     "v": 4
   },
   "Chili Garlic Roasted Sweet Potatoes": {
@@ -12614,6 +12674,26 @@
     "checked": "2026-10-26",
     "v": 4
   },
+  "Hearty Veggie and Mixed Bean Chili": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 3
+    },
+    "high": {
+      "cal": 240,
+      "protein": 13,
+      "carbs": 32,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
+    "v": 4
+  },
   "Hendel Roasted Chicken": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -16956,6 +17036,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Oyster Crackers": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 15,
+    "low": {
+      "cal": 60,
+      "protein": 1,
+      "carbs": 10,
+      "fat": 1
+    },
+    "high": {
+      "cal": 70,
+      "protein": 1,
+      "carbs": 11,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
+    "v": 4
+  },
   "Oyster Mushroom Etouffee": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -18306,6 +18406,26 @@
     "checked": "2026-10-05",
     "v": 4
   },
+  "Plant Based \"Bacon\" Bits": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 12,
+    "low": {
+      "cal": 40,
+      "protein": 3,
+      "carbs": 2,
+      "fat": 2
+    },
+    "high": {
+      "cal": 60,
+      "protein": 5,
+      "carbs": 3,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
+    "v": 4
+  },
   "Plant Based \"Steak\" Bulgogi": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -19044,6 +19164,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-30",
+    "v": 4
+  },
+  "Provolone and Balsamic Onion Jam Melt on Sourdough": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 220,
+    "low": {
+      "cal": 420,
+      "protein": 16,
+      "carbs": 42,
+      "fat": 20
+    },
+    "high": {
+      "cal": 500,
+      "protein": 18,
+      "carbs": 48,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
     "v": 4
   },
   "Pulled BBQ Beef Brisket": {
@@ -20556,6 +20696,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Roasted Gochujang Honey Salmon": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 260,
+      "protein": 28,
+      "carbs": 6,
+      "fat": 13
+    },
+    "high": {
+      "cal": 310,
+      "protein": 32,
+      "carbs": 8,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
+    "v": 4
+  },
   "Roasted Gochujang Tofu with Furikake": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -21294,6 +21454,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-03",
+    "v": 4
+  },
+  "Roasted Tomato Basil Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 100,
+      "protein": 3,
+      "carbs": 14,
+      "fat": 4
+    },
+    "high": {
+      "cal": 150,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
     "v": 4
   },
   "Roasted Turmeric Spiced Chicken with Cilantro Chutney": {
@@ -23796,6 +23976,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Sourdough Bread Bowl": {
+    "kind": "dish",
+    "portion": "1 bowl",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 10,
+      "carbs": 58,
+      "fat": 3
+    },
+    "high": {
+      "cal": 370,
+      "protein": 12,
+      "carbs": 64,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
+    "v": 4
+  },
   "Sourdough French Toast with Strawberries": {
     "kind": "dish",
     "portion": "1 slice",
@@ -25234,6 +25434,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Steamed Quinoa": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 160,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 3
+    },
+    "high": {
+      "cal": 190,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-16",
     "v": 4
   },
   "Steamed Rice": {
