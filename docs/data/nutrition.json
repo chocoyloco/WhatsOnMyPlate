@@ -6089,6 +6089,26 @@
     "checked": "2026-11-02",
     "v": 4
   },
+  "Chicken and Cheese Mulita on Corn Tortilla": {
+    "kind": "dish",
+    "portion": "1 mulita",
+    "grams": 180,
+    "low": {
+      "cal": 380,
+      "protein": 22,
+      "carbs": 28,
+      "fat": 18
+    },
+    "high": {
+      "cal": 450,
+      "protein": 26,
+      "carbs": 32,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Chicken and Rice Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -7150,6 +7170,26 @@
     "checked": "2026-10-12",
     "v": 4
   },
+  "Classic French Toast": {
+    "kind": "dish",
+    "portion": "2 slices",
+    "grams": 200,
+    "low": {
+      "cal": 380,
+      "protein": 12,
+      "carbs": 42,
+      "fat": 16
+    },
+    "high": {
+      "cal": 480,
+      "protein": 16,
+      "carbs": 50,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Cobb Salad": {
     "kind": "dish",
     "portion": "1 plate",
@@ -7888,6 +7928,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Country Style Sourdough French Toast": {
+    "kind": "dish",
+    "portion": "2 slices",
+    "grams": 220,
+    "low": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 46,
+      "fat": 18
+    },
+    "high": {
+      "cal": 520,
+      "protein": 18,
+      "carbs": 54,
+      "fat": 24
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Cream of Asparagus Soup": {
@@ -11754,6 +11814,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Green Chile and Tomatillo Chilaquiles with Plant Based Cheese": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 220,
+    "low": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 36,
+      "fat": 14
+    },
+    "high": {
+      "cal": 420,
+      "protein": 18,
+      "carbs": 44,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Green Minestrone Soup with Pasta": {
     "kind": "dish",
     "portion": "1 cup",
@@ -12994,6 +13074,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Homemade Herbed Sourdough Croutons": {
+    "kind": "topping",
+    "portion": "1/4 cup",
+    "grams": 30,
+    "low": {
+      "cal": 120,
+      "protein": 3,
+      "carbs": 14,
+      "fat": 5
+    },
+    "high": {
+      "cal": 150,
+      "protein": 4,
+      "carbs": 16,
+      "fat": 7
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Homemade Lentil Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -13102,6 +13202,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-19",
+    "v": 4
+  },
+  "Honey Candied Jalapeno Slices": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 25,
+    "low": {
+      "cal": 35,
+      "protein": 0,
+      "carbs": 9,
+      "fat": 0
+    },
+    "high": {
+      "cal": 50,
+      "protein": 0,
+      "carbs": 12,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Honey Miso Glazed Fish with Mango Slaw": {
@@ -15385,6 +15505,26 @@
     "checked": "2026-10-22",
     "v": 4
   },
+  "Mediterranea Quinoa Salad with Citrus Oregano Vinaigrette": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 320,
+      "protein": 10,
+      "carbs": 34,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Mediterranean Broccoli Pasta Salad": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -15403,6 +15543,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-07",
+    "v": 4
+  },
+  "Mediterranean Hummus-adilla": {
+    "kind": "dish",
+    "portion": "1 quesadilla",
+    "grams": 200,
+    "low": {
+      "cal": 420,
+      "protein": 14,
+      "carbs": 42,
+      "fat": 20
+    },
+    "high": {
+      "cal": 520,
+      "protein": 18,
+      "carbs": 50,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Mediterranean Veggie Pasta Salad": {
@@ -17546,6 +17706,26 @@
     "checked": "2026-11-03",
     "v": 4
   },
+  "Pasta with Spicy Arrabbiata Sauce": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 220,
+    "low": {
+      "cal": 280,
+      "protein": 10,
+      "carbs": 44,
+      "fat": 6
+    },
+    "high": {
+      "cal": 360,
+      "protein": 12,
+      "carbs": 52,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Pasta with White Wine Alfredo Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -17806,6 +17986,46 @@
     "checked": "2026-11-02",
     "v": 4
   },
+  "Peruvian Green Herb Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 60,
+      "protein": 1,
+      "carbs": 2,
+      "fat": 5
+    },
+    "high": {
+      "cal": 90,
+      "protein": 2,
+      "carbs": 3,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
+  "Peruvian Red Aji Pepper Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 40,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 2
+    },
+    "high": {
+      "cal": 70,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Peruvian Style Grilled Chicken with Green Lomo Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -17824,6 +18044,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Peruvian Yellow Aji Pepper Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 50,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 3
+    },
+    "high": {
+      "cal": 80,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Peruvian Yellow Basmati Rice": {
@@ -18044,6 +18284,46 @@
     },
     "needs_review": false,
     "checked": "2026-11-13",
+    "v": 4
+  },
+  "Pho Bar Beef Stock": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 40,
+      "protein": 6,
+      "carbs": 2,
+      "fat": 1
+    },
+    "high": {
+      "cal": 80,
+      "protein": 10,
+      "carbs": 4,
+      "fat": 3
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
+  "Pho Bar Sliced Ribeye Steak": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 14
+    },
+    "high": {
+      "cal": 300,
+      "protein": 32,
+      "carbs": 0,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Piccata Bar Sliced Mushrooms": {
@@ -18904,6 +19184,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pork Chorizo Quesadilla on Flour Tortilla": {
+    "kind": "dish",
+    "portion": "1 quesadilla",
+    "grams": 220,
+    "low": {
+      "cal": 520,
+      "protein": 22,
+      "carbs": 38,
+      "fat": 28
+    },
+    "high": {
+      "cal": 640,
+      "protein": 26,
+      "carbs": 44,
+      "fat": 36
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Pork Chorizo, Egg  and Cheese Quesadilla": {
@@ -21076,6 +21376,26 @@
     "checked": "2026-09-25",
     "v": 4
   },
+  "Roasted Peruvian Style Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 240,
+      "protein": 36,
+      "carbs": 0,
+      "fat": 10
+    },
+    "high": {
+      "cal": 300,
+      "protein": 40,
+      "carbs": 2,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Roasted Potato Medley": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -22496,6 +22816,26 @@
     "checked": "2026-09-29",
     "v": 4
   },
+  "Sauteed Zucchini and Eggplant": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 4
+    },
+    "high": {
+      "cal": 140,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 8
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Saut\u00e9ed Asparagus and Cabbage": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -23514,6 +23854,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Sliced Jalapenos": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 15,
+    "low": {
+      "cal": 4,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "high": {
+      "cal": 8,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Sliced Mushrooms": {
@@ -24956,6 +25316,26 @@
     "checked": "2026-11-10",
     "v": 4
   },
+  "Steak and Cheese Mulita on Corn Tortilla": {
+    "kind": "dish",
+    "portion": "1 mulita",
+    "grams": 190,
+    "low": {
+      "cal": 420,
+      "protein": 26,
+      "carbs": 28,
+      "fat": 20
+    },
+    "high": {
+      "cal": 500,
+      "protein": 30,
+      "carbs": 32,
+      "fat": 26
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
+    "v": 4
+  },
   "Steamed Baby Bok Choy": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -25734,6 +26114,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Strawberry Ice Cream": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 100,
+    "low": {
+      "cal": 180,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 9
+    },
+    "high": {
+      "cal": 240,
+      "protein": 4,
+      "carbs": 28,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Strawberry Preserves": {
@@ -28524,6 +28924,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-06",
+    "v": 4
+  },
+  "Veggie Chorizo and Cheese Mulita on Corn Tortilla": {
+    "kind": "dish",
+    "portion": "1 mulita",
+    "grams": 170,
+    "low": {
+      "cal": 340,
+      "protein": 14,
+      "carbs": 30,
+      "fat": 16
+    },
+    "high": {
+      "cal": 420,
+      "protein": 18,
+      "carbs": 36,
+      "fat": 22
+    },
+    "needs_review": false,
+    "checked": "2026-11-17",
     "v": 4
   },
   "Veggie Chorizo and Plant Based Cheese Quesadilla": {
