@@ -1099,6 +1099,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Bacon, Tomato, and  Ranch Potato Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 180,
+      "protein": 4,
+      "carbs": 16,
+      "fat": 10
+    },
+    "high": {
+      "cal": 240,
+      "protein": 5,
+      "carbs": 20,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
+    "v": 4
+  },
   "Baked Buffalo Tofu Wrap": {
     "kind": "dish",
     "portion": "1 wrap",
@@ -2169,6 +2189,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Beef and Mixed Bean Chili Mac Bake": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 280,
+      "protein": 18,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 360,
+      "protein": 22,
+      "carbs": 32,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
+    "v": 4
+  },
   "Beef and Pork Bolognese Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -2537,6 +2577,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Beyond Plant Based Sausage Patty": {
+    "kind": "dish",
+    "portion": "1 patty",
+    "grams": 55,
+    "low": {
+      "cal": 140,
+      "protein": 12,
+      "carbs": 4,
+      "fat": 7
+    },
+    "high": {
+      "cal": 180,
+      "protein": 14,
+      "carbs": 6,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
     "v": 4
   },
   "Bhindi Masala (Okra with Onion and Tomato)": {
@@ -4409,6 +4469,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Cajun Butter Shrimp": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 160,
+      "protein": 18,
+      "carbs": 3,
+      "fat": 8
+    },
+    "high": {
+      "cal": 220,
+      "protein": 22,
+      "carbs": 5,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
+    "v": 4
+  },
   "Cajun Chicken Baked Pasta": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -5329,6 +5409,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Cheesy Sourdough Garlic Toast": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 70,
+    "low": {
+      "cal": 200,
+      "protein": 6,
+      "carbs": 18,
+      "fat": 11
+    },
+    "high": {
+      "cal": 260,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
+    "v": 4
+  },
   "Cheesy Stuffed Pasta Shells": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -6107,6 +6207,26 @@
     },
     "needs_review": false,
     "checked": "2026-11-17",
+    "v": 4
+  },
+  "Chicken and Mixed Bean Chili": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 220,
+      "protein": 22,
+      "carbs": 18,
+      "fat": 6
+    },
+    "high": {
+      "cal": 300,
+      "protein": 28,
+      "carbs": 24,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
     "v": 4
   },
   "Chicken and Rice Soup": {
@@ -8889,6 +9009,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-27",
+    "v": 4
+  },
+  "Curly Fries": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 3,
+      "carbs": 38,
+      "fat": 16
+    },
+    "high": {
+      "cal": 400,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 21
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
     "v": 4
   },
   "Curried Barley": {
@@ -11912,6 +12052,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Griddled Spam": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 40,
+    "low": {
+      "cal": 180,
+      "protein": 7,
+      "carbs": 1,
+      "fat": 16
+    },
+    "high": {
+      "cal": 210,
+      "protein": 8,
+      "carbs": 2,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
     "v": 4
   },
   "Grilled Antipasti Salad": {
@@ -17904,6 +18064,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Pepperoni and Honey Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 130,
+    "low": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 14
+    },
+    "high": {
+      "cal": 400,
+      "protein": 17,
+      "carbs": 38,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
     "v": 4
   },
   "Pepperoni, Mushroom, Onion Thin Crust Pizza": {
@@ -27054,6 +27234,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-16",
+    "v": 4
+  },
+  "Teriyaki Mushrooms": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 80,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 2
+    },
+    "high": {
+      "cal": 140,
+      "protein": 4,
+      "carbs": 16,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-18",
     "v": 4
   },
   "Teriyaki Tempura Fried Shrimp Pizza": {
