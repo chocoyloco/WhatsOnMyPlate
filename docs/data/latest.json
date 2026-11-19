@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "updated": "2026-11-18T13:21:14.415460-08:00",
+  "date": "2026-11-19",
+  "updated": "2026-11-19T13:24:53.111583-08:00",
   "halls": [
     {
       "code": "evk",
@@ -146,11 +146,14 @@
                   ]
                 },
                 {
-                  "name": "Pineapple Passion Smoothie",
-                  "allergens": [],
+                  "name": "Cocoa Chia Overnight Oats",
+                  "allergens": [
+                    "dairy",
+                    "gluten"
+                  ],
                   "tags": [
                     "halal-ingredients",
-                    "vegan"
+                    "vegetarian"
                   ]
                 }
               ]
@@ -159,21 +162,23 @@
               "station": "Hot Line",
               "items": [
                 {
-                  "name": "Beyond Plant Based Sausage Patty",
-                  "allergens": [],
+                  "name": "Spinach, Onion, and Tomato Tofu Scramble",
+                  "allergens": [
+                    "soy"
+                  ],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Cherry Breakfast Cobbler",
+                  "name": "Brioche Ice Cream French Toast",
                   "allergens": [
                     "dairy",
+                    "eggs",
                     "gluten"
                   ],
                   "tags": [
-                    "halal-ingredients",
                     "vegetarian"
                   ]
                 },
@@ -198,6 +203,13 @@
                   ]
                 },
                 {
+                  "name": "Fried Potatoes O'Brien",
+                  "allergens": [],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
                   "name": "Chicken Sausage Link",
                   "allergens": [],
                   "tags": [
@@ -205,17 +217,10 @@
                   ]
                 },
                 {
-                  "name": "Fried Cottage Potatoes",
+                  "name": "Pork Sausage Patty",
                   "allergens": [
-                    "soy"
+                    "pork"
                   ],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Chicken Andouille Sausage",
-                  "allergens": [],
                   "tags": []
                 },
                 {
@@ -233,13 +238,31 @@
           "meal": "Lunch",
           "stations": [
             {
-              "station": "Hot Line",
+              "station": "Fresh from the Farm",
               "items": [
                 {
-                  "name": "Roasted Vegetable, Pesto and Plant Based Mozzarella Pasta Bake",
+                  "name": "Assorted Fruits",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Kale and Corn Salad with Feta and Dijon Balsamic Vinaigrette",
                   "allergens": [
-                    "soy",
-                    "gluten"
+                    "dairy",
+                    "soy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Vegetable Sesame Manchow Soup",
+                  "allergens": [
+                    "sesame",
+                    "soy"
                   ],
                   "tags": [
                     "halal-ingredients",
@@ -247,87 +270,122 @@
                   ]
                 },
                 {
-                  "name": "Chicken Cacciatore",
-                  "allergens": [],
-                  "tags": []
+                  "name": "Miso Soup with Tofu",
+                  "allergens": [
+                    "sesame",
+                    "soy"
+                  ],
+                  "tags": [
+                    "vegan"
+                  ]
+                }
+              ]
+            },
+            {
+              "station": "Hot Line",
+              "items": [
+                {
+                  "name": "Thai Coconut Tofu, Veggie, and Rice Noodle Stir Fry",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
                 },
                 {
-                  "name": "Black Pepper Crusted Steak",
+                  "name": "Spiced Rotisserie Style Chicken",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients"
                   ]
                 },
                 {
-                  "name": "Garlic Braised White Beans",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Sauteed Tuscan Kale and Blistered Tomatoes",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Steamed Peas and Carrots",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Barley Risotto Primavera",
+                  "name": "Char Siu Pork Stir Fry",
                   "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Roasted Red Potatoes",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Pasta with White Wine Alfredo Sauce",
-                  "allergens": [
-                    "dairy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Greek Veggie and Feta Pizza",
-                  "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Meat Lovers' Pizza",
-                  "allergens": [
-                    "dairy",
                     "pork",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Chana Masala",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Steamed Bok Choy",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Steamed Green Beans",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Sweet Potato Mash",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Steamed Basmati Rice",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Rice Noodles",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Sweet Chile Sauce",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Three Cheese Pizza",
+                  "allergens": [
+                    "dairy",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Chicken Andouille Sausage and Peppers Pizza",
+                  "allergens": [
+                    "dairy",
                     "soy",
                     "gluten"
                   ],
@@ -341,35 +399,7 @@
                   "tags": []
                 },
                 {
-                  "name": "Roasted Chicken Teriyaki",
-                  "allergens": [
-                    "sesame",
-                    "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Griddled Spam",
-                  "allergens": [
-                    "pork"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Teriyaki Mushrooms",
-                  "allergens": [
-                    "sesame",
-                    "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Steamed Jasmine Rice",
+                  "name": "Aloo Gobi Cauliflower Potato Coconut Curry",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -377,17 +407,24 @@
                   ]
                 },
                 {
-                  "name": "Crispy Onions",
+                  "name": "Butter Chicken Curry",
                   "allergens": [
-                    "gluten"
+                    "dairy"
                   ],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Pickled Red Onions",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Furikake",
+                  "name": "Traditional Hummus",
                   "allergens": [
                     "sesame"
                   ],
@@ -397,67 +434,10 @@
                   ]
                 },
                 {
-                  "name": "Shredded Carrots",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Sliced Green Onions",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Sliced Cucumbers",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Homestyle Mac Salad",
+                  "name": "Cucumber Raita",
                   "allergens": [
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                }
-              ]
-            },
-            {
-              "station": "Fresh from the Farm",
-              "items": [
-                {
-                  "name": "Assorted Fruits",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Broccoli Crunch Salad with Creamy Apple Cider Dressing",
-                  "allergens": [
+                    "dairy",
                     "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Tomato Orange Basil Bisque",
-                  "allergens": [
-                    "dairy"
                   ],
                   "tags": [
                     "halal-ingredients",
@@ -465,12 +445,39 @@
                   ]
                 },
                 {
-                  "name": "White Bean, Potato and Chicken Soup",
+                  "name": "Kachumber",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cilantro Chutney",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Naan Bread",
                   "allergens": [
-                    "dairy"
+                    "dairy",
+                    "eggs",
+                    "soy",
+                    "gluten"
                   ],
                   "tags": [
-                    "halal-ingredients"
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Chopped Cilantro",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
                   ]
                 }
               ]
@@ -492,8 +499,19 @@
                   ]
                 },
                 {
-                  "name": "Broccoli Crunch Salad with Creamy Apple Cider Dressing",
+                  "name": "Kale and Corn Salad with Feta and Dijon Balsamic Vinaigrette",
                   "allergens": [
+                    "dairy",
+                    "soy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Vegetable Sesame Manchow Soup",
+                  "allergens": [
+                    "sesame",
                     "soy"
                   ],
                   "tags": [
@@ -502,22 +520,13 @@
                   ]
                 },
                 {
-                  "name": "Tomato Orange Basil Bisque",
+                  "name": "Miso Soup with Tofu",
                   "allergens": [
-                    "dairy"
+                    "sesame",
+                    "soy"
                   ],
                   "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "White Bean, Potato and Chicken Soup",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients"
+                    "vegan"
                   ]
                 }
               ]
@@ -526,34 +535,33 @@
               "station": "Hot Line",
               "items": [
                 {
-                  "name": "Roasted Balsamic Glazed Tofu",
+                  "name": "Tofu With Coconut Banana Curry",
                   "allergens": [
                     "soy"
                   ],
                   "tags": [
+                    "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Cheesy Monterey BBQ Chicken",
-                  "allergens": [
-                    "dairy"
-                  ],
+                  "name": "Thai Coconut Chicken Curry",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients"
                   ]
                 },
                 {
-                  "name": "Fried Calamari",
+                  "name": "Roasted Tilapia with Coconut Red Curry Sauce",
                   "allergens": [
+                    "fish",
                     "shellfish",
-                    "soy",
-                    "gluten"
+                    "soy"
                   ],
                   "tags": []
                 },
                 {
-                  "name": "Garlic Braised White Beans",
+                  "name": "Chana Masala",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -561,7 +569,7 @@
                   ]
                 },
                 {
-                  "name": "Steamed Broccoli, Cauliflower and Carrots",
+                  "name": "Sauteed Edamame, Lima Bean, and Corn Succotash",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -569,7 +577,7 @@
                   ]
                 },
                 {
-                  "name": "Steamed Swiss Chard",
+                  "name": "Sauteed Yellow Squash",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -577,49 +585,55 @@
                   ]
                 },
                 {
-                  "name": "Creamy Herb Polenta",
+                  "name": "Coconut Rice",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Steamed Farro",
                   "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Brown Rice Pilaf",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Pasta with White Wine Alfredo Sauce",
-                  "allergens": [
-                    "dairy",
                     "gluten"
                   ],
                   "tags": [
-                    "vegetarian"
+                    "halal-ingredients",
+                    "vegan"
                   ]
                 },
                 {
-                  "name": "Greek Veggie and Feta Pizza",
+                  "name": "Rice Noodles",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Sweet Chile Sauce",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Three Cheese Pizza",
                   "allergens": [
                     "dairy",
                     "soy",
                     "gluten"
                   ],
                   "tags": [
+                    "halal-ingredients",
                     "vegetarian"
                   ]
                 },
                 {
-                  "name": "Meat Lovers' Pizza",
+                  "name": "Chicken Andouille Sausage and Peppers Pizza",
                   "allergens": [
                     "dairy",
-                    "pork",
                     "soy",
                     "gluten"
                   ],
@@ -633,35 +647,24 @@
                   "tags": []
                 },
                 {
-                  "name": "Teriyaki Mushrooms",
-                  "allergens": [
-                    "sesame",
-                    "soy"
-                  ],
+                  "name": "Aloo Gobi Cauliflower Potato Coconut Curry",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Roasted Chicken Teriyaki",
+                  "name": "Butter Chicken Curry",
                   "allergens": [
-                    "sesame",
-                    "soy"
+                    "dairy"
                   ],
                   "tags": [
                     "halal-ingredients"
                   ]
                 },
                 {
-                  "name": "Griddled Spam",
-                  "allergens": [
-                    "pork"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Steamed Jasmine Rice",
+                  "name": "Steamed Basmati Rice",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -669,42 +672,19 @@
                   ]
                 },
                 {
-                  "name": "Homestyle Mac Salad",
+                  "name": "Naan Bread",
                   "allergens": [
+                    "dairy",
+                    "eggs",
                     "soy",
                     "gluten"
                   ],
                   "tags": [
-                    "halal-ingredients",
-                    "vegan"
+                    "vegetarian"
                   ]
                 },
                 {
-                  "name": "Shredded Carrots",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Sliced Cucumbers",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Sliced Green Onions",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Furikake",
+                  "name": "Traditional Hummus",
                   "allergens": [
                     "sesame"
                   ],
@@ -714,10 +694,35 @@
                   ]
                 },
                 {
-                  "name": "Crispy Onions",
+                  "name": "Kachumber",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cilantro Chutney",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cucumber Raita",
                   "allergens": [
-                    "gluten"
+                    "dairy",
+                    "soy"
                   ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Chopped Cilantro",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
@@ -882,6 +887,118 @@
               ]
             },
             {
+              "station": "Americana",
+              "items": [
+                {
+                  "name": "Assorted Breakfast Flaky Pastries",
+                  "allergens": [
+                    "dairy",
+                    "eggs",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Assorted Muffins",
+                  "allergens": [
+                    "dairy",
+                    "eggs",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                }
+              ]
+            },
+            {
+              "station": "Eurasia",
+              "items": [
+                {
+                  "name": "Sweet Potato and Beyond Crumble Hash",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Pork Sausage, Egg and Cheese English Muffin Sandwich",
+                  "allergens": [
+                    "dairy",
+                    "eggs",
+                    "pork",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Scrambled Eggs",
+                  "allergens": [
+                    "eggs"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Boiled Eggs",
+                  "allergens": [
+                    "eggs"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Crispy Fried Hash Brown Patties",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Chicken Sausage Link",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Pork Sausage Link",
+                  "allergens": [
+                    "pork"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Bacon",
+                  "allergens": [
+                    "pork"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Oatmeal",
+                  "allergens": [
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                }
+              ]
+            },
+            {
               "station": "Pizza/Salad Bar",
               "items": [
                 {
@@ -1021,119 +1138,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "station": "Eurasia",
-              "items": [
-                {
-                  "name": "Veggie Chorizo and Plant Based Cheese Quesadilla",
-                  "allergens": [
-                    "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Cinnamon Swirl French Toast",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Scrambled Eggs",
-                  "allergens": [
-                    "eggs"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Boiled Eggs",
-                  "allergens": [
-                    "eggs"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Shredded Hash Browns",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Chicken Sausage Link",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Chicken Andouille Sausage",
-                  "allergens": [],
-                  "tags": []
-                },
-                {
-                  "name": "Bacon",
-                  "allergens": [
-                    "pork"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Oatmeal",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                }
-              ]
-            },
-            {
-              "station": "Americana",
-              "items": [
-                {
-                  "name": "Assorted Muffins",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Assorted Breakfast Flaky Pastries",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -1144,9 +1148,10 @@
               "station": "Americana",
               "items": [
                 {
-                  "name": "Pepperjack Grilled Cheese Sandwich on French Bread",
+                  "name": "Egg Salad Hoagie Sandwich",
                   "allergens": [
-                    "dairy",
+                    "eggs",
+                    "sesame",
                     "soy",
                     "gluten"
                   ],
@@ -1156,9 +1161,8 @@
                   ]
                 },
                 {
-                  "name": "Cuban Pork Hoagie Sandwich",
+                  "name": "Trojan Pork \"McRib\" Sandwich",
                   "allergens": [
-                    "dairy",
                     "pork",
                     "sesame",
                     "soy",
@@ -1179,164 +1183,20 @@
               ]
             },
             {
-              "station": "Eurasia",
-              "items": [
-                {
-                  "name": "Country Smothered Tofu",
-                  "allergens": [
-                    "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Roasted Bayou Spiced Chicken",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Beef and Mixed Bean Chili Mac Bake",
-                  "allergens": [
-                    "dairy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "BBQ Baked Beans",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Fried Okra",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Braised Collard Greens with Smoked Turkey",
-                  "allergens": [
-                    "dairy",
-                    "soy"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Cajun Rice Pilaf",
-                  "allergens": [
-                    "soy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Smoked Three Cheese Country Grits",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Plain Pasta",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Creole Cream Sauce",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Molly's Gumbo with Chicken Sausage",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "fish",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Homemade Lentil Soup",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                }
-              ]
-            },
-            {
               "station": "Bistro",
               "items": [
                 {
-                  "name": "Boca Burger on Martin's Potato Bun",
+                  "name": "Spiced Tofu",
                   "allergens": [
-                    "dairy",
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Beef Burger on Martin's Potato Bun",
-                  "allergens": [
-                    "dairy",
-                    "sesame",
-                    "gluten"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Sliced American Cheese",
-                  "allergens": [
-                    "dairy",
                     "soy"
                   ],
                   "tags": [
-                    "vegetarian"
+                    "halal-ingredients",
+                    "vegan"
                   ]
                 },
                 {
-                  "name": "Bacon",
-                  "allergens": [
-                    "pork"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Sliced Tomatoes",
+                  "name": "Refried Pinto Beans",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1344,7 +1204,31 @@
                   ]
                 },
                 {
-                  "name": "Lettuce",
+                  "name": "Chicken Asada",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Spanish Rice",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cotija Cheese",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Shredded Lettuce",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1360,11 +1244,23 @@
                   ]
                 },
                 {
-                  "name": "Caramelized Onions",
-                  "allergens": [],
+                  "name": "Shredded Monterey Jack and Cheddar Cheese Blend",
+                  "allergens": [
+                    "dairy"
+                  ],
                   "tags": [
                     "halal-ingredients",
-                    "vegan"
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Sour Cream",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
                   ]
                 },
                 {
@@ -1376,10 +1272,121 @@
                   ]
                 },
                 {
-                  "name": "Thousand Island Dressing",
+                  "name": "Spicy Salsa Verde",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Spicy Salsa Molcajete",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                }
+              ]
+            },
+            {
+              "station": "Eurasia",
+              "items": [
+                {
+                  "name": "Spicy Caribbean Chickpeas",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Baked Tilapia with Veracruz Sauce",
+                  "allergens": [
+                    "fish"
+                  ],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Caribbean Chicken Stew",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Braised Cuban Black Beans",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Steamed Broccoli",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Roasted Butternut Squash",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Caribbean Rice and Kidney Beans",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Baked Plantains",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Plain Pasta",
+                  "allergens": [
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Caribbean Rasta Cream Sauce",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Creole Chicken Soup",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Molly's Tomato Bisque",
                   "allergens": [
                     "dairy",
-                    "eggs",
                     "soy"
                   ],
                   "tags": [
@@ -1400,13 +1407,13 @@
                   ]
                 },
                 {
-                  "name": "Caprese Salad",
+                  "name": "Creamy Plant Based Potato Salad",
                   "allergens": [
-                    "dairy"
+                    "soy"
                   ],
                   "tags": [
                     "halal-ingredients",
-                    "vegetarian"
+                    "vegan"
                   ]
                 },
                 {
@@ -1442,32 +1449,29 @@
               "station": "Eurasia",
               "items": [
                 {
-                  "name": "Gardein Veggie \"Beef\" Tips with Cherry BBQ Sauce",
-                  "allergens": [
-                    "soy",
-                    "gluten"
-                  ],
+                  "name": "Veggie Cuban Picadillo",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Pulled BBQ Beef Brisket",
+                  "name": "Beef Ropa Vieja with Green Olives",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients"
                   ]
                 },
                 {
-                  "name": "Steamed Mussels with Lemongrass White Wine Broth",
+                  "name": "Cuban Style Braised Chipotle Pork",
                   "allergens": [
-                    "shellfish"
+                    "pork"
                   ],
                   "tags": []
                 },
                 {
-                  "name": "BBQ Baked Beans",
+                  "name": "Braised Cuban Black Beans",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1475,7 +1479,7 @@
                   ]
                 },
                 {
-                  "name": "Sauteed Mixed Veggies",
+                  "name": "Jamaican Style Coconut Collard Greens",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1483,28 +1487,23 @@
                   ]
                 },
                 {
-                  "name": "Fried Green Tomatoes with Alabama Sauce",
-                  "allergens": [
-                    "eggs",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Chive Mashed Potatoes",
-                  "allergens": [
-                    "dairy"
-                  ],
+                  "name": "Roasted Vegetable Medley",
+                  "allergens": [],
                   "tags": [
                     "halal-ingredients",
-                    "vegetarian"
+                    "vegan"
                   ]
                 },
                 {
-                  "name": "Dirty Rice",
+                  "name": "Roasted Sweet Potato Wedges",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Arroz con Gandules (Rice with Pigeon Peas)",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1522,7 +1521,7 @@
                   ]
                 },
                 {
-                  "name": "Creole Cream Sauce",
+                  "name": "Caribbean Rasta Cream Sauce",
                   "allergens": [
                     "dairy"
                   ],
@@ -1532,23 +1531,21 @@
                   ]
                 },
                 {
-                  "name": "Split Pea Soup",
+                  "name": "Creole Chicken Soup",
                   "allergens": [],
                   "tags": [
-                    "halal-ingredients",
-                    "vegan"
+                    "halal-ingredients"
                   ]
                 },
                 {
-                  "name": "Molly's Gumbo with Chicken Sausage",
+                  "name": "Molly's Tomato Bisque",
                   "allergens": [
                     "dairy",
-                    "eggs",
-                    "fish",
-                    "soy",
-                    "gluten"
+                    "soy"
                   ],
-                  "tags": []
+                  "tags": [
+                    "vegetarian"
+                  ]
                 }
               ]
             },
@@ -1556,9 +1553,10 @@
               "station": "Americana",
               "items": [
                 {
-                  "name": "Pepperjack Grilled Cheese Sandwich on French Bread",
+                  "name": "Egg Salad Hoagie Sandwich",
                   "allergens": [
-                    "dairy",
+                    "eggs",
+                    "sesame",
                     "soy",
                     "gluten"
                   ],
@@ -1568,9 +1566,8 @@
                   ]
                 },
                 {
-                  "name": "Cuban Pork Hoagie Sandwich",
+                  "name": "Trojan Pork \"McRib\" Sandwich",
                   "allergens": [
-                    "dairy",
                     "pork",
                     "sesame",
                     "soy",
@@ -1594,46 +1591,17 @@
               "station": "Bistro",
               "items": [
                 {
-                  "name": "Boca Burger on Martin's Potato Bun",
+                  "name": "Spiced Tofu",
                   "allergens": [
-                    "dairy",
-                    "sesame",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Beef Burger on Martin's Potato Bun",
-                  "allergens": [
-                    "dairy",
-                    "sesame",
-                    "gluten"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Sliced American Cheese",
-                  "allergens": [
-                    "dairy",
                     "soy"
                   ],
                   "tags": [
-                    "vegetarian"
+                    "halal-ingredients",
+                    "vegan"
                   ]
                 },
                 {
-                  "name": "Bacon",
-                  "allergens": [
-                    "pork"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Sliced Tomatoes",
+                  "name": "Refried Pinto Beans",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1641,7 +1609,31 @@
                   ]
                 },
                 {
-                  "name": "Lettuce",
+                  "name": "Chicken Asada",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Spanish Rice",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cotija Cheese",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Shredded Lettuce",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1657,11 +1649,23 @@
                   ]
                 },
                 {
-                  "name": "Caramelized Onions",
-                  "allergens": [],
+                  "name": "Shredded Monterey Jack and Cheddar Cheese Blend",
+                  "allergens": [
+                    "dairy"
+                  ],
                   "tags": [
                     "halal-ingredients",
-                    "vegan"
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Sour Cream",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
                   ]
                 },
                 {
@@ -1673,14 +1677,19 @@
                   ]
                 },
                 {
-                  "name": "Thousand Island Dressing",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy"
-                  ],
+                  "name": "Spicy Salsa Verde",
+                  "allergens": [],
                   "tags": [
-                    "vegetarian"
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Spicy Salsa Molcajete",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
                   ]
                 }
               ]
@@ -1697,13 +1706,13 @@
                   ]
                 },
                 {
-                  "name": "Caprese Salad",
+                  "name": "Creamy Plant Based Potato Salad",
                   "allergens": [
-                    "dairy"
+                    "soy"
                   ],
                   "tags": [
                     "halal-ingredients",
-                    "vegetarian"
+                    "vegan"
                   ]
                 },
                 {
@@ -1742,79 +1751,6 @@
           "meal": "Breakfast",
           "stations": [
             {
-              "station": "Expo",
-              "items": [
-                {
-                  "name": "Plantain, Black Bean and Tofu Scramble",
-                  "allergens": [
-                    "soy"
-                  ],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Cheese Blintzes with White Chocolate and Strawberry Preserves",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Scrambled Eggs",
-                  "allergens": [
-                    "eggs"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Boiled Eggs",
-                  "allergens": [
-                    "eggs"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Golden Carrot and Potato Hash Browns",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Chicken Sausage Link",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Chicken Andouille Sausage",
-                  "allergens": [],
-                  "tags": []
-                },
-                {
-                  "name": "Bacon",
-                  "allergens": [
-                    "pork"
-                  ],
-                  "tags": []
-                }
-              ]
-            },
-            {
               "station": "Sweets and Treats",
               "items": [
                 {
@@ -1828,7 +1764,17 @@
                   ]
                 },
                 {
-                  "name": "Grape Jelly",
+                  "name": "Plain Cream Cheese",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Sunflower Seed Butter",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -1844,21 +1790,11 @@
                   ]
                 },
                 {
-                  "name": "Sunflower Seed Butter",
+                  "name": "Grape Jelly",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
-                  ]
-                },
-                {
-                  "name": "Plain Cream Cheese",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
                   ]
                 },
                 {
@@ -1889,6 +1825,17 @@
                   ]
                 },
                 {
+                  "name": "Sliced Honey Wheat Bread",
+                  "allergens": [
+                    "dairy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
                   "name": "Sliced Honey Multi Grain Bread",
                   "allergens": [
                     "gluten"
@@ -1909,10 +1856,43 @@
                   ]
                 },
                 {
-                  "name": "Sliced Honey Wheat Bread",
+                  "name": "Little Northern Bakehouse Allergen Free Bread Available Upon Request",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                }
+              ]
+            },
+            {
+              "station": "Expo",
+              "items": [
+                {
+                  "name": "Italian Tofu and Veggie Hash",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cinnamon Vanila Sourdough Bread Pudding",
                   "allergens": [
                     "dairy",
+                    "eggs",
                     "gluten"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Scrambled Eggs",
+                  "allergens": [
+                    "eggs"
                   ],
                   "tags": [
                     "halal-ingredients",
@@ -1920,11 +1900,132 @@
                   ]
                 },
                 {
-                  "name": "Little Northern Bakehouse Allergen Free Bread Available Upon Request",
+                  "name": "Boiled Eggs",
+                  "allergens": [
+                    "eggs"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Fried Potatoes O'Brien",
+                  "allergens": [],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Chicken Sausage Link",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Pork Sausage Link",
+                  "allergens": [
+                    "pork"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Bacon",
+                  "allergens": [
+                    "pork"
+                  ],
+                  "tags": []
+                }
+              ]
+            },
+            {
+              "station": "Salad Bar",
+              "items": [
+                {
+                  "name": "Oatmeal",
+                  "allergens": [
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Assorted Muffins",
+                  "allergens": [
+                    "dairy",
+                    "eggs",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Assorted Breakfast Flaky Pastries",
+                  "allergens": [
+                    "dairy",
+                    "eggs",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Coconut Yogurt",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
+                  ]
+                },
+                {
+                  "name": "Plain Greek Yogurt",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Strawberry Yogurt",
+                  "allergens": [
+                    "dairy"
+                  ],
+                  "tags": [
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Grapefruit",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Assorted Fruits",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Oat n' Honey Granola",
+                  "allergens": [
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegetarian"
                   ]
                 }
               ]
@@ -2031,202 +2132,12 @@
                   ]
                 }
               ]
-            },
-            {
-              "station": "Salad Bar",
-              "items": [
-                {
-                  "name": "Oatmeal",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Assorted Muffins",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Assorted Breakfast Flaky Pastries",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Assorted Fruits",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Coconut Yogurt",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Plain Greek Yogurt",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Strawberry Yogurt",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Grapefruit",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Oat n' Honey Granola",
-                  "allergens": [
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                }
-              ]
             }
           ]
         },
         {
           "meal": "Lunch",
           "stations": [
-            {
-              "station": "Salad Bar",
-              "items": [
-                {
-                  "name": "Assorted Fruits",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Bacon, Tomato, and  Ranch Potato Salad",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "pork",
-                    "soy"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Ranch Dressing",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Creamy Caesar Dressing",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Oregano, Dijon and Red Wine Vinaigrette",
-                  "allergens": [],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Creamy Lime Cilantro Mustard Dressing",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Olive/Canola Oil Blend",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Balsamic Vinegar",
-                  "allergens": [],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Homemade Herbed Sourdough Croutons",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Molly's French Onion Soup with Sherry",
-                  "allergens": [],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Chicken and Mixed Bean Chili",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": []
-                }
-              ]
-            },
             {
               "station": "Sweets and Treats",
               "items": [
@@ -2299,132 +2210,23 @@
               ]
             },
             {
-              "station": "Flexitarian",
+              "station": "Salad Bar",
               "items": [
                 {
-                  "name": "Oyster Mushroom Etouffee",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Cajun Butter Shrimp",
+                  "name": "Sesame Teriyaki Chicken Noodle Salad",
                   "allergens": [
-                    "dairy",
-                    "shellfish"
-                  ],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Roasted Lemon Pepper Chicken",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Okra and Tomato Stew",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Corn on the Cob",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Dirty Quinoa",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Dirty Rice",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                }
-              ]
-            },
-            {
-              "station": "Grill",
-              "items": [
-                {
-                  "name": "Village Cheese Pizza",
-                  "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Pepperoni Pizza",
-                  "allergens": [
-                    "dairy",
-                    "pork",
+                    "sesame",
                     "soy",
                     "gluten"
                   ],
                   "tags": []
                 },
                 {
-                  "name": "Pepperoni and Honey Pizza",
-                  "allergens": [
-                    "dairy",
-                    "pork",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Grated Parmesan Cheese",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Red Chile Flakes",
+                  "name": "Assorted Fruits",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
-                  ]
-                },
-                {
-                  "name": "Pickled Jalapenos",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Garlic Hot Honey Sauce",
-                  "allergens": [],
-                  "tags": [
-                    "vegetarian"
                   ]
                 },
                 {
@@ -2439,49 +2241,25 @@
                   ]
                 },
                 {
-                  "name": "Basil Pesto",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Garlic Knots",
+                  "name": "Creamy Caesar Dressing",
                   "allergens": [
                     "dairy",
-                    "soy",
-                    "gluten"
+                    "eggs",
+                    "soy"
                   ],
                   "tags": [
                     "vegetarian"
                   ]
                 },
                 {
-                  "name": "Cheesy Sourdough Garlic Toast",
-                  "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Curly Fries",
-                  "allergens": [
-                    "soy",
-                    "gluten"
-                  ],
+                  "name": "Oregano, Dijon and Red Wine Vinaigrette",
+                  "allergens": [],
                   "tags": [
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Mixed Bean Veggie Jambalaya",
+                  "name": "Creamy Lime Cilantro Mustard Dressing",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -2489,19 +2267,120 @@
                   ]
                 },
                 {
-                  "name": "Cornbread",
+                  "name": "Olive/Canola Oil Blend",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Balsamic Vinegar",
+                  "allergens": [],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Hearty Veggie and Mixed Bean Chili",
                   "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy",
                     "gluten"
                   ],
                   "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Italian Wedding Soup",
+                  "allergens": [
+                    "dairy",
+                    "pork",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
+                }
+              ]
+            },
+            {
+              "station": "Grill",
+              "items": [
+                {
+                  "name": "Enoki Mushroom, Edamame, and Gochujang Fried Rice",
+                  "allergens": [
+                    "sesame",
+                    "soy"
+                  ],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Roasted Salmon with Jalapeno Cilantro Puree",
+                  "allergens": [
+                    "fish"
+                  ],
+                  "tags": [
+                    "halal-ingredients"
+                  ]
+                },
+                {
+                  "name": "Korean Style Beef Short Ribs",
+                  "allergens": [
+                    "sesame",
+                    "soy"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Boiled Eggs with Sesame Chilli Oil",
+                  "allergens": [
+                    "eggs",
+                    "sesame"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
                     "vegetarian"
                   ]
                 },
                 {
-                  "name": "Braised Red Kidney Beans",
+                  "name": "Togarashi Sesame Cucumber Salad",
+                  "allergens": [
+                    "sesame"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Sesame Garlic Bean Sprout Salad",
+                  "allergens": [
+                    "sesame"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Plant Based Kimchi",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Steamed Jasmine Rice",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Purple Sweet Potato Noodles",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -2585,7 +2464,7 @@
                   ]
                 },
                 {
-                  "name": "Lettuce",
+                  "name": "Sliced Onions",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -2593,7 +2472,17 @@
                   ]
                 },
                 {
-                  "name": "Sliced Onions",
+                  "name": "Plant Based Mayo",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Lettuce",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -2660,6 +2549,61 @@
                     "halal-ingredients",
                     "vegan"
                   ]
+                }
+              ]
+            },
+            {
+              "station": "Flexitarian",
+              "items": [
+                {
+                  "name": "Roasted Eggplant and Garlic Tahini Wrap",
+                  "allergens": [
+                    "sesame",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Muffaletta Sandwich on Sourdough",
+                  "allergens": [
+                    "dairy",
+                    "pork",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Assorted French Fries",
+                  "allergens": [
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cheddar Cheese Sauce",
+                  "allergens": [
+                    "dairy",
+                    "soy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Beef Chili with Beans",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": []
                 }
               ]
             }
@@ -2669,168 +2613,53 @@
           "meal": "Dinner",
           "stations": [
             {
-              "station": "Flexitarian",
+              "station": "Grill",
               "items": [
                 {
-                  "name": "Creole Veggie and Bean Gumbo",
+                  "name": "Plant Based \"Steak\" Bulgogi",
                   "allergens": [
                     "soy",
                     "gluten"
                   ],
                   "tags": [
-                    "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "New Orleans Seafood Boil with Shrimp, Mussels, Corn, and Potatoes",
+                  "name": "Sticky Sesame Soy Roasted Chicken",
                   "allergens": [
-                    "dairy",
-                    "shellfish"
+                    "sesame",
+                    "soy"
                   ],
                   "tags": [
                     "halal-ingredients"
                   ]
                 },
                 {
-                  "name": "Cajun Beef Stew",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients"
-                  ]
-                },
-                {
-                  "name": "Braised Collard Greens",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Roasted Yellow Squash",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Steamed Long Grain White Rice",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Smoked Three Cheese Country Grits",
+                  "name": "Pork Bulgogi",
                   "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Mixed Bean Veggie Jambalaya",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Cornbread",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                }
-              ]
-            },
-            {
-              "station": "Salad Bar",
-              "items": [
-                {
-                  "name": "Assorted Fruits",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Bacon, Tomato, and  Ranch Potato Salad",
-                  "allergens": [
-                    "dairy",
-                    "eggs",
                     "pork",
-                    "soy"
+                    "sesame",
+                    "soy",
+                    "gluten"
                   ],
                   "tags": []
                 },
                 {
-                  "name": "Ranch Dressing",
+                  "name": "Boiled Eggs with Sesame Chilli Oil",
                   "allergens": [
-                    "dairy",
                     "eggs",
-                    "soy"
+                    "sesame"
                   ],
                   "tags": [
+                    "halal-ingredients",
                     "vegetarian"
                   ]
                 },
                 {
-                  "name": "Creamy Caesar Dressing",
+                  "name": "Togarashi Sesame Cucumber Salad",
                   "allergens": [
-                    "dairy",
-                    "eggs",
-                    "soy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Oregano, Dijon and Red Wine Vinaigrette",
-                  "allergens": [],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Creamy Lime Cilantro Mustard Dressing",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Olive/Canola Oil Blend",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Balsamic Vinegar",
-                  "allergens": [],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Homemade Herbed Sourdough Croutons",
-                  "allergens": [
-                    "gluten"
+                    "sesame"
                   ],
                   "tags": [
                     "halal-ingredients",
@@ -2838,18 +2667,38 @@
                   ]
                 },
                 {
-                  "name": "Molly's French Onion Soup with Sherry",
-                  "allergens": [],
+                  "name": "Sesame Garlic Bean Sprout Salad",
+                  "allergens": [
+                    "sesame"
+                  ],
                   "tags": [
+                    "halal-ingredients",
                     "vegan"
                   ]
                 },
                 {
-                  "name": "Chicken and Mixed Bean Chili",
-                  "allergens": [
-                    "gluten"
-                  ],
-                  "tags": []
+                  "name": "Plant Based Kimchi",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Steamed Jasmine Rice",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Purple Sweet Potato Noodles",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
                 }
               ]
             },
@@ -2925,70 +2774,23 @@
               ]
             },
             {
-              "station": "Grill",
+              "station": "Salad Bar",
               "items": [
                 {
-                  "name": "Village Cheese Pizza",
+                  "name": "Sesame Teriyaki Chicken Noodle Salad",
                   "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Pepperoni Pizza",
-                  "allergens": [
-                    "dairy",
-                    "pork",
+                    "sesame",
                     "soy",
                     "gluten"
                   ],
                   "tags": []
                 },
                 {
-                  "name": "Pepperoni and Honey Pizza",
-                  "allergens": [
-                    "dairy",
-                    "pork",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": []
-                },
-                {
-                  "name": "Grated Parmesan Cheese",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Red Chile Flakes",
+                  "name": "Assorted Fruits",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
-                  ]
-                },
-                {
-                  "name": "Pickled Jalapenos",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Garlic Hot Honey Sauce",
-                  "allergens": [],
-                  "tags": [
-                    "vegetarian"
                   ]
                 },
                 {
@@ -3003,74 +2805,64 @@
                   ]
                 },
                 {
-                  "name": "Basil Pesto",
-                  "allergens": [
-                    "dairy"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Garlic Knots",
-                  "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Cheesy Sourdough Garlic Toast",
-                  "allergens": [
-                    "dairy",
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegetarian"
-                  ]
-                },
-                {
-                  "name": "Curly Fries",
-                  "allergens": [
-                    "soy",
-                    "gluten"
-                  ],
-                  "tags": [
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Mixed Bean Veggie Jambalaya",
-                  "allergens": [],
-                  "tags": [
-                    "halal-ingredients",
-                    "vegan"
-                  ]
-                },
-                {
-                  "name": "Cornbread",
+                  "name": "Creamy Caesar Dressing",
                   "allergens": [
                     "dairy",
                     "eggs",
-                    "soy",
-                    "gluten"
+                    "soy"
                   ],
                   "tags": [
                     "vegetarian"
                   ]
                 },
                 {
-                  "name": "Braised Red Kidney Beans",
+                  "name": "Oregano, Dijon and Red Wine Vinaigrette",
+                  "allergens": [],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Creamy Lime Cilantro Mustard Dressing",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
                     "vegan"
                   ]
+                },
+                {
+                  "name": "Olive/Canola Oil Blend",
+                  "allergens": [],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Balsamic Vinegar",
+                  "allergens": [],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Hearty Veggie and Mixed Bean Chili",
+                  "allergens": [
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Italian Wedding Soup",
+                  "allergens": [
+                    "dairy",
+                    "pork",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
                 }
               ]
             },
@@ -3149,7 +2941,7 @@
                   ]
                 },
                 {
-                  "name": "Lettuce",
+                  "name": "Sliced Onions",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -3157,7 +2949,17 @@
                   ]
                 },
                 {
-                  "name": "Sliced Onions",
+                  "name": "Plant Based Mayo",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Lettuce",
                   "allergens": [],
                   "tags": [
                     "halal-ingredients",
@@ -3224,6 +3026,61 @@
                     "halal-ingredients",
                     "vegan"
                   ]
+                }
+              ]
+            },
+            {
+              "station": "Flexitarian",
+              "items": [
+                {
+                  "name": "Roasted Eggplant and Garlic Tahini Wrap",
+                  "allergens": [
+                    "sesame",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Muffaletta Sandwich on Sourdough",
+                  "allergens": [
+                    "dairy",
+                    "pork",
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": []
+                },
+                {
+                  "name": "Assorted French Fries",
+                  "allergens": [
+                    "soy",
+                    "gluten"
+                  ],
+                  "tags": [
+                    "vegan"
+                  ]
+                },
+                {
+                  "name": "Cheddar Cheese Sauce",
+                  "allergens": [
+                    "dairy",
+                    "soy"
+                  ],
+                  "tags": [
+                    "halal-ingredients",
+                    "vegetarian"
+                  ]
+                },
+                {
+                  "name": "Beef Chili with Beans",
+                  "allergens": [
+                    "soy"
+                  ],
+                  "tags": []
                 }
               ]
             }
