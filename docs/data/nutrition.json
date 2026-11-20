@@ -249,6 +249,26 @@
     "checked": "2026-10-24",
     "v": 4
   },
+  "Antipasto Pasta Salad": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 180,
+    "low": {
+      "cal": 280,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 14
+    },
+    "high": {
+      "cal": 360,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
+    "v": 4
+  },
   "Apple Cinnamon Breakfast Cobbler": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -347,6 +367,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-24",
+    "v": 4
+  },
+  "Artichoke, Kale, Pepper and Hummus Wrap": {
+    "kind": "dish",
+    "portion": "1 wrap",
+    "grams": 220,
+    "low": {
+      "cal": 320,
+      "protein": 12,
+      "carbs": 38,
+      "fat": 13
+    },
+    "high": {
+      "cal": 400,
+      "protein": 15,
+      "carbs": 42,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
     "v": 4
   },
   "Asaro (Nigerian Style Yam Porridge)": {
@@ -3517,6 +3557,26 @@
     },
     "needs_review": false,
     "checked": "2026-11-16",
+    "v": 4
+  },
+  "Braised Chickpeas": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 6
+    },
+    "high": {
+      "cal": 240,
+      "protein": 10,
+      "carbs": 26,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
     "v": 4
   },
   "Braised Collard Greens": {
@@ -7968,6 +8028,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Country French Toast": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 110,
+    "low": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 10
+    },
+    "high": {
+      "cal": 310,
+      "protein": 11,
+      "carbs": 32,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
     "v": 4
   },
   "Country Smothered Tofu": {
@@ -14854,6 +14934,26 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Lemon Pepper French Fries": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 130,
+    "low": {
+      "cal": 280,
+      "protein": 3,
+      "carbs": 36,
+      "fat": 13
+    },
+    "high": {
+      "cal": 350,
+      "protein": 4,
+      "carbs": 40,
+      "fat": 17
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
+    "v": 4
+  },
   "Lemon Pepper Seasoning": {
     "kind": "topping",
     "portion": "1 tsp",
@@ -15404,6 +15504,26 @@
     "checked": "2026-09-23",
     "v": 4
   },
+  "Marsala Bar Pasta": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 32,
+      "fat": 14
+    },
+    "high": {
+      "cal": 420,
+      "protein": 18,
+      "carbs": 38,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
+    "v": 4
+  },
   "Marsala Bar Seared Chicken Breast": {
     "kind": "dish",
     "portion": "1 breast",
@@ -15783,6 +15903,26 @@
     },
     "needs_review": false,
     "checked": "2026-11-17",
+    "v": 4
+  },
+  "Mediterranean Vegetable Soup with Parmesan": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 140,
+      "protein": 6,
+      "carbs": 18,
+      "fat": 5
+    },
+    "high": {
+      "cal": 200,
+      "protein": 9,
+      "carbs": 22,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
     "v": 4
   },
   "Mediterranean Veggie Pasta Salad": {
@@ -17684,6 +17824,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-28",
+    "v": 4
+  },
+  "Papaya BBQ Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 40,
+      "protein": 0,
+      "carbs": 10,
+      "fat": 0
+    },
+    "high": {
+      "cal": 60,
+      "protein": 0,
+      "carbs": 12,
+      "fat": 1
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
     "v": 4
   },
   "Parker House Dinner Rolls": {
@@ -28764,6 +28924,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-13",
+    "v": 4
+  },
+  "Udon Noodles": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 200,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 1
+    },
+    "high": {
+      "cal": 240,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 2
+    },
+    "needs_review": false,
+    "checked": "2026-11-20",
     "v": 4
   },
   "Umami Crunchy Garlic Sesame Edamame": {
