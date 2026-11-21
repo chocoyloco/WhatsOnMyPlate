@@ -13964,6 +13964,26 @@
     "checked": "2026-09-26",
     "v": 4
   },
+  "Italian Pork Sausage and Bell Pepper Pizza": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 16
+    },
+    "high": {
+      "cal": 380,
+      "protein": 18,
+      "carbs": 32,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-21",
+    "v": 4
+  },
   "Italian Roasted Veggie Medley": {
     "kind": "dish",
     "portion": "1 scoop",
