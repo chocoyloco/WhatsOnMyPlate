@@ -4299,6 +4299,26 @@
     "checked": "2026-09-28",
     "v": 4
   },
+  "Butter Garlic Herbs White Fish": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 150,
+    "low": {
+      "cal": 240,
+      "protein": 32,
+      "carbs": 1,
+      "fat": 12
+    },
+    "high": {
+      "cal": 280,
+      "protein": 35,
+      "carbs": 2,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-11-22",
+    "v": 4
+  },
   "Buttermilk Biscuits": {
     "kind": "dish",
     "portion": "1 biscuit",
@@ -11252,6 +11272,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-26",
+    "v": 4
+  },
+  "Gardein Veggie Meatballs Arrabiata": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 220,
+      "protein": 12,
+      "carbs": 22,
+      "fat": 9
+    },
+    "high": {
+      "cal": 270,
+      "protein": 14,
+      "carbs": 26,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-22",
     "v": 4
   },
   "Garlic Braised White Beans": {
@@ -19944,6 +19984,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-14",
+    "v": 4
+  },
+  "Pulled Pork Sandwich with Creamy Slaw": {
+    "kind": "dish",
+    "portion": "1 sandwich",
+    "grams": 280,
+    "low": {
+      "cal": 520,
+      "protein": 28,
+      "carbs": 42,
+      "fat": 24
+    },
+    "high": {
+      "cal": 620,
+      "protein": 32,
+      "carbs": 48,
+      "fat": 30
+    },
+    "needs_review": false,
+    "checked": "2026-11-22",
     "v": 4
   },
   "Pumpkin Spice Whipped Topping": {
