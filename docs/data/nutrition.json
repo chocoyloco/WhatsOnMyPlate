@@ -6369,6 +6369,26 @@
     "checked": "2026-11-17",
     "v": 4
   },
+  "Chicken and Lentil Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 160,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 3
+    },
+    "high": {
+      "cal": 220,
+      "protein": 16,
+      "carbs": 24,
+      "fat": 6
+    },
+    "needs_review": false,
+    "checked": "2026-11-24",
+    "v": 4
+  },
   "Chicken and Mixed Bean Chili": {
     "kind": "dish",
     "portion": "1 cup",
@@ -13112,6 +13132,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Hawaiian Cold Noodle Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 240,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 10
+    },
+    "high": {
+      "cal": 310,
+      "protein": 8,
+      "carbs": 38,
+      "fat": 15
+    },
+    "needs_review": false,
+    "checked": "2026-11-24",
     "v": 4
   },
   "Hawaiian Garlic Butter Roasted Tofu Bowls": {
