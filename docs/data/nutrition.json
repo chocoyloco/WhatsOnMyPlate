@@ -2999,6 +2999,26 @@
     "checked": "2026-09-24",
     "v": 4
   },
+  "Bistro Stir Fry Soy Garlic Chicken": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 160,
+    "low": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 10
+    },
+    "high": {
+      "cal": 290,
+      "protein": 32,
+      "carbs": 12,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
+    "v": 4
+  },
   "Bistro Tandoori Spiced Chicken": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -6409,6 +6429,26 @@
     "checked": "2026-11-18",
     "v": 4
   },
+  "Chicken and Pork Sausage Gumbo": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 220,
+      "protein": 16,
+      "carbs": 18,
+      "fat": 10
+    },
+    "high": {
+      "cal": 280,
+      "protein": 20,
+      "carbs": 22,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
+    "v": 4
+  },
   "Chicken and Rice Soup": {
     "kind": "dish",
     "portion": "1 cup",
@@ -7808,6 +7848,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-25",
+    "v": 4
+  },
+  "Coconut Turmeric Scrambled Tofu": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 180,
+      "protein": 16,
+      "carbs": 6,
+      "fat": 10
+    },
+    "high": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 10,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
     "v": 4
   },
   "Coconut Watermelon Rind Stew": {
@@ -10554,6 +10614,26 @@
     "checked": "2026-09-30",
     "v": 4
   },
+  "Fried Catfish": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 150,
+    "low": {
+      "cal": 300,
+      "protein": 28,
+      "carbs": 10,
+      "fat": 16
+    },
+    "high": {
+      "cal": 360,
+      "protein": 32,
+      "carbs": 14,
+      "fat": 20
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
+    "v": 4
+  },
   "Fried Catfish Nuggets": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -11272,6 +11352,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Fried Tortilla Crusted Tilapia": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 160,
+    "low": {
+      "cal": 310,
+      "protein": 30,
+      "carbs": 12,
+      "fat": 14
+    },
+    "high": {
+      "cal": 370,
+      "protein": 34,
+      "carbs": 16,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
     "v": 4
   },
   "Fried Vegetable Egg Rolls": {
@@ -13904,6 +14004,26 @@
     "checked": "2026-10-09",
     "v": 4
   },
+  "Honey Mustard Glazed Fish": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 150,
+    "low": {
+      "cal": 240,
+      "protein": 28,
+      "carbs": 10,
+      "fat": 8
+    },
+    "high": {
+      "cal": 300,
+      "protein": 32,
+      "carbs": 14,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
+    "v": 4
+  },
   "Honey Mustard Glazed Salmon with Cara Cara Orange Salsa": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -15644,6 +15764,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Louisiana Pork Hot Links": {
+    "kind": "dish",
+    "portion": "1 link",
+    "grams": 60,
+    "low": {
+      "cal": 180,
+      "protein": 12,
+      "carbs": 2,
+      "fat": 14
+    },
+    "high": {
+      "cal": 220,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 17
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
+    "v": 4
+  },
   "Mac n' Cheese": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -16843,6 +16983,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-04",
+    "v": 4
+  },
+  "Molly's Chicken Noodle Soup": {
+    "kind": "dish",
+    "portion": "1 cup",
+    "grams": 240,
+    "low": {
+      "cal": 180,
+      "protein": 14,
+      "carbs": 20,
+      "fat": 6
+    },
+    "high": {
+      "cal": 240,
+      "protein": 18,
+      "carbs": 26,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
     "v": 4
   },
   "Molly's Chicken and Dumpling Soup": {
@@ -22614,6 +22774,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-28",
+    "v": 4
+  },
+  "Roasted Tilapia with Cajun Spices": {
+    "kind": "dish",
+    "portion": "1 fillet",
+    "grams": 150,
+    "low": {
+      "cal": 200,
+      "protein": 30,
+      "carbs": 2,
+      "fat": 8
+    },
+    "high": {
+      "cal": 260,
+      "protein": 34,
+      "carbs": 4,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-25",
     "v": 4
   },
   "Roasted Tilapia with Coconut Red Curry Sauce": {
