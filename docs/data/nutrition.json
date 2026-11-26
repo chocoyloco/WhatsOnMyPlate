@@ -329,6 +329,26 @@
     "checked": "2026-10-07",
     "v": 4
   },
+  "Apple Pie": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 140,
+    "low": {
+      "cal": 320,
+      "protein": 2,
+      "carbs": 48,
+      "fat": 14
+    },
+    "high": {
+      "cal": 380,
+      "protein": 3,
+      "carbs": 52,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Apple Pie Ice Cream": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -427,6 +447,26 @@
     },
     "needs_review": false,
     "checked": "2026-11-20",
+    "v": 4
+  },
+  "Arugula, Beet, Mandarin Orange, and Burrata Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 180,
+      "protein": 8,
+      "carbs": 12,
+      "fat": 12
+    },
+    "high": {
+      "cal": 240,
+      "protein": 10,
+      "carbs": 14,
+      "fat": 16
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Asaro (Nigerian Style Yam Porridge)": {
@@ -557,6 +597,26 @@
     "high": null,
     "needs_review": false,
     "checked": "2026-09-22",
+    "v": 4
+  },
+  "Assorted Dinner Rolls": {
+    "kind": "dish",
+    "portion": "1 roll",
+    "grams": 50,
+    "low": {
+      "cal": 130,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 2
+    },
+    "high": {
+      "cal": 160,
+      "protein": 5,
+      "carbs": 25,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Assorted Donuts": {
@@ -1597,6 +1657,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-24",
+    "v": 4
+  },
+  "Balsamic Vinaigrette": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 30,
+    "low": {
+      "cal": 90,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 9
+    },
+    "high": {
+      "cal": 120,
+      "protein": 0,
+      "carbs": 4,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Balsamic Vinegar": {
@@ -4629,6 +4709,26 @@
     "checked": "2026-10-16",
     "v": 4
   },
+  "Caesar Salad (no croutons)": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 180,
+    "low": {
+      "cal": 140,
+      "protein": 8,
+      "carbs": 6,
+      "fat": 10
+    },
+    "high": {
+      "cal": 200,
+      "protein": 10,
+      "carbs": 8,
+      "fat": 14
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Cajun Beef Stew": {
     "kind": "dish",
     "portion": "1 cup",
@@ -5367,6 +5467,26 @@
     },
     "needs_review": false,
     "checked": "2026-09-29",
+    "v": 4
+  },
+  "Cheese": {
+    "kind": "topping",
+    "portion": "1/4 cup",
+    "grams": 28,
+    "low": {
+      "cal": 100,
+      "protein": 7,
+      "carbs": 1,
+      "fat": 8
+    },
+    "high": {
+      "cal": 120,
+      "protein": 8,
+      "carbs": 1,
+      "fat": 10
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Cheese Blintzes with White Chocolate and Strawberry Preserves": {
@@ -8470,6 +8590,26 @@
     "checked": "2026-11-24",
     "v": 4
   },
+  "Cranberry Sauce": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 35,
+    "low": {
+      "cal": 50,
+      "protein": 0,
+      "carbs": 13,
+      "fat": 0
+    },
+    "high": {
+      "cal": 70,
+      "protein": 0,
+      "carbs": 17,
+      "fat": 0
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Cranberry and Peach Mayo": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -9351,6 +9491,26 @@
     "checked": "2026-10-12",
     "v": 4
   },
+  "Crustless Mushroom Pot Pie": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 200,
+    "low": {
+      "cal": 240,
+      "protein": 10,
+      "carbs": 18,
+      "fat": 14
+    },
+    "high": {
+      "cal": 310,
+      "protein": 12,
+      "carbs": 22,
+      "fat": 18
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Cuban Pork Hoagie Sandwich": {
     "kind": "dish",
     "portion": "1 sandwich",
@@ -9902,6 +10062,16 @@
     },
     "needs_review": false,
     "checked": "2026-11-15",
+    "v": 4
+  },
+  "EVK will be closed from 11am-12pm today. Thanksgiving meal starts at 12pm": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Edamame": {
@@ -14404,6 +14574,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Housemade Garlic Croutons": {
+    "kind": "topping",
+    "portion": "2 tbsp",
+    "grams": 20,
+    "low": {
+      "cal": 80,
+      "protein": 2,
+      "carbs": 10,
+      "fat": 4
+    },
+    "high": {
+      "cal": 100,
+      "protein": 2,
+      "carbs": 11,
+      "fat": 5
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Huli Huli Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -18466,6 +18656,16 @@
     "checked": "2026-09-27",
     "v": 4
   },
+  "Parkside and the USC Village are closed. Please visit EVK": {
+    "kind": "not_a_dish",
+    "portion": null,
+    "grams": null,
+    "low": null,
+    "high": null,
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Pasta and Mussels with White Wine Tomato Sauce": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -21496,6 +21696,26 @@
     "checked": "2026-10-08",
     "v": 4
   },
+  "Roasted Butternut Squash with Sage": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 120,
+    "low": {
+      "cal": 70,
+      "protein": 1,
+      "carbs": 14,
+      "fat": 2
+    },
+    "high": {
+      "cal": 100,
+      "protein": 2,
+      "carbs": 16,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Roasted Carrots": {
     "kind": "dish",
     "portion": "1 scoop",
@@ -22134,6 +22354,26 @@
     },
     "needs_review": false,
     "checked": "2026-10-23",
+    "v": 4
+  },
+  "Roasted Honey Glazed Ham": {
+    "kind": "dish",
+    "portion": "1 slice",
+    "grams": 85,
+    "low": {
+      "cal": 140,
+      "protein": 18,
+      "carbs": 4,
+      "fat": 6
+    },
+    "high": {
+      "cal": 180,
+      "protein": 20,
+      "carbs": 6,
+      "fat": 9
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Roasted Jackfruit with Mango Salsa": {
@@ -29106,6 +29346,26 @@
     "checked": "2026-09-22",
     "v": 4
   },
+  "Traditional Stuffing": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 140,
+    "low": {
+      "cal": 200,
+      "protein": 5,
+      "carbs": 26,
+      "fat": 8
+    },
+    "high": {
+      "cal": 260,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 12
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
+    "v": 4
+  },
   "Traditional Teriyaki Sauce": {
     "kind": "topping",
     "portion": "2 tbsp",
@@ -30445,6 +30705,26 @@
     },
     "needs_review": false,
     "checked": "2026-11-24",
+    "v": 4
+  },
+  "Veggie House Salad": {
+    "kind": "dish",
+    "portion": "1 scoop",
+    "grams": 150,
+    "low": {
+      "cal": 50,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 2
+    },
+    "high": {
+      "cal": 80,
+      "protein": 3,
+      "carbs": 10,
+      "fat": 4
+    },
+    "needs_review": false,
+    "checked": "2026-11-26",
     "v": 4
   },
   "Veggie Lovers' Pizza": {
